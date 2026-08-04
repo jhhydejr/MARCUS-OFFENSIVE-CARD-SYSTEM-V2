@@ -1,0 +1,74 @@
+{
+  "drawing_id": "DRW-11-DBLS-LT-001",
+  "renderer_profile_id": "MVP_V0_4_1600x920",
+  "coordinate_space": "SVG",
+  "players": [
+    {
+      "label": "X",
+      "svg_x": 1433.25,
+      "svg_y": 606.333,
+      "radius": 18.0
+    },
+    {
+      "label": "H",
+      "svg_x": 1184.563,
+      "svg_y": 617.667,
+      "radius": 18.0
+    },
+    {
+      "label": "LT",
+      "svg_x": 935.875,
+      "svg_y": 608.333,
+      "radius": 20.0
+    },
+    {
+      "label": "LG",
+      "svg_x": 867.938,
+      "svg_y": 608.333,
+      "radius": 20.0
+    },
+    {
+      "label": "RG",
+      "svg_x": 732.062,
+      "svg_y": 608.333,
+      "radius": 20.0
+    },
+    {
+      "label": "RT",
+      "svg_x": 664.125,
+      "svg_y": 608.333,
+      "radius": 20.0
+    },
+    {
+      "label": "Y",
+      "svg_x": 415.437,
+      "svg_y": 617.667,
+      "radius": 18.0
+    },
+    {
+      "label": "Z",
+      "svg_x": 166.75,
+      "svg_y": 606.333,
+      "radius": 18.0
+    },
+    {
+      "label": "QB",
+      "svg_x": 800.0,
+      "svg_y": 701.667,
+      "radius": 18.0
+    },
+    {
+      "label": "B",
+      "svg_x": 892.122,
+      "svg_y": 724.333,
+      "radius": 18.0
+    }
+  ],
+  "center_square": {
+    "label": "C",
+    "top_anchor_x": 800.0,
+    "top_anchor_y": 588.333,
+    "width": 40.0,
+    "height": 40.0
+  }
+}

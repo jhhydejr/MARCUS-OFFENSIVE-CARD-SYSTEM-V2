@@ -1,0 +1,33 @@
+{
+  "drawing_id": "DRW-11-DBLS-RT-001",
+  "call": "(11) DBLS RT",
+  "aliases": [
+    "11 DBLS RT",
+    "(11) DOUBLES RT"
+  ],
+  "source": "02_CAD_ENGINE/Marcus_CAD_Engine_MVP_v0_4/examples/output/11_DBLS_RT_MVP_v0_4.svg",
+  "status": "BASELINE_CANDIDATE_PENDING_COACH_CONFIRMATION",
+  "renderer_profile_id": "MVP_V0_4_1600x920",
+  "formation_record_id": "FM-DBLS-RT-001",
+  "coordinate_set_id": "COORD-DBLS-RT-V04",
+  "source_library_path": "02_CAD_ENGINE/Marcus_CAD_Engine_MVP_v0_4/examples/output/11_DBLS_RT_MVP_v0_4.svg",
+  "source_sha256": "522aaf361e689bbbfbca8857872b00c8341cdd475eed08b0edd441670211cd6e",
+  "canonical_svg_sha256": "522aaf361e689bbbfbca8857872b00c8341cdd475eed08b0edd441670211cd6e",
+  "preview_png_sha256": "89ece6a72844770bc32667022cd8b4131d2f3c735cdff778923326263e5b796c",
+  "svg_metadata": {
+    "width": 1600.0,
+    "height": 920.0,
+    "viewBox": "0 0 1600 920",
+    "title": "(11) DBLS RT"
+  },
+  "files": {
+    "svg": "drawing.svg",
+    "png": "preview.png",
+    "coordinates": "coordinates.json"
+  },
+  "retrieval_rule": "DRAW resolves by normalized call or alias and returns preview.png; SVG remains master.",
+  "global_style_id": "STYLE-GLOBAL-CARD-003",
+  "renderer_policy_id": "POLICY-RENDERER-FIRST-001",
+  "svg_sha256": "c501f6fcfdff9bd54aa167ff3d13bccba916f448b371ee7fbe8e71388e18bef6",
+  "revision": "0.8"
+}

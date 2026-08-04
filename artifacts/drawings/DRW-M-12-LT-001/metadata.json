@@ -1,0 +1,11 @@
+{
+  "drawing_id": "DRW-M-12-LT-001",
+  "call": "M (12) LT",
+  "status": "SOURCE_IMPORTED_NEEDS_COACH_APPROVAL",
+  "formation_object_id": "FRM-12-LT-M",
+  "coordinate_set_id": "COORD-12-LT-M-001",
+  "svg_sha256": "ca94221cd4e251d57527eae890a78be76248561a4c978e3ebf3fb2a38cabe57a",
+  "source_svg_sha256": "de31701c177b1b54ceb03862c0eafad48aad8640bdb50ae70f914be37b60839f",
+  "global_style_id": "STYLE-GLOBAL-CARD-003",
+  "renderer_policy_id": "POLICY-RENDERER-FIRST-001"
+}

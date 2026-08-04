@@ -1,0 +1,16 @@
+{
+  "drawing_id": "DRW-21-LT-001",
+  "call": "(21) LT",
+  "status": "DERIVED_FROM_SOURCE_BY_APPROVED_MIRROR",
+  "formation_object_id": "FRM-21-LT",
+  "coordinate_set_id": "COORD-21-LT-001",
+  "source_drawing_id": "DRW-21-RT-001",
+  "source_svg_sha256": "01c17b121bf634b2c9278b2793098b225d89bad105cf68043d956d4fc6f41dc4",
+  "svg_sha256": "11cb4f3586ad4b347b135b8c4558dc00c67c1cb0475fdf7a081d4a17a0c24c13",
+  "global_style_id": "STYLE-GLOBAL-CARD-003",
+  "renderer_policy_id": "POLICY-RENDERER-FIRST-001",
+  "transform": {
+    "type": "HORIZONTAL_MIRROR",
+    "axis_svg_x": 850.0
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "drawing_id": "DRW-11-RT-ON-001",
+  "call": "(11) RT ON",
+  "aliases": [
+    "11 RT ON"
+  ],
+  "status": "DERIVED_FROM_APPROVED_MIRROR",
+  "renderer_profile_id": "HANDOFF_V1_1700x950",
+  "formation_record_id": "FRM-11-RT",
+  "coordinate_set_id": "SVGSET-11-RT-ON",
+  "source_drawing_id": "DRW-11-LT-ON-001",
+  "source_sha256": "e9c7c47391a4da715d0285a4eb9263026c963b07a33b5e719ff8bcee1465cfa5",
+  "transform": {
+    "type": "HORIZONTAL_MIRROR",
+    "axis_svg_x": 850.0
+  },
+  "canonical_svg_sha256": "d347f48f674cde8bab50d5c12990639943bd4154ae619383aea1be5d8e694314",
+  "preview_png_sha256": "3272fad5f6d5435e421d459b16a4f21adb2eef3565c5a648c16bac88cff8bef0",
+  "global_style_id": "STYLE-GLOBAL-CARD-003",
+  "renderer_policy_id": "POLICY-RENDERER-FIRST-001",
+  "svg_sha256": "2b5db1ad94b2b9268a1aa42cbfe41637873e163a7efb0ad5cba59ca571914667",
+  "revision": "0.8"
+}

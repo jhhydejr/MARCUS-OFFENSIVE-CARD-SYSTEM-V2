@@ -1,0 +1,11 @@
+{
+  "drawing_id": "DRW-11-TRIPS-RT-LH-001",
+  "call": "LH (11) TRIPS RT",
+  "status": "COACH_APPROVED",
+  "formation_object_id": "FRM-11-TRIPS-RT-LH",
+  "coordinate_set_id": "COORD-11-TRIPS-RT-LH-001",
+  "svg_sha256": "9127784804d2e8288a2138f9d9aab59beffc3fc8858bb41969eb38715585c8f0",
+  "source_svg_sha256": "0b0a556a85e19485191abfb5e5d81c83c3da567463c7995667464055c8f27ea9",
+  "global_style_id": "STYLE-GLOBAL-CARD-003",
+  "renderer_policy_id": "POLICY-RENDERER-FIRST-001"
+}

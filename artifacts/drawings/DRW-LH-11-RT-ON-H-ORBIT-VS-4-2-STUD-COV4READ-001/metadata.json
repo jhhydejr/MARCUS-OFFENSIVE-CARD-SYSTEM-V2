@@ -1,0 +1,24 @@
+{
+  "drawing_id": "DRW-LH-11-RT-ON-H-ORBIT-VS-4-2-STUD-COV4READ-001",
+  "canonical_call": "LH (11) RT ON H ORBIT VS 4-2 STUD COV 4 READ",
+  "status": "SOURCE_TRACED_COMPOSITE",
+  "renderer_profile_id": "HANDOFF_V1_1700x950",
+  "layers": {
+    "offense": "DRW-11-RT-ON-H-ORBIT-001",
+    "defensive_personnel": "DEF-PER-4-2",
+    "defensive_structure": "DEF-STRUCT-STUD",
+    "coverage": "COV-4-READ"
+  },
+  "source_evidence": [
+    "sources/defense/4-2_2_HIGH_STRUCTURE_page_26.png",
+    "sources/defense/STUD_page_43.png",
+    "sources/defense/COVER_4_READ_page_84.png"
+  ],
+  "svg_sha256": "18dd9fe4138ba4fa534c8808dc0d2b8b2371dab587eeb76dcd484d51b05c5b56",
+  "png_sha256": "404eca208a799bb30e5f6e83fbe17d594acb0aeb82e02223475a7423f6848336",
+  "revision": "0.8",
+  "title_style_id": "STYLE-TITLE-BOX-002",
+  "defense_label_style_id": "STYLE-DEFENSE-LABEL-002",
+  "global_style_id": "STYLE-GLOBAL-CARD-003",
+  "renderer_policy_id": "POLICY-RENDERER-FIRST-001"
+}

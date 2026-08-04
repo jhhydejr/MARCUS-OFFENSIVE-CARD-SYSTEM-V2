@@ -1,0 +1,23 @@
+{
+  "drawing_id": "DRW-11-LT-ON-001",
+  "call": "(11) LT ON",
+  "aliases": [
+    "11 LT ON"
+  ],
+  "status": "COACH_APPROVED",
+  "renderer_profile_id": "HANDOFF_V1_1700x950",
+  "formation_object_id": "FRM-11-LT-ON",
+  "coordinate_set_id": "SVGSET-11-LT-ON",
+  "source": {
+    "file": "sources/formation_svgs/11_LT_ON.svg",
+    "sha256": "e9c7c47391a4da715d0285a4eb9263026c963b07a33b5e719ff8bcee1465cfa5"
+  },
+  "coach_approval": {
+    "status": "APPROVED",
+    "approved_date": "2026-08-04",
+    "scope": "FORMATION_GEOMETRY"
+  },
+  "svg_sha256": "e9c7c47391a4da715d0285a4eb9263026c963b07a33b5e719ff8bcee1465cfa5",
+  "png_sha256": "e0029b9fd50157c3bc735c7be80c688a4cd15025edb310fbdeac77ffd03bb02e",
+  "revision": "2.6.3"
+}

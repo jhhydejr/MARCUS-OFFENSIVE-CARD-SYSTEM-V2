@@ -1,0 +1,16 @@
+{
+  "drawing_id": "DRW-11-DBLS-LT-001",
+  "canonical_call": "(11) DBLS LT",
+  "formation_id": "FRM-11-DBLS-LT",
+  "coordinate_set_id": "COORD-11-DBLS-LT-001",
+  "constraint_set_id": "CONST-11-DBLS-LT-001",
+  "renderer_profile_id": "MVP_V0_4_1600x920",
+  "status": "CANONICAL_DERIVED_EXACT_MIRROR",
+  "mirror_of": "DRW-11-DBLS-RT-001",
+  "svg_sha256": "45366eb28f920eeb663981ba5ded4e64facb55e0ba5181e941acf27d3b9a6e50",
+  "png_sha256": "48af3e822c87d0754ecb46c113758dc63335c335c4db3d1a589c779dc2eb7eba",
+  "generated_utc": "2026-07-22T02:21:17.453703+00:00",
+  "global_style_id": "STYLE-GLOBAL-CARD-003",
+  "renderer_policy_id": "POLICY-RENDERER-FIRST-001",
+  "revision": "0.8"
+}

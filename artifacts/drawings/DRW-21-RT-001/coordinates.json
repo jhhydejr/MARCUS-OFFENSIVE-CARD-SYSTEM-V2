@@ -1,0 +1,74 @@
+{
+  "coordinate_set_id": "COORD-21-RT-001",
+  "drawing_id": "DRW-21-RT-001",
+  "coordinate_space": "SVG",
+  "players": [
+    {
+      "label": "X",
+      "svg_x": 222.937602,
+      "svg_y": 617.0,
+      "radius": 19
+    },
+    {
+      "label": "LT",
+      "svg_x": 714.749963,
+      "svg_y": 619.0,
+      "radius": 19
+    },
+    {
+      "label": "LG",
+      "svg_x": 782.374981,
+      "svg_y": 619.0,
+      "radius": 19
+    },
+    {
+      "label": "C",
+      "svg_x": 850.0,
+      "svg_y": 619.0,
+      "radius": 19
+    },
+    {
+      "label": "RG",
+      "svg_x": 917.625019,
+      "svg_y": 619.0,
+      "radius": 19
+    },
+    {
+      "label": "RT",
+      "svg_x": 985.250037,
+      "svg_y": 619.0,
+      "radius": 19
+    },
+    {
+      "label": "Y",
+      "svg_x": 989.69379,
+      "svg_y": 665.0,
+      "radius": 19
+    },
+    {
+      "label": "Z",
+      "svg_x": 1477.062398,
+      "svg_y": 617.0,
+      "radius": 19
+    },
+    {
+      "label": "Q",
+      "svg_x": 850.0,
+      "svg_y": 703.0,
+      "radius": 19
+    },
+    {
+      "label": "B",
+      "svg_x": 758.931229,
+      "svg_y": 727.0,
+      "radius": 19
+    },
+    {
+      "label": "F",
+      "svg_x": 941.068771,
+      "svg_y": 727.0,
+      "radius": 19
+    }
+  ],
+  "status": "EXTRACTED_FROM_SOURCE_SVG"
+}

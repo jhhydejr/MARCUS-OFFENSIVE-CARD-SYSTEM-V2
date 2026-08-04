@@ -1,0 +1,16 @@
+{
+  "drawing_id": "DRW-M-12-RT-001",
+  "call": "M (12) RT",
+  "status": "DERIVED_FROM_SOURCE_BY_APPROVED_MIRROR",
+  "formation_object_id": "FRM-12-RT-M",
+  "coordinate_set_id": "COORD-12-RT-M-001",
+  "source_drawing_id": "DRW-M-12-LT-001",
+  "source_svg_sha256": "ca94221cd4e251d57527eae890a78be76248561a4c978e3ebf3fb2a38cabe57a",
+  "svg_sha256": "841e2218640561ba26f26ab13c2b69f79ccceb9860e8c3c38bf6913b4cb9daeb",
+  "global_style_id": "STYLE-GLOBAL-CARD-003",
+  "renderer_policy_id": "POLICY-RENDERER-FIRST-001",
+  "transform": {
+    "type": "HORIZONTAL_MIRROR",
+    "axis_svg_x": 850.0
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "drawing_id": "DRW-11-TRIPS-LT-RH-001",
+  "call": "RH (11) TRIPS LT",
+  "status": "DERIVED_FROM_APPROVED_MIRROR",
+  "formation_object_id": "FRM-11-TRIPS-LT-RH",
+  "coordinate_set_id": "COORD-11-TRIPS-LT-RH-001",
+  "source_drawing_id": "DRW-11-TRIPS-RT-LH-001",
+  "source_svg_sha256": "9127784804d2e8288a2138f9d9aab59beffc3fc8858bb41969eb38715585c8f0",
+  "svg_sha256": "05a7b65d0a7509fe8ed48cfccefbafab2e928c04205f4d6774c6d19b2ee45f44",
+  "global_style_id": "STYLE-GLOBAL-CARD-003",
+  "renderer_policy_id": "POLICY-RENDERER-FIRST-001",
+  "transform": {
+    "type": "HORIZONTAL_MIRROR",
+    "axis_svg_x": 850.0
+  }
+}

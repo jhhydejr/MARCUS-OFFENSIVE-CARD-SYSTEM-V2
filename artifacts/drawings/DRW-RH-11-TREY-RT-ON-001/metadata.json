@@ -1,0 +1,16 @@
+{
+  "drawing_id": "DRW-RH-11-TREY-RT-ON-001",
+  "call": "RH (11) TREY RT ON",
+  "status": "DERIVED_FROM_APPROVED_MIRROR",
+  "formation_object_id": "FRM-11-TREY-RT-ON-RH",
+  "coordinate_set_id": "COORD-11-TREY-RT-ON-RH-001",
+  "source_drawing_id": "DRW-LH-11-TREY-LT-ON-001",
+  "source_svg_sha256": "448567f748fa021a96a320e729c8f77b177dfa9d99d424bf1f60a33c23b1e94d",
+  "svg_sha256": "2b105edb3ce5edac6039518b3680b4d90f7626bf8248f6275d5c7aa7c67881fa",
+  "global_style_id": "STYLE-GLOBAL-CARD-003",
+  "renderer_policy_id": "POLICY-RENDERER-FIRST-001",
+  "transform": {
+    "type": "HORIZONTAL_MIRROR",
+    "axis_svg_x": 850.0
+  }
+}

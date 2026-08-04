@@ -1,0 +1,301 @@
+{
+  "builds": [
+    {
+      "football_knowledge_changed": false,
+      "status": "PASS",
+      "summary": "Added one end-to-end PipelineController and structured pipeline reports for successful and blocked calls.",
+      "tests_passing": 86,
+      "version": "2.0.4"
+    },
+    {
+      "feature": "End-to-End Batch Pipeline",
+      "football_knowledge_changed": false,
+      "status": "PASS",
+      "tests_passed": 89,
+      "version": "2.0.5"
+    },
+    {
+      "football_knowledge_changed": false,
+      "status": "PASS",
+      "summary": "Added release certification for database JSON, registries, catalog resolution, full pipeline exports, and output integrity.",
+      "tests_passing": 92,
+      "version": "2.0.6"
+    },
+    {
+      "football_knowledge_changed": false,
+      "status": "PASS",
+      "summary": "Indexed the real football database, linked resolved canonical objects to stored source files, and persisted database_resolution.json in every card.",
+      "tests_passing": 95,
+      "version": "2.1.0"
+    },
+    {
+      "version": "2.1.1",
+      "status": "PASS",
+      "football_knowledge_changed": false,
+      "summary": "Added database source-integrity validation for every resolved football object.",
+      "tests_passed": 98
+    },
+    {
+      "version": "2.2.1",
+      "feature": "Drawing Asset Inventory and Certification",
+      "status": "PASS",
+      "football_knowledge_changed": false,
+      "summary": "Inventoried every catalog drawing and made complete reusable asset bundles mandatory for approved drawings.",
+      "tests_passing": 104,
+      "certification_status": "CERTIFIED"
+    },
+    {
+      "version": "2.3.0",
+      "feature": "Database Health Engine",
+      "status": "PASS",
+      "football_knowledge_changed": false,
+      "summary": "Added deterministic database health auditing for canonical identities, explicit references, duplicate definitions, circular references, and staged/orphaned objects.",
+      "tests_passing": 107,
+      "certification_status": "CERTIFIED",
+      "database_health": {
+        "canonical_objects": 63,
+        "explicit_references": 45,
+        "duplicate_definitions": 0,
+        "broken_references": 0,
+        "circular_references": 0,
+        "staged_orphaned_objects": 31
+      }
+    },
+    {
+      "version": "2.4.1",
+      "status": "PASS",
+      "summary": "Enforced Chief Engineer-approved offensive and defensive call-slot order with explicit order-violation blockers.",
+      "tests_passing": 115,
+      "football_knowledge_changed": false
+    },
+    {
+      "version": "2.4.2",
+      "feature": "Numbered Call Slot Report",
+      "status": "PASS",
+      "football_knowledge_changed": false,
+      "summary": "Added coach-approved numbered offensive and defensive call-slot reporting with explicit required, optional, omitted, and not-called statuses.",
+      "tests_passing": 118
+    },
+    {
+      "version": "2.4.3",
+      "feature": "Scout Card vs Play Card Validation",
+      "status": "PASS",
+      "football_knowledge_changed": true,
+      "summary": "Stored the Chief Engineer-approved distinction: scout cards do not require offensive slot 7; play cards do.",
+      "tests_passing": 121
+    },
+    {
+      "version": "2.4.4",
+      "status": "PASS",
+      "summary": "Applied Scout Card vs Play Card slot requirements consistently to batch compilation and reports.",
+      "tests_passing": 123,
+      "football_knowledge_changed": false
+    },
+    {
+      "version": "2.4.5",
+      "feature": "Mixed Scout/Play Card Batches",
+      "status": "PASS",
+      "football_knowledge_changed": false,
+      "summary": "Added per-call card type overrides for JSON batch inputs while preserving strict Scout Card and Play Card slot requirements.",
+      "tests_passing": 126
+    },
+    {
+      "version": "3.0.0",
+      "feature": "Consolidated Full Baseline",
+      "status": "PASS",
+      "tests_passed": 131,
+      "summary": "Merged v2.5.0 baseline with patches v2.5.1 through v3.0.0; verified 12 approved Formation Cards and simplified multiline web UI.",
+      "football_knowledge_changed": false
+    }
+  ],
+  "completed": [
+    "Created formation geometry library from every stored offensive drawing artifact",
+    "Extracted or normalized player coordinates for each geometry object",
+    "Stored source SVG hashes and renderer profiles",
+    "Validated player counts and offensive circle radius",
+    "Preserved the six latest available source formation SVGs",
+    "Linked formation geometry IDs into matching formation variants",
+    "Did not invent missing formation geometry",
+    "Added deterministic executable repository auditor",
+    "Added clean-checkout pytest source path configuration",
+    "Verified all 125 JSON files parse successfully",
+    "Verified 35 regression tests pass",
+    "Generated machine-readable repository audit report without altering football knowledge",
+    "Replaced placeholder coordinate synthesis with canonical stored formation geometry",
+    "Added deterministic base and motion-variant coordinate resolution",
+    "Validated complete 11-player geometry and duplicate player labels",
+    "Verified 53 regression tests pass",
+    "Integrated canonical formation coordinates into SVG renderer composition",
+    "Generated PNG and PDF from the coordinate-driven SVG master",
+    "Recorded renderer mode and coordinate count in card manifests",
+    "Verified 55 regression tests pass",
+    "Added executable structural validation for canonical coordinate sets",
+    "Rejected duplicate player positions, invalid numeric coordinates, invalid radii, and mixed geometry sources",
+    "Persisted coordinate validation in card validation and manifest outputs",
+    "Verified 58 regression tests pass",
+    "Added executable assignment-readiness validation for all offensive players",
+    "Persisted assignment blockers in card validation and manifest outputs",
+    "Added optional strict assignment gate without inventing football assignments",
+    "Verified 62 regression tests pass",
+    "Added canonical assignment-object registry loading from database/offense/assignments",
+    "Rejected unknown, unapproved, duplicate, malformed, and player-ineligible assignment references",
+    "Preserved formation-only output without inventing football assignments",
+    "Verified 64 regression tests pass",
+    "Added canonical assignment binding for complete approved 11-player assignment maps",
+    "Persisted assignment bindings in JSON, validation, manifest, and SVG metadata",
+    "Preserved formation-only rendering when no approved assignment package exists",
+    "Verified 68 regression tests pass",
+    "Added immutable PlayCard composition from resolved objects, coordinates, assignments, and validation",
+    "Persisted deterministic play_card.json and SHA-256 in every card manifest",
+    "Rejected composition when resolution, coordinates, player ordering, or assignment bindings are inconsistent",
+    "Verified 72 regression tests pass",
+    "Added immutable DrawingScene and DrawingLayer objects",
+    "Added deterministic scene layer ordering and completeness validation",
+    "Updated SVG renderer to consume one DrawingScene render input",
+    "Persisted drawing_scene.json and scene metadata in SVG masters",
+    "Verified 74 regression tests pass",
+    "Added deterministic drawing-scene validation",
+    "Validated canonical layer order and layer object counts",
+    "Validated 11 unique offensive players in every drawing scene",
+    "Persisted drawing_scene_validation.json and manifest SHA-256",
+    "Added executable card-output integrity validation",
+    "Rejected missing, unhashed, modified, and out-of-directory output artifacts",
+    "Persisted output_integrity.json and validation.json SHA-256 values in card manifests",
+    "Verified 80 regression tests pass",
+    "Added approved play-card layout contract with title, diagram, notes, validation, and metadata regions",
+    "Added deterministic layout bounds, order, overlap, and completeness validation",
+    "Persisted card_layout.json and card_layout_validation.json with every generated card",
+    "Recorded layout identity and section order in SVG metadata and card manifests",
+    "Verified 83 regression tests pass",
+    "Added deterministic database health engine",
+    "Added duplicate canonical definition detection",
+    "Added explicit broken-reference and circular-reference detection",
+    "Added staged/orphaned object reporting without automatic deletion",
+    "Integrated database health into release certification",
+    "Verified 107 regression tests pass"
+  ],
+  "eleven_player_geometry_objects": 10,
+  "entries": [
+    {
+      "status": "PASS",
+      "summary": "Implemented deterministic catalog-driven play-call parser with alias normalization and unknown-token validation.",
+      "tests_passed": 38,
+      "version": "1.6.0"
+    },
+    {
+      "status": "PASS",
+      "summary": "Added deterministic TXT/JSON batch compilation, isolated failure handling, portable summaries, and consolidated validation reports.",
+      "tests_passed": 43,
+      "version": "1.7.0"
+    },
+    {
+      "football_knowledge_changed": false,
+      "status": "PASS",
+      "summary": "Added canonical object registry, reverse ID lookup, duplicate-ID detection, alias-conflict detection, and registry-backed play resolution.",
+      "tests_passing": 49,
+      "version": "1.8.0"
+    },
+    {
+      "football_knowledge_changed": false,
+      "status": "PASS",
+      "summary": "Replaced placeholder coordinates with approved formation geometry loaded through canonical formation and drawing relationships.",
+      "tests_passing": 53,
+      "version": "1.9.1"
+    },
+    {
+      "football_knowledge_changed": false,
+      "status": "PASS",
+      "summary": "Integrated approved canonical formation coordinates into SVG composition and generated PNG/PDF from the resulting SVG master.",
+      "tests_passing": 55,
+      "version": "1.9.2"
+    },
+    {
+      "football_knowledge_changed": false,
+      "status": "PASS",
+      "summary": "Added executable coordinate integrity validation and persisted validation results in render outputs.",
+      "tests_passing": 58,
+      "version": "1.9.3"
+    },
+    {
+      "football_knowledge_changed": false,
+      "status": "PASS",
+      "summary": "Added assignment readiness validation and optional strict export blocking while preserving formation-only rendering.",
+      "tests_passing": 62,
+      "version": "1.9.4"
+    },
+    {
+      "football_knowledge_changed": false,
+      "status": "PASS",
+      "summary": "Added canonical assignment object registry and validated object existence, approval status, and player eligibility.",
+      "tests_passing": 64,
+      "version": "1.9.5"
+    },
+    {
+      "change": "Added deterministic 11-player assignment plan export from canonical assignment objects.",
+      "tests": "pending",
+      "version": "1.9.6"
+    },
+    {
+      "football_knowledge_changed": false,
+      "status": "PASS",
+      "summary": "Added canonical assignment binding and renderer metadata without inventing football assignments.",
+      "tests_passing": 68,
+      "version": "1.9.7"
+    },
+    {
+      "football_knowledge_changed": false,
+      "status": "PASS",
+      "summary": "Bound canonical assignment metadata directly to rendered offensive SVG player objects and preserved it in SVG metadata.",
+      "tests_passing": 70,
+      "version": "1.9.8"
+    },
+    {
+      "football_knowledge_changed": false,
+      "status": "PASS",
+      "summary": "Added an immutable PlayCard composer and persisted one deterministic card object before rendering/export.",
+      "tests_passing": 72,
+      "version": "1.9.9"
+    },
+    {
+      "feature": "Play Card Layout Engine",
+      "status": "PASS",
+      "tests_passed": 83,
+      "version": "2.0.3"
+    },
+    {
+      "football_knowledge_changed": false,
+      "status": "PASS",
+      "summary": "Added approved drawing asset reuse validation, source fingerprinting, and per-card asset_reuse.json output.",
+      "tests_passing": 101,
+      "version": "2.2.0"
+    },
+    {
+      "version": "2.4.0",
+      "status": "PASS",
+      "summary": "Stored and implemented Chief Engineer-approved offensive and defensive call grammar.",
+      "tests_passing": 112
+    },
+    {
+      "version": "2.5.0",
+      "summary": "Added deployable FastAPI web application for Render with play-call input, card type, real compiler execution, preview, and output downloads.",
+      "tests": "129 passed",
+      "files": [
+        "app.py",
+        "render.yaml",
+        "src/marcus_cad/web.py",
+        "tests/test_web.py",
+        "pyproject.toml"
+      ]
+    }
+  ],
+  "formation_variants_linked": 11,
+  "geometry_objects_created": 12,
+  "next_build": "Compile approved PLAY objects and add football knowledge required for complete PLAY_CARD calls.",
+  "regression_tests_passing": 131,
+  "repository_audit": "reports/repository_audit.json",
+  "source_candidates_preserved": 6,
+  "version": "3.0.0",
+  "release_version": "4.0.0",
+  "release_focus": "PDF packet generation",
+  "test_result": "132 passed"
+}

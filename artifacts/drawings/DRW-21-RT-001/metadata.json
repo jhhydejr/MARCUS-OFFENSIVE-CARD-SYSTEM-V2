@@ -1,0 +1,11 @@
+{
+  "drawing_id": "DRW-21-RT-001",
+  "call": "(21) RT",
+  "status": "SOURCE_IMPORTED_NEEDS_COACH_APPROVAL",
+  "formation_object_id": "FRM-21-RT",
+  "coordinate_set_id": "COORD-21-RT-001",
+  "svg_sha256": "01c17b121bf634b2c9278b2793098b225d89bad105cf68043d956d4fc6f41dc4",
+  "source_svg_sha256": "06f1b96b09ff6ea653689c016863f670d1d2f72b52edb4363ec6fbe83a75ce11",
+  "global_style_id": "STYLE-GLOBAL-CARD-003",
+  "renderer_policy_id": "POLICY-RENDERER-FIRST-001"
+}

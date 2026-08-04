@@ -1,0 +1,11 @@
+{
+  "drawing_id": "DRW-LH-11-TREY-LT-ON-001",
+  "call": "LH (11) TREY LT ON",
+  "status": "COACH_APPROVED",
+  "formation_object_id": "FRM-11-TREY-LT-ON-LH",
+  "coordinate_set_id": "COORD-11-TREY-LT-ON-LH-001",
+  "svg_sha256": "448567f748fa021a96a320e729c8f77b177dfa9d99d424bf1f60a33c23b1e94d",
+  "source_svg_sha256": "67eebf7bb64ce9eaff5fd477fc71e9d53254f9c798cae869c4e79dec3eaa9d16",
+  "global_style_id": "STYLE-GLOBAL-CARD-003",
+  "renderer_policy_id": "POLICY-RENDERER-FIRST-001"
+}

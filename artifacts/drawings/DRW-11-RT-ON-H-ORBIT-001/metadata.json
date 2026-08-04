@@ -1,0 +1,29 @@
+{
+  "drawing_id": "DRW-11-RT-ON-H-ORBIT-001",
+  "call": "(11) RT ON H ORBIT",
+  "status": "SOURCE_TRACED_MOTION_COMPOSITE",
+  "renderer_profile_id": "HANDOFF_V1_1700x950",
+  "base_drawing_id": "DRW-11-RT-ON-001",
+  "motion_id": "MOT-H-ORBIT",
+  "source_evidence": "sources/motions/MOTIONS_AND_SHIFTS_page_2.png",
+  "svg_sha256": "fec48f34f0b640664ed00c3dd1b0dc1d94f150d12d3445587affe6e959b1d2ac",
+  "png_sha256": "6fb4f6b6c553f7b63d43247ac2840ef175af4166008c90196b4536e2be4e6c33",
+  "revision": "0.8",
+  "correction": "Motion path begins at the edge of the H circle, not at its center.",
+  "movement_rendering_policy": {
+    "show_origin_player": true,
+    "show_motion_path": true,
+    "show_arrowhead": true,
+    "show_destination_marker": false,
+    "destination_marker_type": null,
+    "rule_scope": "H ORBIT only",
+    "note": "Other motions and shifts may use destination markers according to their own object records."
+  },
+  "motion_origin_rule_id": "RENDER-RULE-MOTION-ORIGIN-001",
+  "motion_path_start": [
+    485.843782,
+    629.0
+  ],
+  "global_style_id": "STYLE-GLOBAL-CARD-003",
+  "renderer_policy_id": "POLICY-RENDERER-FIRST-001"
+}
