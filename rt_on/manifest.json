@@ -1,0 +1,21 @@
+{
+  "source_call": "(11) RT ON",
+  "drawing_id": "DRW-11-RT-ON-001",
+  "outputs": {
+    "svg": {
+      "path": "/mnt/data/Marcus_Offensive_CAD_System_v0_2/output/rt_on/card.svg",
+      "sha256": "d347f48f674cde8bab50d5c12990639943bd4154ae619383aea1be5d8e694314"
+    },
+    "png": {
+      "path": "/mnt/data/Marcus_Offensive_CAD_System_v0_2/output/rt_on/card.png",
+      "sha256": "3272fad5f6d5435e421d459b16a4f21adb2eef3565c5a648c16bac88cff8bef0"
+    },
+    "pdf": {
+      "path": "/mnt/data/Marcus_Offensive_CAD_System_v0_2/output/rt_on/card.pdf",
+      "sha256": "bc6ea6cb4680ec10802bb8c0fb40fcfe6d2fd45a3b952658255dae89c1752865"
+    },
+    "validation": {
+      "path": "/mnt/data/Marcus_Offensive_CAD_System_v0_2/output/rt_on/validation.json"
+    }
+  }
+}

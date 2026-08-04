@@ -1,0 +1,21 @@
+{
+  "source_call": "(11) DBLS RT",
+  "drawing_id": "DRW-11-DBLS-RT-001",
+  "outputs": {
+    "svg": {
+      "path": "output/dbls_rt/card.svg",
+      "sha256": "522aaf361e689bbbfbca8857872b00c8341cdd475eed08b0edd441670211cd6e"
+    },
+    "png": {
+      "path": "output/dbls_rt/card.png",
+      "sha256": "89ece6a72844770bc32667022cd8b4131d2f3c735cdff778923326263e5b796c"
+    },
+    "pdf": {
+      "path": "output/dbls_rt/card.pdf",
+      "sha256": "dff273a32514f82dc715ba9ffccb96acae82814c4c7de40058b7ed17fcbbd9a4"
+    },
+    "validation": {
+      "path": "output/dbls_rt/validation.json"
+    }
+  }
+}

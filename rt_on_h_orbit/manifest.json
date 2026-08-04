@@ -1,0 +1,21 @@
+{
+  "source_call": "(11) RT ON H ORBIT",
+  "drawing_id": "DRW-11-RT-ON-H-ORBIT-001",
+  "outputs": {
+    "svg": {
+      "path": "/mnt/data/Marcus_Offensive_CAD_System_v0_5/output/rt_on_h_orbit/card.svg",
+      "sha256": "320448aa4a37f62c46f5e41e2061bbe27fc6b83509044fa4456ce52fb7f6fe16"
+    },
+    "png": {
+      "path": "/mnt/data/Marcus_Offensive_CAD_System_v0_5/output/rt_on_h_orbit/card.png",
+      "sha256": "6fb4f6b6c553f7b63d43247ac2840ef175af4166008c90196b4536e2be4e6c33"
+    },
+    "pdf": {
+      "path": "/mnt/data/Marcus_Offensive_CAD_System_v0_5/output/rt_on_h_orbit/card.pdf",
+      "sha256": "d876e1c0ad5d336a09f26befd4c5d5b31dd11ff2089e2cdee661f03504c0d5bb"
+    },
+    "validation": {
+      "path": "/mnt/data/Marcus_Offensive_CAD_System_v0_5/output/rt_on_h_orbit/validation.json"
+    }
+  }
+}

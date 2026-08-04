@@ -1,0 +1,42 @@
+{
+  "source_call": "LH (11) RT ON H ORBIT VS 4-2 STUD COV 4 READ",
+  "normalized_call": "LH (11) RT ON H ORBIT VS 4-2 STUD COV 4 READ",
+  "field_location": "LH",
+  "personnel": "11",
+  "formation": "RT",
+  "modifier": "ON",
+  "motion": "H ORBIT",
+  "defensive_personnel": "4-2",
+  "defensive_structure": "STUD",
+  "coverage": "COV 4 READ",
+  "resolved_ids": {
+    "field_locations": "LOC-LH",
+    "personnel": "PER-11",
+    "formations": "FM-RT-001",
+    "modifiers": "VR-ON-001",
+    "motions": "MOT-H-ORBIT",
+    "defensive_personnel": "DEF-PER-4-2",
+    "defensive_structures": "DEF-STRUCT-STUD",
+    "coverages": "COV-4-READ"
+  },
+  "blockers": [
+    {
+      "object": "motions:H ORBIT",
+      "reason": "TIMING_RECOVERED_PATH_INCOMPLETE"
+    },
+    {
+      "object": "defensive_personnel:4-2",
+      "reason": "NAME_RECOVERED_GEOMETRY_INCOMPLETE"
+    },
+    {
+      "object": "defensive_structures:STUD",
+      "reason": "UNDEFINED"
+    },
+    {
+      "object": "coverages:COV 4 READ",
+      "reason": "NAME_RECOVERED_GEOMETRY_INCOMPLETE"
+    }
+  ],
+  "renderable": false,
+  "drawing_id": "DRW-11-RT-ON-001"
+}

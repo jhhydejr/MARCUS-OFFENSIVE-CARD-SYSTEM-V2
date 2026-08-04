@@ -1,0 +1,21 @@
+{
+  "source_call": "(11) RT ON H ORBIT",
+  "normalized_call": "(11) RT ON H ORBIT",
+  "field_location": null,
+  "personnel": "11",
+  "formation": "RT",
+  "modifier": "ON",
+  "motion": "H ORBIT",
+  "defensive_personnel": null,
+  "defensive_structure": null,
+  "coverage": null,
+  "resolved_ids": {
+    "personnel": "PER-11",
+    "formations": "FM-RT-001",
+    "modifiers": "VR-ON-001",
+    "motions": "MOT-H-ORBIT"
+  },
+  "blockers": [],
+  "renderable": true,
+  "drawing_id": "DRW-11-RT-ON-H-ORBIT-001"
+}

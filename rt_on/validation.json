@@ -1,0 +1,20 @@
+{
+  "source_call": "(11) RT ON",
+  "normalized_call": "(11) RT ON",
+  "field_location": null,
+  "personnel": "11",
+  "formation": "RT",
+  "modifier": "ON",
+  "motion": null,
+  "defensive_personnel": null,
+  "defensive_structure": null,
+  "coverage": null,
+  "resolved_ids": {
+    "personnel": "PER-11",
+    "formations": "FM-RT-001",
+    "modifiers": "VR-ON-001"
+  },
+  "blockers": [],
+  "renderable": true,
+  "drawing_id": "DRW-11-RT-ON-001"
+}

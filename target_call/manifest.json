@@ -1,0 +1,21 @@
+{
+  "source_call": "LH (11) RT ON H ORBIT VS 4-2 STUD COV 4 READ",
+  "drawing_id": "DRW-LH-11-RT-ON-H-ORBIT-VS-4-2-STUD-COV4READ-001",
+  "outputs": {
+    "svg": {
+      "path": "/mnt/data/Marcus_Offensive_CAD_System_v0_7/output/target_call/card.svg",
+      "sha256": "4aeda21adb3106b357b680fb4a941ce912e0fa1d1c477fecb6d2db5bf56a2441"
+    },
+    "png": {
+      "path": "/mnt/data/Marcus_Offensive_CAD_System_v0_7/output/target_call/card.png",
+      "sha256": "404eca208a799bb30e5f6e83fbe17d594acb0aeb82e02223475a7423f6848336"
+    },
+    "pdf": {
+      "path": "/mnt/data/Marcus_Offensive_CAD_System_v0_7/output/target_call/card.pdf",
+      "sha256": "42436f7042e896f7f713b375fc895e528199909274d22a87d1b7c58df57e3469"
+    },
+    "validation": {
+      "path": "/mnt/data/Marcus_Offensive_CAD_System_v0_7/output/target_call/validation.json"
+    }
+  }
+}
