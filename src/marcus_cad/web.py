@@ -11,7 +11,7 @@ from fastapi.responses import FileResponse, HTMLResponse
 from pydantic import BaseModel, Field
 
 from .batch import compile_batch
-from .pdf_packet import PdfPacketError, merge_pdfs
+from .pdf_packet import PdfPacketError, create_blocked_calls_report, merge_pdfs
 from .pipeline import PipelineController
 from .system import MarcusSystem
 
@@ -113,6 +113,17 @@ def generate_pdf(request: PdfRequest) -> dict[str, Any]:
             if item.renderable and pdf_path.is_file():
                 pdf_paths.append(pdf_path)
             items.append({"index": item.index, "call": item.source_call, "success": item.renderable, "blockers": item.blockers})
+
+    blocked_items = [
+        (item["index"], item["call"], item.get("blockers", []))
+        for item in items
+        if not item["success"]
+    ]
+    if blocked_items:
+        report_path = create_blocked_calls_report(
+            blocked_items, job_dir / "Blocked_Calls_Report.pdf"
+        )
+        pdf_paths.append(report_path)
 
     packet_path = job_dir / "Marcus_CAD_Packet.pdf"
     try:

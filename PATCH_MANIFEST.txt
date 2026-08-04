@@ -1,0 +1,17 @@
+Marcus Offensive CAD Patch v4.0.1
+
+Base required:
+- Marcus Offensive CAD System v4.0.0
+
+Purpose:
+- Always return one PDF packet.
+- Append a blocked-calls report when any calls cannot render.
+- If every call is blocked, return the report as the packet instead of a server error.
+
+Files changed:
+- src/marcus_cad/pdf_packet.py
+- src/marcus_cad/web.py
+
+Verification:
+- 133 tests passed.
+- All-blocked request returned HTTP 200 and a one-page PDF report.
