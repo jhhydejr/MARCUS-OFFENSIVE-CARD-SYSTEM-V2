@@ -1,0 +1,90 @@
+[
+  {
+    "player": "X",
+    "assignment_id": null,
+    "assignment_type": null,
+    "canonical_name": null,
+    "status": "MISSING",
+    "source_file": null
+  },
+  {
+    "player": "Y",
+    "assignment_id": null,
+    "assignment_type": null,
+    "canonical_name": null,
+    "status": "MISSING",
+    "source_file": null
+  },
+  {
+    "player": "RT",
+    "assignment_id": null,
+    "assignment_type": null,
+    "canonical_name": null,
+    "status": "MISSING",
+    "source_file": null
+  },
+  {
+    "player": "RG",
+    "assignment_id": null,
+    "assignment_type": null,
+    "canonical_name": null,
+    "status": "MISSING",
+    "source_file": null
+  },
+  {
+    "player": "C",
+    "assignment_id": null,
+    "assignment_type": null,
+    "canonical_name": null,
+    "status": "MISSING",
+    "source_file": null
+  },
+  {
+    "player": "LG",
+    "assignment_id": null,
+    "assignment_type": null,
+    "canonical_name": null,
+    "status": "MISSING",
+    "source_file": null
+  },
+  {
+    "player": "LT",
+    "assignment_id": null,
+    "assignment_type": null,
+    "canonical_name": null,
+    "status": "MISSING",
+    "source_file": null
+  },
+  {
+    "player": "H",
+    "assignment_id": null,
+    "assignment_type": null,
+    "canonical_name": null,
+    "status": "MISSING",
+    "source_file": null
+  },
+  {
+    "player": "Z",
+    "assignment_id": null,
+    "assignment_type": null,
+    "canonical_name": null,
+    "status": "MISSING",
+    "source_file": null
+  },
+  {
+    "player": "QB",
+    "assignment_id": null,
+    "assignment_type": null,
+    "canonical_name": null,
+    "status": "MISSING",
+    "source_file": null
+  },
+  {
+    "player": "B",
+    "assignment_id": null,
+    "assignment_type": null,
+    "canonical_name": null,
+    "status": "MISSING",
+    "source_file": null
+  }
+]

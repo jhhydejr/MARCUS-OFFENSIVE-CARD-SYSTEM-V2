@@ -1,0 +1,125 @@
+{
+  "source_call": "LH (11) RT ON H ORBIT VS 4-2 STUD COV 4 READ",
+  "drawing_id": "DRW-LH-11-RT-ON-H-ORBIT-VS-4-2-STUD-COV4READ-001",
+  "renderer": "CANONICAL_COORDINATE_DRIVEN",
+  "coordinate_count": 11,
+  "coordinate_validation": {
+    "valid": true,
+    "player_count": 11,
+    "unique_player_count": 11,
+    "expected_players": [
+      "B",
+      "C",
+      "H",
+      "LG",
+      "LT",
+      "QB",
+      "RG",
+      "RT",
+      "X",
+      "Y",
+      "Z"
+    ],
+    "missing_players": [],
+    "unexpected_players": [],
+    "duplicate_positions": [],
+    "invalid_coordinates": [],
+    "invalid_radii": [],
+    "geometry_ids": [
+      "GEOM-DRW-11-RT-ON-H-ORBIT-001"
+    ],
+    "drawing_ids": [
+      "DRW-11-RT-ON-H-ORBIT-001"
+    ]
+  },
+  "assignment_validation": {
+    "valid": false,
+    "status": "NOT_READY",
+    "player_count": 11,
+    "assigned_player_count": 0,
+    "missing_players": [
+      "B",
+      "C",
+      "H",
+      "LG",
+      "LT",
+      "QB",
+      "RG",
+      "RT",
+      "X",
+      "Y",
+      "Z"
+    ],
+    "unexpected_players": [],
+    "invalid_assignment_ids": [],
+    "assignment_ids": {},
+    "blockers": [
+      {
+        "object": "offensive_assignments",
+        "reason": "NO_APPROVED_ASSIGNMENT_OBJECTS_FOR_CALL"
+      },
+      {
+        "object": "assignment:B",
+        "reason": "MISSING"
+      },
+      {
+        "object": "assignment:C",
+        "reason": "MISSING"
+      },
+      {
+        "object": "assignment:H",
+        "reason": "MISSING"
+      },
+      {
+        "object": "assignment:LG",
+        "reason": "MISSING"
+      },
+      {
+        "object": "assignment:LT",
+        "reason": "MISSING"
+      },
+      {
+        "object": "assignment:QB",
+        "reason": "MISSING"
+      },
+      {
+        "object": "assignment:RG",
+        "reason": "MISSING"
+      },
+      {
+        "object": "assignment:RT",
+        "reason": "MISSING"
+      },
+      {
+        "object": "assignment:X",
+        "reason": "MISSING"
+      },
+      {
+        "object": "assignment:Y",
+        "reason": "MISSING"
+      },
+      {
+        "object": "assignment:Z",
+        "reason": "MISSING"
+      }
+    ]
+  },
+  "card_completeness": "FORMATION_ONLY",
+  "outputs": {
+    "svg": {
+      "path": "output/v194_smoke/card.svg",
+      "sha256": "157555e9714977d60922bb63bd19c7d9a3d6a71d54f76fa7ad453e263311e0dd"
+    },
+    "png": {
+      "path": "output/v194_smoke/card.png",
+      "sha256": "79c533a852d5e4e712d593f56fa911d0d69a30c07fe179cdc26cd5ad128ac9fd"
+    },
+    "pdf": {
+      "path": "output/v194_smoke/card.pdf",
+      "sha256": "58095afd6af5fdc0aca9015892f82889553f78fd8e8d7b88f732b8ddd90e4bdc"
+    },
+    "validation": {
+      "path": "output/v194_smoke/validation.json"
+    }
+  }
+}

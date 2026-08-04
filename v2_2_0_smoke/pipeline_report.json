@@ -1,0 +1,61 @@
+{
+  "source_call": "LH (11) RT ON H ORBIT VS 4-2 STUD COV 4 READ",
+  "normalized_call": "LH (11) RT ON H ORBIT VS 4-2 STUD COV 4 READ",
+  "success": true,
+  "output_directory": "/mnt/data/work220/output/v2_2_0_smoke",
+  "stages": [
+    {
+      "name": "parse_resolve",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "coordinate_validation",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "assignment_binding",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "play_card_composition",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "drawing_scene_validation",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "card_layout_validation",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "svg_render",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "png_export",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "pdf_export",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "name": "output_integrity",
+      "status": "PASS",
+      "detail": null
+    }
+  ],
+  "manifest_path": "/mnt/data/work220/output/v2_2_0_smoke/manifest.json",
+  "validation_path": "/mnt/data/work220/output/v2_2_0_smoke/validation.json",
+  "error": null
+}

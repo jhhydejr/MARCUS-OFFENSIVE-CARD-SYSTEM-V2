@@ -1,0 +1,18 @@
+{
+  "valid": true,
+  "checked_outputs": [
+    "assignment_bindings",
+    "assignment_plan",
+    "drawing_scene",
+    "drawing_scene_validation",
+    "pdf",
+    "play_card",
+    "png",
+    "svg",
+    "validation"
+  ],
+  "missing_outputs": [],
+  "missing_hashes": [],
+  "hash_mismatches": [],
+  "paths_outside_card_directory": []
+}

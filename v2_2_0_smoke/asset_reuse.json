@@ -1,0 +1,18 @@
+{
+  "valid": true,
+  "drawing_id": "DRW-LH-11-RT-ON-H-ORBIT-VS-4-2-STUD-COV4READ-001",
+  "catalog_status": "SOURCE_TRACED_COMPOSITE",
+  "asset_directory": "artifacts/drawings/DRW-LH-11-RT-ON-H-ORBIT-VS-4-2-STUD-COV4READ-001",
+  "reused_files": {
+    "metadata": "artifacts/drawings/DRW-LH-11-RT-ON-H-ORBIT-VS-4-2-STUD-COV4READ-001/metadata.json",
+    "png": "artifacts/drawings/DRW-LH-11-RT-ON-H-ORBIT-VS-4-2-STUD-COV4READ-001/preview.png",
+    "svg": "artifacts/drawings/DRW-LH-11-RT-ON-H-ORBIT-VS-4-2-STUD-COV4READ-001/drawing.svg"
+  },
+  "source_hashes": {
+    "metadata": "05bc4731339c4fb9a5c3d0c5431ffb5638b63023c5dc1f5d68a57a44e2418a1b",
+    "png": "404eca208a799bb30e5f6e83fbe17d594acb0aeb82e02223475a7423f6848336",
+    "svg": "18dd9fe4138ba4fa534c8808dc0d2b8b2371dab587eeb76dcd484d51b05c5b56"
+  },
+  "missing_files": [],
+  "invalid_paths": []
+}

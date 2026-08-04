@@ -1,0 +1,52 @@
+{
+  "source_call": "LH (11) RT ON H ORBIT VS 4-2 STUD COV 4 READ",
+  "drawing_id": "DRW-LH-11-RT-ON-H-ORBIT-VS-4-2-STUD-COV4READ-001",
+  "renderer": "CANONICAL_COORDINATE_DRIVEN",
+  "coordinate_count": 11,
+  "coordinate_validation": {
+    "valid": true,
+    "player_count": 11,
+    "unique_player_count": 11,
+    "expected_players": [
+      "B",
+      "C",
+      "H",
+      "LG",
+      "LT",
+      "QB",
+      "RG",
+      "RT",
+      "X",
+      "Y",
+      "Z"
+    ],
+    "missing_players": [],
+    "unexpected_players": [],
+    "duplicate_positions": [],
+    "invalid_coordinates": [],
+    "invalid_radii": [],
+    "geometry_ids": [
+      "GEOM-DRW-11-RT-ON-H-ORBIT-001"
+    ],
+    "drawing_ids": [
+      "DRW-11-RT-ON-H-ORBIT-001"
+    ]
+  },
+  "outputs": {
+    "svg": {
+      "path": "output/v193_smoke/card.svg",
+      "sha256": "157555e9714977d60922bb63bd19c7d9a3d6a71d54f76fa7ad453e263311e0dd"
+    },
+    "png": {
+      "path": "output/v193_smoke/card.png",
+      "sha256": "79c533a852d5e4e712d593f56fa911d0d69a30c07fe179cdc26cd5ad128ac9fd"
+    },
+    "pdf": {
+      "path": "output/v193_smoke/card.pdf",
+      "sha256": "18f580b2bbd94a898197667944edb38d4332e20ee3ab34fedb19d70dfa5059f8"
+    },
+    "validation": {
+      "path": "output/v193_smoke/validation.json"
+    }
+  }
+}

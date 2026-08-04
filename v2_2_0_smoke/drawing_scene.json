@@ -1,0 +1,139 @@
+{
+  "drawing_id": "DRW-LH-11-RT-ON-H-ORBIT-VS-4-2-STUD-COV4READ-001",
+  "normalized_call": "LH (11) RT ON H ORBIT VS 4-2 STUD COV 4 READ",
+  "layers": [
+    {
+      "name": "field_template",
+      "order": 10,
+      "object_count": 1,
+      "source": "stored_svg_template"
+    },
+    {
+      "name": "defense",
+      "order": 20,
+      "object_count": 1,
+      "source": "stored_svg_template"
+    },
+    {
+      "name": "offense",
+      "order": 30,
+      "object_count": 11,
+      "source": "canonical_coordinates"
+    },
+    {
+      "name": "assignments",
+      "order": 40,
+      "object_count": 0,
+      "source": "canonical_assignment_bindings"
+    },
+    {
+      "name": "labels_metadata",
+      "order": 50,
+      "object_count": 1,
+      "source": "play_card"
+    }
+  ],
+  "offensive_players": [
+    {
+      "player": "X",
+      "x": 222.937602,
+      "y": 617.0,
+      "radius": 19.0,
+      "los_status": "BACKFIELD_OR_OFF",
+      "geometry_id": "GEOM-DRW-11-RT-ON-H-ORBIT-001",
+      "drawing_id": "DRW-11-RT-ON-H-ORBIT-001"
+    },
+    {
+      "player": "Y",
+      "x": 1048.875056,
+      "y": 617.0,
+      "radius": 19.0,
+      "los_status": "BACKFIELD_OR_OFF",
+      "geometry_id": "GEOM-DRW-11-RT-ON-H-ORBIT-001",
+      "drawing_id": "DRW-11-RT-ON-H-ORBIT-001"
+    },
+    {
+      "player": "RT",
+      "x": 714.749963,
+      "y": 619.0,
+      "radius": 19.0,
+      "los_status": "BACKFIELD_OR_OFF",
+      "geometry_id": "GEOM-DRW-11-RT-ON-H-ORBIT-001",
+      "drawing_id": "DRW-11-RT-ON-H-ORBIT-001"
+    },
+    {
+      "player": "RG",
+      "x": 782.374981,
+      "y": 619.0,
+      "radius": 19.0,
+      "los_status": "BACKFIELD_OR_OFF",
+      "geometry_id": "GEOM-DRW-11-RT-ON-H-ORBIT-001",
+      "drawing_id": "DRW-11-RT-ON-H-ORBIT-001"
+    },
+    {
+      "player": "C",
+      "x": 850.0,
+      "y": 619.0,
+      "radius": 19.0,
+      "los_status": "BACKFIELD_OR_OFF",
+      "geometry_id": "GEOM-DRW-11-RT-ON-H-ORBIT-001",
+      "drawing_id": "DRW-11-RT-ON-H-ORBIT-001"
+    },
+    {
+      "player": "LG",
+      "x": 917.625019,
+      "y": 619.0,
+      "radius": 19.0,
+      "los_status": "BACKFIELD_OR_OFF",
+      "geometry_id": "GEOM-DRW-11-RT-ON-H-ORBIT-001",
+      "drawing_id": "DRW-11-RT-ON-H-ORBIT-001"
+    },
+    {
+      "player": "LT",
+      "x": 985.250037,
+      "y": 619.0,
+      "radius": 19.0,
+      "los_status": "BACKFIELD_OR_OFF",
+      "geometry_id": "GEOM-DRW-11-RT-ON-H-ORBIT-001",
+      "drawing_id": "DRW-11-RT-ON-H-ORBIT-001"
+    },
+    {
+      "player": "H",
+      "x": 468.843782,
+      "y": 629.0,
+      "radius": 19.0,
+      "los_status": "ON",
+      "geometry_id": "GEOM-DRW-11-RT-ON-H-ORBIT-001",
+      "drawing_id": "DRW-11-RT-ON-H-ORBIT-001"
+    },
+    {
+      "player": "Z",
+      "x": 1477.062398,
+      "y": 629.0,
+      "radius": 19.0,
+      "los_status": "ON",
+      "geometry_id": "GEOM-DRW-11-RT-ON-H-ORBIT-001",
+      "drawing_id": "DRW-11-RT-ON-H-ORBIT-001"
+    },
+    {
+      "player": "QB",
+      "x": 850.0,
+      "y": 703.0,
+      "radius": 19.0,
+      "los_status": "BACKFIELD_OR_OFF",
+      "geometry_id": "GEOM-DRW-11-RT-ON-H-ORBIT-001",
+      "drawing_id": "DRW-11-RT-ON-H-ORBIT-001"
+    },
+    {
+      "player": "B",
+      "x": 758.931229,
+      "y": 727.0,
+      "radius": 19.0,
+      "los_status": "BACKFIELD_OR_OFF",
+      "geometry_id": "GEOM-DRW-11-RT-ON-H-ORBIT-001",
+      "drawing_id": "DRW-11-RT-ON-H-ORBIT-001"
+    }
+  ],
+  "assignment_bindings": [],
+  "completeness": "FORMATION_ONLY"
+}

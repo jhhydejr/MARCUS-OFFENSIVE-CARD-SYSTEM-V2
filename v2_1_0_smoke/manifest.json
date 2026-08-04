@@ -1,0 +1,357 @@
+{
+  "source_call": "LH (11) RT ON H ORBIT VS 4-2 STUD COV 4 READ",
+  "drawing_id": "DRW-LH-11-RT-ON-H-ORBIT-VS-4-2-STUD-COV4READ-001",
+  "renderer": "DRAWING_SCENE_DRIVEN",
+  "drawing_scene_layers": [
+    {
+      "name": "field_template",
+      "order": 10,
+      "object_count": 1,
+      "source": "stored_svg_template"
+    },
+    {
+      "name": "defense",
+      "order": 20,
+      "object_count": 1,
+      "source": "stored_svg_template"
+    },
+    {
+      "name": "offense",
+      "order": 30,
+      "object_count": 11,
+      "source": "canonical_coordinates"
+    },
+    {
+      "name": "assignments",
+      "order": 40,
+      "object_count": 0,
+      "source": "canonical_assignment_bindings"
+    },
+    {
+      "name": "labels_metadata",
+      "order": 50,
+      "object_count": 1,
+      "source": "play_card"
+    }
+  ],
+  "drawing_scene_validation": {
+    "valid": true,
+    "expected_layer_order": [
+      "field_template",
+      "defense",
+      "offense",
+      "assignments",
+      "labels_metadata"
+    ],
+    "actual_layer_order": [
+      "field_template",
+      "defense",
+      "offense",
+      "assignments",
+      "labels_metadata"
+    ],
+    "duplicate_layers": [],
+    "invalid_layer_orders": [],
+    "invalid_object_counts": [],
+    "offensive_player_count": 11,
+    "unique_offensive_player_count": 11,
+    "missing_offensive_players": [],
+    "unexpected_offensive_players": [],
+    "assignment_binding_count": 0,
+    "invalid_assignment_binding_players": []
+  },
+  "card_layout_id": "LAYOUT-PLAY-CARD-001",
+  "card_layout_validation": {
+    "valid": true,
+    "layout_id": "LAYOUT-PLAY-CARD-001",
+    "expected_sections": [
+      "title",
+      "diagram",
+      "notes",
+      "validation",
+      "metadata"
+    ],
+    "actual_sections": [
+      "title",
+      "diagram",
+      "notes",
+      "validation",
+      "metadata"
+    ],
+    "missing_sections": [],
+    "duplicate_sections": [],
+    "out_of_bounds_sections": [],
+    "overlapping_sections": []
+  },
+  "coordinate_count": 11,
+  "coordinate_validation": {
+    "valid": true,
+    "player_count": 11,
+    "unique_player_count": 11,
+    "expected_players": [
+      "B",
+      "C",
+      "H",
+      "LG",
+      "LT",
+      "QB",
+      "RG",
+      "RT",
+      "X",
+      "Y",
+      "Z"
+    ],
+    "missing_players": [],
+    "unexpected_players": [],
+    "duplicate_positions": [],
+    "invalid_coordinates": [],
+    "invalid_radii": [],
+    "geometry_ids": [
+      "GEOM-DRW-11-RT-ON-H-ORBIT-001"
+    ],
+    "drawing_ids": [
+      "DRW-11-RT-ON-H-ORBIT-001"
+    ]
+  },
+  "assignment_validation": {
+    "valid": false,
+    "status": "NOT_READY",
+    "player_count": 11,
+    "assigned_player_count": 0,
+    "missing_players": [
+      "B",
+      "C",
+      "H",
+      "LG",
+      "LT",
+      "QB",
+      "RG",
+      "RT",
+      "X",
+      "Y",
+      "Z"
+    ],
+    "unexpected_players": [],
+    "invalid_assignment_ids": [],
+    "unknown_assignment_ids": [],
+    "ineligible_assignments": [],
+    "assignment_ids": {},
+    "blockers": [
+      {
+        "object": "offensive_assignments",
+        "reason": "NO_APPROVED_ASSIGNMENT_OBJECTS_FOR_CALL"
+      },
+      {
+        "object": "assignment:B",
+        "reason": "MISSING"
+      },
+      {
+        "object": "assignment:C",
+        "reason": "MISSING"
+      },
+      {
+        "object": "assignment:H",
+        "reason": "MISSING"
+      },
+      {
+        "object": "assignment:LG",
+        "reason": "MISSING"
+      },
+      {
+        "object": "assignment:LT",
+        "reason": "MISSING"
+      },
+      {
+        "object": "assignment:QB",
+        "reason": "MISSING"
+      },
+      {
+        "object": "assignment:RG",
+        "reason": "MISSING"
+      },
+      {
+        "object": "assignment:RT",
+        "reason": "MISSING"
+      },
+      {
+        "object": "assignment:X",
+        "reason": "MISSING"
+      },
+      {
+        "object": "assignment:Y",
+        "reason": "MISSING"
+      },
+      {
+        "object": "assignment:Z",
+        "reason": "MISSING"
+      }
+    ]
+  },
+  "assignment_plan": [
+    {
+      "player": "X",
+      "assignment_id": null,
+      "assignment_type": null,
+      "canonical_name": null,
+      "status": "MISSING",
+      "source_file": null
+    },
+    {
+      "player": "Y",
+      "assignment_id": null,
+      "assignment_type": null,
+      "canonical_name": null,
+      "status": "MISSING",
+      "source_file": null
+    },
+    {
+      "player": "RT",
+      "assignment_id": null,
+      "assignment_type": null,
+      "canonical_name": null,
+      "status": "MISSING",
+      "source_file": null
+    },
+    {
+      "player": "RG",
+      "assignment_id": null,
+      "assignment_type": null,
+      "canonical_name": null,
+      "status": "MISSING",
+      "source_file": null
+    },
+    {
+      "player": "C",
+      "assignment_id": null,
+      "assignment_type": null,
+      "canonical_name": null,
+      "status": "MISSING",
+      "source_file": null
+    },
+    {
+      "player": "LG",
+      "assignment_id": null,
+      "assignment_type": null,
+      "canonical_name": null,
+      "status": "MISSING",
+      "source_file": null
+    },
+    {
+      "player": "LT",
+      "assignment_id": null,
+      "assignment_type": null,
+      "canonical_name": null,
+      "status": "MISSING",
+      "source_file": null
+    },
+    {
+      "player": "H",
+      "assignment_id": null,
+      "assignment_type": null,
+      "canonical_name": null,
+      "status": "MISSING",
+      "source_file": null
+    },
+    {
+      "player": "Z",
+      "assignment_id": null,
+      "assignment_type": null,
+      "canonical_name": null,
+      "status": "MISSING",
+      "source_file": null
+    },
+    {
+      "player": "QB",
+      "assignment_id": null,
+      "assignment_type": null,
+      "canonical_name": null,
+      "status": "MISSING",
+      "source_file": null
+    },
+    {
+      "player": "B",
+      "assignment_id": null,
+      "assignment_type": null,
+      "canonical_name": null,
+      "status": "MISSING",
+      "source_file": null
+    }
+  ],
+  "assignment_bindings": [],
+  "card_completeness": "FORMATION_ONLY",
+  "outputs": {
+    "svg": {
+      "path": "output/v2_1_0_smoke/card.svg",
+      "sha256": "48394670f2448e1538a8b0d0edef20e9618eda0bfed28365f487b23f92663506"
+    },
+    "png": {
+      "path": "output/v2_1_0_smoke/card.png",
+      "sha256": "79c533a852d5e4e712d593f56fa911d0d69a30c07fe179cdc26cd5ad128ac9fd"
+    },
+    "pdf": {
+      "path": "output/v2_1_0_smoke/card.pdf",
+      "sha256": "331a49fb18c1e0b3ffd0be9fea3d7c1972e309172c5a6989a7df7cea23bdb79e"
+    },
+    "validation": {
+      "path": "output/v2_1_0_smoke/validation.json",
+      "sha256": "3a0f9b438482c8d4034843c0b59f2179c056f9a52f73e339a16e91dd93797f3e"
+    },
+    "database_resolution": {
+      "path": "output/v2_1_0_smoke/database_resolution.json",
+      "sha256": "08e9ac5f3a3d523e2d601fa33d464025614888cffa83c3f0aad9f47efe4837dd"
+    },
+    "assignment_plan": {
+      "path": "output/v2_1_0_smoke/assignment_plan.json",
+      "sha256": "bcc18b893986afe18a5fa5dfbc27092a6d349fa5829379182bd192061d554211"
+    },
+    "assignment_bindings": {
+      "path": "output/v2_1_0_smoke/assignment_bindings.json",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "play_card": {
+      "path": "output/v2_1_0_smoke/play_card.json",
+      "sha256": "f5be4feddc075e4741e912bb38925055a71b0684c81b06bb1647c22ddf4e7f92"
+    },
+    "drawing_scene": {
+      "path": "output/v2_1_0_smoke/drawing_scene.json",
+      "sha256": "5dda71b09dd6685336c9db1181e9adf247dea68859e48f4289704282ab1afd0c"
+    },
+    "drawing_scene_validation": {
+      "path": "output/v2_1_0_smoke/drawing_scene_validation.json",
+      "sha256": "fb621c14a1a9e0d02679c9df19df762efc814ba0d59400840a3180923ece170c"
+    },
+    "card_layout": {
+      "path": "output/v2_1_0_smoke/card_layout.json",
+      "sha256": "2fcb2d7d2abeea80b0ffc1d8f243a796e660d694cbdb196cbae0a92d45fa6008"
+    },
+    "card_layout_validation": {
+      "path": "output/v2_1_0_smoke/card_layout_validation.json",
+      "sha256": "5816ccbb5252e6a60d4307259cf36492a79882cf1eb34272798a1a62ce53f6e6"
+    },
+    "output_integrity": {
+      "path": "output/v2_1_0_smoke/output_integrity.json",
+      "sha256": "b58aa57d50e1fb43c26b8b7f50918e93ef66ae5a7a4b2bd1098a8fa2319b94b4"
+    }
+  },
+  "output_integrity": {
+    "valid": true,
+    "checked_outputs": [
+      "assignment_bindings",
+      "assignment_plan",
+      "card_layout",
+      "card_layout_validation",
+      "database_resolution",
+      "drawing_scene",
+      "drawing_scene_validation",
+      "pdf",
+      "play_card",
+      "png",
+      "svg",
+      "validation"
+    ],
+    "missing_outputs": [],
+    "missing_hashes": [],
+    "hash_mismatches": [],
+    "paths_outside_card_directory": []
+  }
+}

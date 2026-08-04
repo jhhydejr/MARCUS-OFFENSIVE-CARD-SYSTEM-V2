@@ -1,0 +1,23 @@
+{
+  "source_call": "LH (11) RT ON H ORBIT VS 4-2 STUD COV 4 READ",
+  "drawing_id": "DRW-LH-11-RT-ON-H-ORBIT-VS-4-2-STUD-COV4READ-001",
+  "renderer": "CANONICAL_COORDINATE_DRIVEN",
+  "coordinate_count": 11,
+  "outputs": {
+    "svg": {
+      "path": "output/v192_smoke/card.svg",
+      "sha256": "157555e9714977d60922bb63bd19c7d9a3d6a71d54f76fa7ad453e263311e0dd"
+    },
+    "png": {
+      "path": "output/v192_smoke/card.png",
+      "sha256": "79c533a852d5e4e712d593f56fa911d0d69a30c07fe179cdc26cd5ad128ac9fd"
+    },
+    "pdf": {
+      "path": "output/v192_smoke/card.pdf",
+      "sha256": "9a74ff61ea8a832f34ad102a708ecafa0d1a5a31f8ea3fa901059b77c0ee7d70"
+    },
+    "validation": {
+      "path": "output/v192_smoke/validation.json"
+    }
+  }
+}

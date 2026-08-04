@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" width="1700" height="950" viewBox="0 0 1700 950"><metadata><marcus-assignment-bindings /><marcus-drawing-scene drawing_id="DRW-LH-11-RT-ON-H-ORBIT-VS-4-2-STUD-COV4READ-001" normalized_call="LH (11) RT ON H ORBIT VS 4-2 STUD COV 4 READ" layers="field_template,defense,offense,assignments,labels_metadata" /></metadata><ns0:rect width="100%" height="100%" fill="white" />
+<ns0:rect x="250" y="14" width="1200" height="92" fill="white" stroke="black" stroke-width="3" /><ns0:text x="850" y="71" text-anchor="middle" font-family="Arial" font-size="32" font-weight="700">LH (11) RT ON H ORBIT VS 4-2 STUD COV 4 READ</ns0:text>
+<ns0:rect x="60" y="120" width="1580" height="720" fill="white" stroke="black" stroke-width="4" />
+<ns0:line x1="60" y1="120.0" x2="1640" y2="120.0" stroke="black" stroke-width="2" />
+<ns0:line x1="60" y1="240.0" x2="1640" y2="240.0" stroke="black" stroke-width="2" />
+<ns0:line x1="60" y1="360.0" x2="1640" y2="360.0" stroke="black" stroke-width="2" />
+<ns0:line x1="60" y1="480.0" x2="1640" y2="480.0" stroke="black" stroke-width="2" />
+<ns0:line x1="60" y1="600.0" x2="1640" y2="600.0" stroke="black" stroke-width="4" />
+<ns0:line x1="60" y1="720.0" x2="1640" y2="720.0" stroke="black" stroke-width="2" />
+<ns0:line x1="60" y1="840.0" x2="1640" y2="840.0" stroke="black" stroke-width="2" />
+<ns0:line x1="645.5003703127314" y1="120.0" x2="659.5003703127314" y2="120.0" stroke="black" stroke-width="1.2" />
+<ns0:line x1="1040.4996296872687" y1="120.0" x2="1054.4996296872687" y2="120.0" stroke="black" stroke-width="1.2" />
+<ns0:line x1="645.5003703127314" y1="144.0" x2="659.5003703127314" y2="144.0" stroke="black" stroke-width="1.2" />
+<ns0:line x1="1040.4996296872687" y1="144.0" x2="1054.4996296872687" y2="144.0" stroke="black" stroke-width="1.2" />
+<ns0:line x1="645.5003703127314" y1="168.0" x2="659.5003703127314" y2="168.0" stroke="black" stroke-width="1.2" />
+<ns0:line x1="1040.4996296872687" y1="168.0" x2="1054.4996296872687" y2="168.0" stroke="black" stroke-width="1.2" />
+<ns0:line x1="645.5003703127314" y1="192.0" x2="659.5003703127314" y2="192.0" stroke="black" stroke-width="1.2" />
+<ns0:line x1="1040.4996296872687" y1="192.0" x2="1054.4996296872687" y2="192.0" stroke="black" stroke-width="1.2" />
+<ns0:line x1="645.5003703127314" y1="216.0" x2="659.5003703127314" y2="216.0" stroke="black" stroke-width="1.2" />
+<ns0:line x1="1040.4996296872687" y1="216.0" x2="1054.4996296872687" y2="216.0" stroke="black" stroke-width="1.2" />
+<ns0:line x1="645.5003703127314" y1="240.0" x2="659.5003703127314" y2="240.0" stroke="black" stroke-width="1.2" />
+<ns0:line x1="1040.4996296872687" y1="240.0" x2="1054.4996296872687" y2="240.0" stroke="black" stroke-width="1.2" />
+<ns0:line x1="645.5003703127314" y1="264.0" x2="659.5003703127314" y2="264.0" stroke="black" stroke-width="1.2" />
+<ns0:line x1="1040.4996296872687" y1="264.0" x2="1054.4996296872687" y2="264.0" stroke="black" stroke-width="1.2" />
+<ns0:line x1="645.5003703127314" y1="288.0" x2="659.5003703127314" y2="288.0" stroke="black" stroke-width="1.2" />
+<ns0:line x1="1040.4996296872687" y1="288.0" x2="1054.4996296872687" y2="288.0" stroke="black" stroke-width="1.2" />
+<ns0:line x1="645.5003703127314" y1="312.0" x2="659.5003703127314" y2="312.0" stroke="black" stroke-width="1.2" />
+<ns0:line x1="1040.4996296872687" y1="312.0" x2="1054.4996296872687" y2="312.0" stroke="black" stroke-width="1.2" />
+<ns0:line x1="645.5003703127314" y1="336.0" x2="659.5003703127314" y2="336.0" stroke="black" stroke-width="1.2" />
+<ns0:line x1="1040.4996296872687" y1="336.0" x2="1054.4996296872687" y2="336.0" stroke="black" stroke-width="1.2" />
+<ns0:line x1="645.5003703127314" y1="360.0" x2="659.5003703127314" y2="360.0" stroke="black" stroke-width="1.2" />
+<ns0:line x1="1040.4996296872687" y1="360.0" x2="1054.4996296872687" y2="360.0" stroke="black" stroke-width="1.2" />
+<ns0:line x1="645.5003703127314" y1="384.0" x2="659.5003703127314" y2="384.0" stroke="black" stroke-width="1.2" />
+<ns0:line x1="1040.4996296872687" y1="384.0" x2="1054.4996296872687" y2="384.0" stroke="black" stroke-width="1.2" />
+<ns0:line x1="645.5003703127314" y1="408.0" x2="659.5003703127314" y2="408.0" stroke="black" stroke-width="1.2" />
+<ns0:line x1="1040.4996296872687" y1="408.0" x2="1054.4996296872687" y2="408.0" stroke="black" stroke-width="1.2" />
+<ns0:line x1="645.5003703127314" y1="432.0" x2="659.5003703127314" y2="432.0" stroke="black" stroke-width="1.2" />
+<ns0:line x1="1040.4996296872687" y1="432.0" x2="1054.4996296872687" y2="432.0" stroke="black" stroke-width="1.2" />
+<ns0:line x1="645.5003703127314" y1="456.0" x2="659.5003703127314" y2="456.0" stroke="black" stroke-width="1.2" />
+<ns0:line x1="1040.4996296872687" y1="456.0" x2="1054.4996296872687" y2="456.0" stroke="black" stroke-width="1.2" />
+<ns0:line x1="645.5003703127314" y1="480.0" x2="659.5003703127314" y2="480.0" stroke="black" stroke-width="1.2" />
+<ns0:line x1="1040.4996296872687" y1="480.0" x2="1054.4996296872687" y2="480.0" stroke="black" stroke-width="1.2" />
+<ns0:line x1="645.5003703127314" y1="504.0" x2="659.5003703127314" y2="504.0" stroke="black" stroke-width="1.2" />
+<ns0:line x1="1040.4996296872687" y1="504.0" x2="1054.4996296872687" y2="504.0" stroke="black" stroke-width="1.2" />
+<ns0:line x1="645.5003703127314" y1="528.0" x2="659.5003703127314" y2="528.0" stroke="black" stroke-width="1.2" />
+<ns0:line x1="1040.4996296872687" y1="528.0" x2="1054.4996296872687" y2="528.0" stroke="black" stroke-width="1.2" />
+<ns0:line x1="645.5003703127314" y1="552.0" x2="659.5003703127314" y2="552.0" stroke="black" stroke-width="1.2" />
+<ns0:line x1="1040.4996296872687" y1="552.0" x2="1054.4996296872687" y2="552.0" stroke="black" stroke-width="1.2" />
+<ns0:line x1="645.5003703127314" y1="576.0" x2="659.5003703127314" y2="576.0" stroke="black" stroke-width="1.2" />
+<ns0:line x1="1040.4996296872687" y1="576.0" x2="1054.4996296872687" y2="576.0" stroke="black" stroke-width="1.2" />
+<ns0:line x1="645.5003703127314" y1="600.0" x2="659.5003703127314" y2="600.0" stroke="black" stroke-width="1.2" />
+<ns0:line x1="1040.4996296872687" y1="600.0" x2="1054.4996296872687" y2="600.0" stroke="black" stroke-width="1.2" />
+<ns0:line x1="645.5003703127314" y1="624.0" x2="659.5003703127314" y2="624.0" stroke="black" stroke-width="1.2" />
+<ns0:line x1="1040.4996296872687" y1="624.0" x2="1054.4996296872687" y2="624.0" stroke="black" stroke-width="1.2" />
+<ns0:line x1="645.5003703127314" y1="648.0" x2="659.5003703127314" y2="648.0" stroke="black" stroke-width="1.2" />
+<ns0:line x1="1040.4996296872687" y1="648.0" x2="1054.4996296872687" y2="648.0" stroke="black" stroke-width="1.2" />
+<ns0:line x1="645.5003703127314" y1="672.0" x2="659.5003703127314" y2="672.0" stroke="black" stroke-width="1.2" />
+<ns0:line x1="1040.4996296872687" y1="672.0" x2="1054.4996296872687" y2="672.0" stroke="black" stroke-width="1.2" />
+<ns0:line x1="645.5003703127314" y1="696.0" x2="659.5003703127314" y2="696.0" stroke="black" stroke-width="1.2" />
+<ns0:line x1="1040.4996296872687" y1="696.0" x2="1054.4996296872687" y2="696.0" stroke="black" stroke-width="1.2" />
+<ns0:line x1="645.5003703127314" y1="720.0" x2="659.5003703127314" y2="720.0" stroke="black" stroke-width="1.2" />
+<ns0:line x1="1040.4996296872687" y1="720.0" x2="1054.4996296872687" y2="720.0" stroke="black" stroke-width="1.2" />
+<ns0:line x1="645.5003703127314" y1="744.0" x2="659.5003703127314" y2="744.0" stroke="black" stroke-width="1.2" />
+<ns0:line x1="1040.4996296872687" y1="744.0" x2="1054.4996296872687" y2="744.0" stroke="black" stroke-width="1.2" />
+<ns0:line x1="645.5003703127314" y1="768.0" x2="659.5003703127314" y2="768.0" stroke="black" stroke-width="1.2" />
+<ns0:line x1="1040.4996296872687" y1="768.0" x2="1054.4996296872687" y2="768.0" stroke="black" stroke-width="1.2" />
+<ns0:line x1="645.5003703127314" y1="792.0" x2="659.5003703127314" y2="792.0" stroke="black" stroke-width="1.2" />
+<ns0:line x1="1040.4996296872687" y1="792.0" x2="1054.4996296872687" y2="792.0" stroke="black" stroke-width="1.2" />
+<ns0:line x1="645.5003703127314" y1="816.0" x2="659.5003703127314" y2="816.0" stroke="black" stroke-width="1.2" />
+<ns0:line x1="1040.4996296872687" y1="816.0" x2="1054.4996296872687" y2="816.0" stroke="black" stroke-width="1.2" />
+<ns0:line x1="645.5003703127314" y1="840.0" x2="659.5003703127314" y2="840.0" stroke="black" stroke-width="1.2" />
+<ns0:line x1="1040.4996296872687" y1="840.0" x2="1054.4996296872687" y2="840.0" stroke="black" stroke-width="1.2" />
+<ns0:text x="222.93760183600114" y="240.0" transform="rotate(90 222.93760183600114 240.0)" text-anchor="middle" dominant-baseline="middle" font-family="Arial Black" font-size="72" fill="#808080">40</ns0:text>
+<ns0:text x="1477.062398163999" y="240.0" transform="rotate(-90 1477.062398163999 240.0)" text-anchor="middle" dominant-baseline="middle" font-family="Arial Black" font-size="72" fill="#808080">40</ns0:text>
+<ns0:text x="222.93760183600114" y="360.0" transform="rotate(90 222.93760183600114 360.0)" text-anchor="middle" dominant-baseline="middle" font-family="Arial Black" font-size="72" fill="#808080">45</ns0:text>
+<ns0:text x="1477.062398163999" y="360.0" transform="rotate(-90 1477.062398163999 360.0)" text-anchor="middle" dominant-baseline="middle" font-family="Arial Black" font-size="72" fill="#808080">45</ns0:text>
+<ns0:text x="222.93760183600114" y="480.0" transform="rotate(90 222.93760183600114 480.0)" text-anchor="middle" dominant-baseline="middle" font-family="Arial Black" font-size="72" fill="#808080">50</ns0:text>
+<ns0:text x="1477.062398163999" y="480.0" transform="rotate(-90 1477.062398163999 480.0)" text-anchor="middle" dominant-baseline="middle" font-family="Arial Black" font-size="72" fill="#808080">50</ns0:text>
+<ns0:text x="222.93760183600114" y="600.0" transform="rotate(90 222.93760183600114 600.0)" text-anchor="middle" dominant-baseline="middle" font-family="Arial Black" font-size="72" fill="#808080">45</ns0:text>
+<ns0:text x="1477.062398163999" y="600.0" transform="rotate(-90 1477.062398163999 600.0)" text-anchor="middle" dominant-baseline="middle" font-family="Arial Black" font-size="72" fill="#808080">45</ns0:text>
+<ns0:text x="222.93760183600114" y="720.0" transform="rotate(90 222.93760183600114 720.0)" text-anchor="middle" dominant-baseline="middle" font-family="Arial Black" font-size="72" fill="#808080">40</ns0:text>
+<ns0:text x="1477.062398163999" y="720.0" transform="rotate(-90 1477.062398163999 720.0)" text-anchor="middle" dominant-baseline="middle" font-family="Arial Black" font-size="72" fill="#808080">40</ns0:text>
+<ns0:circle cx="1477.062398" cy="629" r="19" fill="white" stroke="black" stroke-width="2.3" data-player="Z" />
+<ns0:text x="1477.062398" y="634" text-anchor="middle" font-family="Arial" font-size="18" font-weight="700" data-player="Z">Z</ns0:text>
+<ns0:circle cx="1048.875056" cy="617" r="19" fill="white" stroke="black" stroke-width="2.3" data-player="Y" />
+<ns0:text x="1048.875056" y="622" text-anchor="middle" font-family="Arial" font-size="18" font-weight="700" data-player="Y">Y</ns0:text>
+<ns0:circle cx="985.250037" cy="619" r="19" fill="white" stroke="black" stroke-width="2.3" data-player="LT" />
+<ns0:text x="985.250037" y="624" text-anchor="middle" font-family="Arial" font-size="15" font-weight="700" data-player="LT">LT</ns0:text>
+<ns0:circle cx="917.625019" cy="619" r="19" fill="white" stroke="black" stroke-width="2.3" data-player="LG" />
+<ns0:text x="917.625019" y="624" text-anchor="middle" font-family="Arial" font-size="15" font-weight="700" data-player="LG">LG</ns0:text>
+<ns0:circle cx="850" cy="619" r="19" fill="white" stroke="black" stroke-width="2.3" data-player="C" />
+<ns0:text x="850" y="624" text-anchor="middle" font-family="Arial" font-size="18" font-weight="700" data-player="C">C</ns0:text>
+<ns0:circle cx="782.374981" cy="619" r="19" fill="white" stroke="black" stroke-width="2.3" data-player="RG" />
+<ns0:text x="782.374981" y="624" text-anchor="middle" font-family="Arial" font-size="15" font-weight="700" data-player="RG">RG</ns0:text>
+<ns0:circle cx="714.749963" cy="619" r="19" fill="white" stroke="black" stroke-width="2.3" data-player="RT" />
+<ns0:text x="714.749963" y="624" text-anchor="middle" font-family="Arial" font-size="15" font-weight="700" data-player="RT">RT</ns0:text>
+<ns0:circle cx="468.843782" cy="629" r="19" fill="white" stroke="black" stroke-width="2.3" data-player="H" />
+<ns0:text x="468.843782" y="634" text-anchor="middle" font-family="Arial" font-size="18" font-weight="700" data-player="H">H</ns0:text>
+<ns0:circle cx="222.937602" cy="617" r="19" fill="white" stroke="black" stroke-width="2.3" data-player="X" />
+<ns0:text x="222.937602" y="622" text-anchor="middle" font-family="Arial" font-size="18" font-weight="700" data-player="X">X</ns0:text>
+<ns0:circle cx="850" cy="703" r="19" fill="white" stroke="black" stroke-width="2.3" data-player="QB" />
+<ns0:text x="850" y="708" text-anchor="middle" font-family="Arial" font-size="18" font-weight="700" data-player="QB">Q</ns0:text>
+<ns0:circle cx="758.931229" cy="727" r="19" fill="white" stroke="black" stroke-width="2.3" data-player="B" />
+<ns0:text x="758.931229" y="732" text-anchor="middle" font-family="Arial" font-size="18" font-weight="700" data-player="B">B</ns0:text>
+<ns0:defs><ns0:marker id="orbit-arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><ns0:path d="M0,0 L0,6 L9,3 z" fill="#000" /></ns0:marker></ns0:defs><ns0:path d="M 485.843782 629.000000 L 675 629 C 675 690 720 744 808 753 C 865 760 920 742 958 727" fill="none" stroke="#000" stroke-width="3" stroke-dasharray="10 8" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#orbit-arrow)" /><ns0:defs><ns0:marker id="def-arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><ns0:path d="M0,0 L0,6 L9,3 z" fill="#000000" /></ns0:marker></ns0:defs><ns0:text x="650" y="548" text-anchor="middle" font-family="Arial" font-size="26" font-weight="700" fill="#000000">E</ns0:text><ns0:text x="782" y="548" text-anchor="middle" font-family="Arial" font-size="26" font-weight="700" fill="#000000">N</ns0:text><ns0:text x="945" y="548" text-anchor="middle" font-family="Arial" font-size="26" font-weight="700" fill="#000000">T</ns0:text><ns0:text x="1083" y="548" text-anchor="middle" font-family="Arial" font-size="26" font-weight="700" fill="#000000">SE</ns0:text><ns0:text x="520" y="452" text-anchor="middle" font-family="Arial" font-size="26" font-weight="700" fill="#000000">W</ns0:text><ns0:text x="760" y="452" text-anchor="middle" font-family="Arial" font-size="26" font-weight="700" fill="#000000">M</ns0:text><ns0:text x="1018" y="452" text-anchor="middle" font-family="Arial" font-size="26" font-weight="700" fill="#000000">S</ns0:text><ns0:text x="548" y="305" text-anchor="middle" font-family="Arial" font-size="26" font-weight="700" fill="#000000">FS</ns0:text><ns0:text x="1072" y="305" text-anchor="middle" font-family="Arial" font-size="26" font-weight="700" fill="#000000">SS</ns0:text><ns0:text x="150" y="452" text-anchor="middle" font-family="Arial" font-size="26" font-weight="700" fill="#000000">C</ns0:text><ns0:text x="1545" y="452" text-anchor="middle" font-family="Arial" font-size="26" font-weight="700" fill="#000000">C</ns0:text><ns0:path d="M 1018 452 L 1085 585" fill="none" stroke="#000000" stroke-width="3" stroke-linecap="round" marker-end="url(#def-arrow)" /><ns0:path d="M 1018 452 L 1275 640" fill="none" stroke="#000000" stroke-width="2.5" stroke-linecap="round" marker-end="url(#def-arrow)" /><ns0:text x="1046.0" y="440.0" font-family="Arial" font-size="18" font-weight="700" fill="#000000">#2</ns0:text><ns0:path d="M 1072 305 L 1110 650" fill="none" stroke="#000000" stroke-width="2.5" stroke-linecap="round" marker-end="url(#def-arrow)" /><ns0:text x="1100.0" y="293.0" font-family="Arial" font-size="18" font-weight="700" fill="#000000">#3</ns0:text></ns0:svg>
