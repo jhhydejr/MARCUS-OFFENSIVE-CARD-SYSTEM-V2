@@ -50,6 +50,9 @@ def create_blocked_calls_report(
                 obj = str(blocker.get("object", "UNKNOWN"))
                 reason = str(blocker.get("reason", "BLOCKED"))
                 lines.append(f"   - {obj}: {reason}")
+                suggestion = blocker.get("suggested_calls")
+                if suggestion:
+                    lines.append(f"     Use: {suggestion}")
         else:
             lines.append("   - Card could not be generated.")
 
