@@ -1,0 +1,22 @@
+{
+  "valid": true,
+  "layout_id": "LAYOUT-PLAY-CARD-001",
+  "expected_sections": [
+    "title",
+    "diagram",
+    "notes",
+    "validation",
+    "metadata"
+  ],
+  "actual_sections": [
+    "title",
+    "diagram",
+    "notes",
+    "validation",
+    "metadata"
+  ],
+  "missing_sections": [],
+  "duplicate_sections": [],
+  "out_of_bounds_sections": [],
+  "overlapping_sections": []
+}

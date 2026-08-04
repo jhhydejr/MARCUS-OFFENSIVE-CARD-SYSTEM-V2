@@ -1,0 +1,54 @@
+[
+  {
+    "index": 1,
+    "call": "(11) DBLS RT",
+    "status": "RENDERED",
+    "manifest": {
+      "source_call": "(11) DBLS RT",
+      "drawing_id": "DRW-11-DBLS-RT-001",
+      "outputs": {
+        "svg": {
+          "path": "output/batch/01/card.svg",
+          "sha256": "522aaf361e689bbbfbca8857872b00c8341cdd475eed08b0edd441670211cd6e"
+        },
+        "png": {
+          "path": "output/batch/01/card.png",
+          "sha256": "89ece6a72844770bc32667022cd8b4131d2f3c735cdff778923326263e5b796c"
+        },
+        "pdf": {
+          "path": "output/batch/01/card.pdf",
+          "sha256": "fd438c0ac6fc3da39dd96e8532ce21230f12dc11523e8db88d51bf8d504bc529"
+        },
+        "validation": {
+          "path": "output/batch/01/validation.json"
+        }
+      }
+    }
+  },
+  {
+    "index": 2,
+    "call": "(11) DBLS LT",
+    "status": "RENDERED",
+    "manifest": {
+      "source_call": "(11) DBLS LT",
+      "drawing_id": "DRW-11-DBLS-LT-001",
+      "outputs": {
+        "svg": {
+          "path": "output/batch/02/card.svg",
+          "sha256": "72d157ec34739e7a3e7bb939b31952de1423c4cef0ed9408b720939ac016d551"
+        },
+        "png": {
+          "path": "output/batch/02/card.png",
+          "sha256": "48af3e822c87d0754ecb46c113758dc63335c335c4db3d1a589c779dc2eb7eba"
+        },
+        "pdf": {
+          "path": "output/batch/02/card.pdf",
+          "sha256": "761c1d5f687c65eb7173163b68f964403b46064cebd7ed2bdd4972ec71f0ad27"
+        },
+        "validation": {
+          "path": "output/batch/02/validation.json"
+        }
+      }
+    }
+  }
+]

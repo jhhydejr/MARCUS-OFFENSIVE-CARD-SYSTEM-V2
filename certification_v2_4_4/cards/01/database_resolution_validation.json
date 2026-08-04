@@ -1,0 +1,51 @@
+{
+  "valid": true,
+  "checked_source_count": 8,
+  "checked_sources": [
+    {
+      "category": "coverages",
+      "object_id": "COV-4-READ",
+      "source_file": "database/defense/COV-4-READ.json"
+    },
+    {
+      "category": "defensive_personnel",
+      "object_id": "DEF-PER-4-2",
+      "source_file": "database/defense/DEF-PER-4-2.json"
+    },
+    {
+      "category": "defensive_structures",
+      "object_id": "DEF-STRUCT-STUD",
+      "source_file": "database/defense/DEF-STRUCT-STUD.json"
+    },
+    {
+      "category": "field_locations",
+      "object_id": "LOC-LH",
+      "source_file": "database/offense/field_locations/LOC-LH.json"
+    },
+    {
+      "category": "formations",
+      "object_id": "FM-RT-001",
+      "source_file": "database/offense/FRM-11-RT-ON.json"
+    },
+    {
+      "category": "motions",
+      "object_id": "MOT-H-ORBIT",
+      "source_file": "database/offense/MOT-H-ORBIT.json"
+    },
+    {
+      "category": "personnel",
+      "object_id": "PER-11",
+      "source_file": "database/master/catalog.json"
+    },
+    {
+      "category": "variations",
+      "object_id": "VARIATION-ON-001",
+      "source_file": "database/offense/variations/VARIATION-ON-001.json"
+    }
+  ],
+  "missing_source_categories": [],
+  "missing_files": [],
+  "invalid_json_files": [],
+  "id_mismatches": [],
+  "paths_outside_project": []
+}

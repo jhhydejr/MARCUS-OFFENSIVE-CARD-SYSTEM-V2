@@ -1,0 +1,269 @@
+{
+  "source_call": "LH (11) RT ON H ORBIT VS 4-2 STUD COV 4 READ",
+  "normalized_call": "LH (11) RT ON H ORBIT VS 4-2 STUD COV 4 READ",
+  "field_location": "LH",
+  "personnel": "11",
+  "formation": "RT",
+  "variation": "ON",
+  "motion": "H ORBIT",
+  "defensive_personnel": "4-2",
+  "defensive_structure": "STUD",
+  "coverage": "COV 4 READ",
+  "resolved_ids": {
+    "field_locations": "LOC-LH",
+    "personnel": "PER-11",
+    "formations": "FM-RT-001",
+    "variations": "VARIATION-ON-001",
+    "motions": "MOT-H-ORBIT",
+    "defensive_personnel": "DEF-PER-4-2",
+    "defensive_structures": "DEF-STRUCT-STUD",
+    "coverages": "COV-4-READ"
+  },
+  "blockers": [],
+  "renderable": true,
+  "drawing_id": "DRW-LH-11-RT-ON-H-ORBIT-VS-4-2-STUD-COV4READ-001",
+  "unknown_offense_tokens": [],
+  "unknown_defense_tokens": [],
+  "coordinate_validation": {
+    "valid": true,
+    "player_count": 11,
+    "unique_player_count": 11,
+    "expected_players": [
+      "B",
+      "C",
+      "H",
+      "LG",
+      "LT",
+      "QB",
+      "RG",
+      "RT",
+      "X",
+      "Y",
+      "Z"
+    ],
+    "missing_players": [],
+    "unexpected_players": [],
+    "duplicate_positions": [],
+    "invalid_coordinates": [],
+    "invalid_radii": [],
+    "geometry_ids": [
+      "GEOM-DRW-11-RT-ON-H-ORBIT-001"
+    ],
+    "drawing_ids": [
+      "DRW-11-RT-ON-H-ORBIT-001"
+    ]
+  },
+  "assignment_validation": {
+    "valid": false,
+    "status": "NOT_READY",
+    "player_count": 11,
+    "assigned_player_count": 0,
+    "missing_players": [
+      "B",
+      "C",
+      "H",
+      "LG",
+      "LT",
+      "QB",
+      "RG",
+      "RT",
+      "X",
+      "Y",
+      "Z"
+    ],
+    "unexpected_players": [],
+    "invalid_assignment_ids": [],
+    "unknown_assignment_ids": [],
+    "ineligible_assignments": [],
+    "assignment_ids": {},
+    "blockers": [
+      {
+        "object": "offensive_assignments",
+        "reason": "NO_APPROVED_ASSIGNMENT_OBJECTS_FOR_CALL"
+      },
+      {
+        "object": "assignment:B",
+        "reason": "MISSING"
+      },
+      {
+        "object": "assignment:C",
+        "reason": "MISSING"
+      },
+      {
+        "object": "assignment:H",
+        "reason": "MISSING"
+      },
+      {
+        "object": "assignment:LG",
+        "reason": "MISSING"
+      },
+      {
+        "object": "assignment:LT",
+        "reason": "MISSING"
+      },
+      {
+        "object": "assignment:QB",
+        "reason": "MISSING"
+      },
+      {
+        "object": "assignment:RG",
+        "reason": "MISSING"
+      },
+      {
+        "object": "assignment:RT",
+        "reason": "MISSING"
+      },
+      {
+        "object": "assignment:X",
+        "reason": "MISSING"
+      },
+      {
+        "object": "assignment:Y",
+        "reason": "MISSING"
+      },
+      {
+        "object": "assignment:Z",
+        "reason": "MISSING"
+      }
+    ]
+  },
+  "assignment_plan": [
+    {
+      "player": "X",
+      "assignment_id": null,
+      "assignment_type": null,
+      "canonical_name": null,
+      "status": "MISSING",
+      "source_file": null
+    },
+    {
+      "player": "Y",
+      "assignment_id": null,
+      "assignment_type": null,
+      "canonical_name": null,
+      "status": "MISSING",
+      "source_file": null
+    },
+    {
+      "player": "RT",
+      "assignment_id": null,
+      "assignment_type": null,
+      "canonical_name": null,
+      "status": "MISSING",
+      "source_file": null
+    },
+    {
+      "player": "RG",
+      "assignment_id": null,
+      "assignment_type": null,
+      "canonical_name": null,
+      "status": "MISSING",
+      "source_file": null
+    },
+    {
+      "player": "C",
+      "assignment_id": null,
+      "assignment_type": null,
+      "canonical_name": null,
+      "status": "MISSING",
+      "source_file": null
+    },
+    {
+      "player": "LG",
+      "assignment_id": null,
+      "assignment_type": null,
+      "canonical_name": null,
+      "status": "MISSING",
+      "source_file": null
+    },
+    {
+      "player": "LT",
+      "assignment_id": null,
+      "assignment_type": null,
+      "canonical_name": null,
+      "status": "MISSING",
+      "source_file": null
+    },
+    {
+      "player": "H",
+      "assignment_id": null,
+      "assignment_type": null,
+      "canonical_name": null,
+      "status": "MISSING",
+      "source_file": null
+    },
+    {
+      "player": "Z",
+      "assignment_id": null,
+      "assignment_type": null,
+      "canonical_name": null,
+      "status": "MISSING",
+      "source_file": null
+    },
+    {
+      "player": "QB",
+      "assignment_id": null,
+      "assignment_type": null,
+      "canonical_name": null,
+      "status": "MISSING",
+      "source_file": null
+    },
+    {
+      "player": "B",
+      "assignment_id": null,
+      "assignment_type": null,
+      "canonical_name": null,
+      "status": "MISSING",
+      "source_file": null
+    }
+  ],
+  "assignment_bindings": [],
+  "drawing_scene_validation": {
+    "valid": true,
+    "expected_layer_order": [
+      "field_template",
+      "defense",
+      "offense",
+      "assignments",
+      "labels_metadata"
+    ],
+    "actual_layer_order": [
+      "field_template",
+      "defense",
+      "offense",
+      "assignments",
+      "labels_metadata"
+    ],
+    "duplicate_layers": [],
+    "invalid_layer_orders": [],
+    "invalid_object_counts": [],
+    "offensive_player_count": 11,
+    "unique_offensive_player_count": 11,
+    "missing_offensive_players": [],
+    "unexpected_offensive_players": [],
+    "assignment_binding_count": 0,
+    "invalid_assignment_binding_players": []
+  },
+  "card_layout_validation": {
+    "valid": true,
+    "layout_id": "LAYOUT-PLAY-CARD-001",
+    "expected_sections": [
+      "title",
+      "diagram",
+      "notes",
+      "validation",
+      "metadata"
+    ],
+    "actual_sections": [
+      "title",
+      "diagram",
+      "notes",
+      "validation",
+      "metadata"
+    ],
+    "missing_sections": [],
+    "duplicate_sections": [],
+    "out_of_bounds_sections": [],
+    "overlapping_sections": []
+  }
+}

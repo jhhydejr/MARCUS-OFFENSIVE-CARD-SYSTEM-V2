@@ -1,0 +1,26 @@
+{
+  "valid": true,
+  "expected_layer_order": [
+    "field_template",
+    "defense",
+    "offense",
+    "assignments",
+    "labels_metadata"
+  ],
+  "actual_layer_order": [
+    "field_template",
+    "defense",
+    "offense",
+    "assignments",
+    "labels_metadata"
+  ],
+  "duplicate_layers": [],
+  "invalid_layer_orders": [],
+  "invalid_object_counts": [],
+  "offensive_player_count": 11,
+  "unique_offensive_player_count": 11,
+  "missing_offensive_players": [],
+  "unexpected_offensive_players": [],
+  "assignment_binding_count": 0,
+  "invalid_assignment_binding_players": []
+}

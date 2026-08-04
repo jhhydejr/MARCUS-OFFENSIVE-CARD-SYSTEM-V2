@@ -1,0 +1,51 @@
+{
+  "schema": "marcus-cad.certification-report.v1",
+  "release": "2.3.0",
+  "status": "CERTIFIED",
+  "checks": [
+    {
+      "name": "database",
+      "status": "PASS",
+      "detail": "224 JSON files parsed"
+    },
+    {
+      "name": "database_health",
+      "status": "PASS",
+      "detail": "63 canonical objects; 45 explicit references; 31 staged/orphaned objects reported"
+    },
+    {
+      "name": "registry",
+      "status": "PASS",
+      "detail": "24 catalog records and 0 assignment objects loaded"
+    },
+    {
+      "name": "drawing_assets",
+      "status": "PASS",
+      "detail": "5/5 approved drawings reusable; 8 non-certified drawings remain incomplete"
+    },
+    {
+      "name": "catalog_resolution",
+      "status": "PASS",
+      "detail": "2 catalog calls parsed and resolved"
+    },
+    {
+      "name": "pipeline",
+      "status": "PASS",
+      "detail": "1 calls compiled"
+    },
+    {
+      "name": "exports",
+      "status": "PASS",
+      "detail": "SVG, PNG, and PDF exports verified"
+    },
+    {
+      "name": "output_integrity",
+      "status": "PASS",
+      "detail": "All generated output manifests verified"
+    }
+  ],
+  "tested_calls": [
+    "LH (11) RT ON H ORBIT VS 4-2 STUD COV 4 READ"
+  ],
+  "output_directory": "/mnt/data/work230/output/certification_v2_3_0"
+}

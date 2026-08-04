@@ -1,0 +1,126 @@
+{
+  "schema": "marcus.call_slots.v1",
+  "card_type": "SCOUT_CARD",
+  "offense": [
+    {
+      "number": 1,
+      "name": "personnel",
+      "required": true,
+      "present": true,
+      "value": "11",
+      "status": "PRESENT"
+    },
+    {
+      "number": 2,
+      "name": "formation",
+      "required": true,
+      "present": true,
+      "value": "RT",
+      "status": "PRESENT"
+    },
+    {
+      "number": 3,
+      "name": "variation",
+      "required": false,
+      "present": true,
+      "value": "ON",
+      "status": "PRESENT"
+    },
+    {
+      "number": 4,
+      "name": "motion",
+      "required": false,
+      "present": true,
+      "value": "H ORBIT",
+      "status": "PRESENT"
+    },
+    {
+      "number": 5,
+      "name": "shift",
+      "required": false,
+      "present": false,
+      "value": null,
+      "status": "OPTIONAL_OMITTED"
+    },
+    {
+      "number": 6,
+      "name": "protection",
+      "required": false,
+      "present": false,
+      "value": null,
+      "status": "OPTIONAL_OMITTED"
+    },
+    {
+      "number": 7,
+      "name": "play",
+      "required": false,
+      "present": false,
+      "value": null,
+      "status": "OPTIONAL_OMITTED"
+    },
+    {
+      "number": 8,
+      "name": "tag",
+      "required": false,
+      "present": false,
+      "value": null,
+      "status": "OPTIONAL_OMITTED"
+    }
+  ],
+  "defense_present": true,
+  "defense": [
+    {
+      "number": 1,
+      "name": "structure",
+      "required": true,
+      "present": true,
+      "value": "4-2",
+      "status": "PRESENT"
+    },
+    {
+      "number": 2,
+      "name": "front",
+      "required": false,
+      "present": true,
+      "value": "STUD",
+      "status": "PRESENT"
+    },
+    {
+      "number": 3,
+      "name": "game",
+      "required": false,
+      "present": false,
+      "value": null,
+      "status": "OPTIONAL_OMITTED"
+    },
+    {
+      "number": 4,
+      "name": "pressure",
+      "required": false,
+      "present": false,
+      "value": null,
+      "status": "OPTIONAL_OMITTED"
+    },
+    {
+      "number": 5,
+      "name": "blitz",
+      "required": false,
+      "present": false,
+      "value": null,
+      "status": "OPTIONAL_OMITTED"
+    },
+    {
+      "number": 6,
+      "name": "coverage",
+      "required": true,
+      "present": true,
+      "value": "COV 4 READ",
+      "status": "PRESENT"
+    }
+  ],
+  "missing_required_offense": [],
+  "missing_required_defense": [],
+  "offense_order_violations": [],
+  "defense_order_violations": [],
+  "valid": true
+}

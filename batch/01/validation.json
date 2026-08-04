@@ -1,0 +1,19 @@
+{
+  "source_call": "(11) DBLS RT",
+  "normalized_call": "(11) DBLS RT",
+  "field_location": null,
+  "personnel": "11",
+  "formation": "DBLS RT",
+  "modifier": null,
+  "motion": null,
+  "defensive_personnel": null,
+  "defensive_structure": null,
+  "coverage": null,
+  "resolved_ids": {
+    "personnel": "PER-11",
+    "formations": "FRM-11-DBLS-RT"
+  },
+  "blockers": [],
+  "renderable": true,
+  "drawing_id": "DRW-11-DBLS-RT-001"
+}
