@@ -1,0 +1,13 @@
+{
+  "layout_id": "LAYOUT-PLAY-CARD-001",
+  "status": "APPROVED",
+  "canvas_width": 1600,
+  "canvas_height": 900,
+  "sections": [
+    {"name": "title", "x": 0, "y": 0, "width": 1600, "height": 90, "required": true},
+    {"name": "diagram", "x": 0, "y": 90, "width": 1280, "height": 650, "required": true},
+    {"name": "notes", "x": 1280, "y": 90, "width": 320, "height": 390, "required": true},
+    {"name": "validation", "x": 1280, "y": 480, "width": 320, "height": 260, "required": true},
+    {"name": "metadata", "x": 0, "y": 740, "width": 1600, "height": 160, "required": true}
+  ]
+}
