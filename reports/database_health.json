@@ -1,0 +1,172 @@
+{
+  "schema": "marcus-cad.database-health.v1",
+  "valid": true,
+  "json_file_count": 77,
+  "canonical_object_count": 63,
+  "reference_count": 45,
+  "duplicate_definition_count": 0,
+  "broken_reference_count": 0,
+  "orphaned_object_count": 31,
+  "circular_reference_count": 0,
+  "parse_errors": [],
+  "duplicate_definitions": [],
+  "broken_references": [],
+  "orphaned_objects": [
+    {
+      "object_id": "FMF-DBLS-001",
+      "file": "database/offense/formation_families/FMF-DBLS-001.json",
+      "field": "object_id"
+    },
+    {
+      "object_id": "FMF-RT-001",
+      "file": "database/offense/formation_families/FMF-RT-001.json",
+      "field": "object_id"
+    },
+    {
+      "object_id": "FMF-TREY-001",
+      "file": "database/offense/formation_families/FMF-TREY-001.json",
+      "field": "object_id"
+    },
+    {
+      "object_id": "FMF-TRIPS-001",
+      "file": "database/offense/formation_families/FMF-TRIPS-001.json",
+      "field": "object_id"
+    },
+    {
+      "object_id": "GEOM-DRW-11-DBLS-LT-001",
+      "file": "database/offense/formation_geometry/GEOM-DRW-11-DBLS-LT-001.json",
+      "field": "object_id"
+    },
+    {
+      "object_id": "GEOM-DRW-11-DBLS-RT-001",
+      "file": "database/offense/formation_geometry/GEOM-DRW-11-DBLS-RT-001.json",
+      "field": "object_id"
+    },
+    {
+      "object_id": "GEOM-DRW-11-RT-ON-001",
+      "file": "database/offense/formation_geometry/GEOM-DRW-11-RT-ON-001.json",
+      "field": "object_id"
+    },
+    {
+      "object_id": "GEOM-DRW-11-RT-ON-H-ORBIT-001",
+      "file": "database/offense/formation_geometry/GEOM-DRW-11-RT-ON-H-ORBIT-001.json",
+      "field": "object_id"
+    },
+    {
+      "object_id": "GEOM-DRW-11-TRIPS-LT-RH-001",
+      "file": "database/offense/formation_geometry/GEOM-DRW-11-TRIPS-LT-RH-001.json",
+      "field": "object_id"
+    },
+    {
+      "object_id": "GEOM-DRW-11-TRIPS-RT-LH-001",
+      "file": "database/offense/formation_geometry/GEOM-DRW-11-TRIPS-RT-LH-001.json",
+      "field": "object_id"
+    },
+    {
+      "object_id": "GEOM-DRW-21-LT-001",
+      "file": "database/offense/formation_geometry/GEOM-DRW-21-LT-001.json",
+      "field": "object_id"
+    },
+    {
+      "object_id": "GEOM-DRW-21-RT-001",
+      "file": "database/offense/formation_geometry/GEOM-DRW-21-RT-001.json",
+      "field": "object_id"
+    },
+    {
+      "object_id": "GEOM-DRW-LH-11-TREY-LT-ON-001",
+      "file": "database/offense/formation_geometry/GEOM-DRW-LH-11-TREY-LT-ON-001.json",
+      "field": "object_id"
+    },
+    {
+      "object_id": "GEOM-DRW-M-12-LT-001",
+      "file": "database/offense/formation_geometry/GEOM-DRW-M-12-LT-001.json",
+      "field": "object_id"
+    },
+    {
+      "object_id": "GEOM-DRW-M-12-RT-001",
+      "file": "database/offense/formation_geometry/GEOM-DRW-M-12-RT-001.json",
+      "field": "object_id"
+    },
+    {
+      "object_id": "GEOM-DRW-RH-11-TREY-RT-ON-001",
+      "file": "database/offense/formation_geometry/GEOM-DRW-RH-11-TREY-RT-ON-001.json",
+      "field": "object_id"
+    },
+    {
+      "object_id": "PLAY-LH-11-RT-ON-H-ORBIT-VS-4-2-STUD-COV4READ",
+      "file": "database/master/PLAY-LH-11-RT-ON-H-ORBIT-VS-4-2-STUD-COV4READ.json",
+      "field": "object_id"
+    },
+    {
+      "object_id": "RENDER-RULE-MOTION-ORIGIN-001",
+      "file": "database/renderer/motion_line_origin_rule.json",
+      "field": "object_id"
+    },
+    {
+      "object_id": "STYLE-DEFENSE-LABEL-002",
+      "file": "database/renderer/defense_label_style.json",
+      "field": "object_id"
+    },
+    {
+      "object_id": "STYLE-TITLE-BOX-002",
+      "file": "database/renderer/title_box_style.json",
+      "field": "object_id"
+    },
+    {
+      "object_id": "VAR-11-DBLS-LT",
+      "file": "database/offense/formation_variants/VAR-11-DBLS-LT.json",
+      "field": "object_id"
+    },
+    {
+      "object_id": "VAR-11-DBLS-RT",
+      "file": "database/offense/formation_variants/VAR-11-DBLS-RT.json",
+      "field": "object_id"
+    },
+    {
+      "object_id": "VAR-11-RT-ON",
+      "file": "database/offense/formation_variants/VAR-11-RT-ON.json",
+      "field": "object_id"
+    },
+    {
+      "object_id": "VAR-11-TREY-LT-ON-LH",
+      "file": "database/offense/formation_variants/VAR-11-TREY-LT-ON-LH.json",
+      "field": "object_id"
+    },
+    {
+      "object_id": "VAR-11-TREY-RT-ON-RH",
+      "file": "database/offense/formation_variants/VAR-11-TREY-RT-ON-RH.json",
+      "field": "object_id"
+    },
+    {
+      "object_id": "VAR-11-TRIPS-LT-RH",
+      "file": "database/offense/formation_variants/VAR-11-TRIPS-LT-RH.json",
+      "field": "object_id"
+    },
+    {
+      "object_id": "VAR-11-TRIPS-RT-LH",
+      "file": "database/offense/formation_variants/VAR-11-TRIPS-RT-LH.json",
+      "field": "object_id"
+    },
+    {
+      "object_id": "VAR-12-LT-M",
+      "file": "database/offense/formation_variants/VAR-12-LT-M.json",
+      "field": "object_id"
+    },
+    {
+      "object_id": "VAR-12-RT-M",
+      "file": "database/offense/formation_variants/VAR-12-RT-M.json",
+      "field": "object_id"
+    },
+    {
+      "object_id": "VAR-21-LT",
+      "file": "database/offense/formation_variants/VAR-21-LT.json",
+      "field": "object_id"
+    },
+    {
+      "object_id": "VAR-21-RT",
+      "file": "database/offense/formation_variants/VAR-21-RT.json",
+      "field": "object_id"
+    }
+  ],
+  "circular_references": []
+}

@@ -1,0 +1,280 @@
+{
+  "schema": "marcus-cad.drawing-asset-inventory.v1",
+  "drawing_count": 13,
+  "approved_count": 5,
+  "reusable_count": 5,
+  "approved_reusable_count": 5,
+  "incomplete_count": 8,
+  "approved_incomplete_count": 0,
+  "entries": [
+    {
+      "drawing_id": "DRW-11-DBLS-LT-001",
+      "catalog_status": "CANONICAL",
+      "approved": true,
+      "reusable": true,
+      "asset_directory": "artifacts/drawings/DRW-11-DBLS-LT-001",
+      "reused_files": {
+        "coordinates": "artifacts/drawings/DRW-11-DBLS-LT-001/coordinates.json",
+        "metadata": "artifacts/drawings/DRW-11-DBLS-LT-001/metadata.json",
+        "png": "artifacts/drawings/DRW-11-DBLS-LT-001/preview.png",
+        "svg": "artifacts/drawings/DRW-11-DBLS-LT-001/drawing.svg"
+      },
+      "source_hashes": {
+        "coordinates": "0aa07ff4956fe82640a8452aaca06fb91f0658ac4e31c37a3e0265235e1667ed",
+        "metadata": "8a2bccc7ecefa6caec9b0a05bde33c62028eb275c014c1d58119775116a4abd1",
+        "png": "48af3e822c87d0754ecb46c113758dc63335c335c4db3d1a589c779dc2eb7eba",
+        "svg": "45366eb28f920eeb663981ba5ded4e64facb55e0ba5181e941acf27d3b9a6e50"
+      },
+      "missing_files": [],
+      "invalid_paths": []
+    },
+    {
+      "drawing_id": "DRW-11-DBLS-RT-001",
+      "catalog_status": "CANONICAL",
+      "approved": true,
+      "reusable": true,
+      "asset_directory": "artifacts/drawings/DRW-11-DBLS-RT-001",
+      "reused_files": {
+        "coordinates": "artifacts/drawings/DRW-11-DBLS-RT-001/coordinates.json",
+        "metadata": "artifacts/drawings/DRW-11-DBLS-RT-001/metadata.json",
+        "png": "artifacts/drawings/DRW-11-DBLS-RT-001/preview.png",
+        "svg": "artifacts/drawings/DRW-11-DBLS-RT-001/drawing.svg"
+      },
+      "source_hashes": {
+        "coordinates": "90f5f7b9504a163670417537f89a07d75105b50c082721a06dddf5b6dc1fe095",
+        "metadata": "9e6b451e360895c4022d41488163fa6ae2253c4d15060bc91e80d2741aac9be4",
+        "png": "89ece6a72844770bc32667022cd8b4131d2f3c735cdff778923326263e5b796c",
+        "svg": "c501f6fcfdff9bd54aa167ff3d13bccba916f448b371ee7fbe8e71388e18bef6"
+      },
+      "missing_files": [],
+      "invalid_paths": []
+    },
+    {
+      "drawing_id": "DRW-11-RT-ON-001",
+      "catalog_status": "DERIVED_FROM_APPROVED_MIRROR",
+      "approved": true,
+      "reusable": true,
+      "asset_directory": "artifacts/drawings/DRW-11-RT-ON-001",
+      "reused_files": {
+        "coordinates": "artifacts/drawings/DRW-11-RT-ON-001/coordinates.json",
+        "metadata": "artifacts/drawings/DRW-11-RT-ON-001/metadata.json",
+        "png": "artifacts/drawings/DRW-11-RT-ON-001/preview.png",
+        "svg": "artifacts/drawings/DRW-11-RT-ON-001/drawing.svg"
+      },
+      "source_hashes": {
+        "coordinates": "beb8994b877df75d9bcf687913e5821f1b946bdabbe0846121c6d0190f42caa6",
+        "metadata": "b0c8592c8f555be00364d1f7af85a74155547c1a2aef30c7b0af09533556e243",
+        "png": "3272fad5f6d5435e421d459b16a4f21adb2eef3565c5a648c16bac88cff8bef0",
+        "svg": "2b5db1ad94b2b9268a1aa42cbfe41637873e163a7efb0ad5cba59ca571914667"
+      },
+      "missing_files": [],
+      "invalid_paths": []
+    },
+    {
+      "drawing_id": "DRW-11-RT-ON-H-ORBIT-001",
+      "catalog_status": "SOURCE_TRACED_MOTION_COMPOSITE",
+      "approved": true,
+      "reusable": true,
+      "asset_directory": "artifacts/drawings/DRW-11-RT-ON-H-ORBIT-001",
+      "reused_files": {
+        "metadata": "artifacts/drawings/DRW-11-RT-ON-H-ORBIT-001/metadata.json",
+        "png": "artifacts/drawings/DRW-11-RT-ON-H-ORBIT-001/preview.png",
+        "svg": "artifacts/drawings/DRW-11-RT-ON-H-ORBIT-001/drawing.svg"
+      },
+      "source_hashes": {
+        "metadata": "99205ff19839a1ad79f61374643ba59387cee6d1550679c30f697a1e528ec952",
+        "png": "6fb4f6b6c553f7b63d43247ac2840ef175af4166008c90196b4536e2be4e6c33",
+        "svg": "fec48f34f0b640664ed00c3dd1b0dc1d94f150d12d3445587affe6e959b1d2ac"
+      },
+      "missing_files": [],
+      "invalid_paths": []
+    },
+    {
+      "drawing_id": "DRW-11-TRIPS-LT-RH-001",
+      "catalog_status": "DERIVED_FROM_SOURCE_BY_APPROVED_MIRROR",
+      "approved": false,
+      "reusable": false,
+      "asset_directory": "artifacts/drawings/DRW-11-TRIPS-LT-RH-001",
+      "reused_files": {
+        "coordinates": "artifacts/drawings/DRW-11-TRIPS-LT-RH-001/coordinates.json",
+        "metadata": "artifacts/drawings/DRW-11-TRIPS-LT-RH-001/metadata.json",
+        "svg": "artifacts/drawings/DRW-11-TRIPS-LT-RH-001/drawing.svg"
+      },
+      "source_hashes": {
+        "coordinates": "fc7db4c4eea3f30fb451ca4e2fd465b21f46c90cc2e7bd0cd415cf3ef99adbbc",
+        "metadata": "d5b370c6e5cc2258906a62b1c2f26120e0ece26b9a8d5c58eb8c0c0a67d17a25",
+        "svg": "05a7b65d0a7509fe8ed48cfccefbafab2e928c04205f4d6774c6d19b2ee45f44"
+      },
+      "missing_files": [
+        "png"
+      ],
+      "invalid_paths": []
+    },
+    {
+      "drawing_id": "DRW-11-TRIPS-RT-LH-001",
+      "catalog_status": "SOURCE_IMPORTED_NEEDS_COACH_APPROVAL",
+      "approved": false,
+      "reusable": false,
+      "asset_directory": "artifacts/drawings/DRW-11-TRIPS-RT-LH-001",
+      "reused_files": {
+        "coordinates": "artifacts/drawings/DRW-11-TRIPS-RT-LH-001/coordinates.json",
+        "metadata": "artifacts/drawings/DRW-11-TRIPS-RT-LH-001/metadata.json",
+        "svg": "artifacts/drawings/DRW-11-TRIPS-RT-LH-001/drawing.svg"
+      },
+      "source_hashes": {
+        "coordinates": "4095c97af7423af301a1c8d4b10853aa073a6c2ab64746206e2593fa6944ab4c",
+        "metadata": "5a89d78c984f46fac3aaf8912d45b9be7864fee33eb8c97e9a5e240b0fd3d95a",
+        "svg": "9127784804d2e8288a2138f9d9aab59beffc3fc8858bb41969eb38715585c8f0"
+      },
+      "missing_files": [
+        "png"
+      ],
+      "invalid_paths": []
+    },
+    {
+      "drawing_id": "DRW-21-LT-001",
+      "catalog_status": "DERIVED_FROM_SOURCE_BY_APPROVED_MIRROR",
+      "approved": false,
+      "reusable": false,
+      "asset_directory": "artifacts/drawings/DRW-21-LT-001",
+      "reused_files": {
+        "coordinates": "artifacts/drawings/DRW-21-LT-001/coordinates.json",
+        "metadata": "artifacts/drawings/DRW-21-LT-001/metadata.json",
+        "svg": "artifacts/drawings/DRW-21-LT-001/drawing.svg"
+      },
+      "source_hashes": {
+        "coordinates": "b180ec0758f44795ea2704f55f86717f167014f1a57a34342d9afdf2d8178bf8",
+        "metadata": "1bd9333c13888835dfc460ebf499c63b8d9660f71c3f1bdd3365162e3bbd4af5",
+        "svg": "11cb4f3586ad4b347b135b8c4558dc00c67c1cb0475fdf7a081d4a17a0c24c13"
+      },
+      "missing_files": [
+        "png"
+      ],
+      "invalid_paths": []
+    },
+    {
+      "drawing_id": "DRW-21-RT-001",
+      "catalog_status": "SOURCE_IMPORTED_NEEDS_COACH_APPROVAL",
+      "approved": false,
+      "reusable": false,
+      "asset_directory": "artifacts/drawings/DRW-21-RT-001",
+      "reused_files": {
+        "coordinates": "artifacts/drawings/DRW-21-RT-001/coordinates.json",
+        "metadata": "artifacts/drawings/DRW-21-RT-001/metadata.json",
+        "svg": "artifacts/drawings/DRW-21-RT-001/drawing.svg"
+      },
+      "source_hashes": {
+        "coordinates": "2f7b4ea982f659ddff7b2af504e91520fa7d2457887b97ab90a228e8d51e3112",
+        "metadata": "0e992783562832c2b9c410a5aaee3e72c8f1f38672c171037a321bbcba92b2e7",
+        "svg": "01c17b121bf634b2c9278b2793098b225d89bad105cf68043d956d4fc6f41dc4"
+      },
+      "missing_files": [
+        "png"
+      ],
+      "invalid_paths": []
+    },
+    {
+      "drawing_id": "DRW-LH-11-RT-ON-H-ORBIT-VS-4-2-STUD-COV4READ-001",
+      "catalog_status": "SOURCE_TRACED_COMPOSITE",
+      "approved": true,
+      "reusable": true,
+      "asset_directory": "artifacts/drawings/DRW-LH-11-RT-ON-H-ORBIT-VS-4-2-STUD-COV4READ-001",
+      "reused_files": {
+        "metadata": "artifacts/drawings/DRW-LH-11-RT-ON-H-ORBIT-VS-4-2-STUD-COV4READ-001/metadata.json",
+        "png": "artifacts/drawings/DRW-LH-11-RT-ON-H-ORBIT-VS-4-2-STUD-COV4READ-001/preview.png",
+        "svg": "artifacts/drawings/DRW-LH-11-RT-ON-H-ORBIT-VS-4-2-STUD-COV4READ-001/drawing.svg"
+      },
+      "source_hashes": {
+        "metadata": "05bc4731339c4fb9a5c3d0c5431ffb5638b63023c5dc1f5d68a57a44e2418a1b",
+        "png": "404eca208a799bb30e5f6e83fbe17d594acb0aeb82e02223475a7423f6848336",
+        "svg": "18dd9fe4138ba4fa534c8808dc0d2b8b2371dab587eeb76dcd484d51b05c5b56"
+      },
+      "missing_files": [],
+      "invalid_paths": []
+    },
+    {
+      "drawing_id": "DRW-LH-11-TREY-LT-ON-001",
+      "catalog_status": "SOURCE_IMPORTED_NEEDS_COACH_APPROVAL",
+      "approved": false,
+      "reusable": false,
+      "asset_directory": "artifacts/drawings/DRW-LH-11-TREY-LT-ON-001",
+      "reused_files": {
+        "coordinates": "artifacts/drawings/DRW-LH-11-TREY-LT-ON-001/coordinates.json",
+        "metadata": "artifacts/drawings/DRW-LH-11-TREY-LT-ON-001/metadata.json",
+        "svg": "artifacts/drawings/DRW-LH-11-TREY-LT-ON-001/drawing.svg"
+      },
+      "source_hashes": {
+        "coordinates": "41249730300c714071e45164e1c160beb9be918b7bc81df20f5632f297ddb964",
+        "metadata": "397b13333562e102a5362d3b7dc64eaff5f4754dcb55857422fc81513c17857d",
+        "svg": "448567f748fa021a96a320e729c8f77b177dfa9d99d424bf1f60a33c23b1e94d"
+      },
+      "missing_files": [
+        "png"
+      ],
+      "invalid_paths": []
+    },
+    {
+      "drawing_id": "DRW-M-12-LT-001",
+      "catalog_status": "SOURCE_IMPORTED_NEEDS_COACH_APPROVAL",
+      "approved": false,
+      "reusable": false,
+      "asset_directory": "artifacts/drawings/DRW-M-12-LT-001",
+      "reused_files": {
+        "coordinates": "artifacts/drawings/DRW-M-12-LT-001/coordinates.json",
+        "metadata": "artifacts/drawings/DRW-M-12-LT-001/metadata.json",
+        "svg": "artifacts/drawings/DRW-M-12-LT-001/drawing.svg"
+      },
+      "source_hashes": {
+        "coordinates": "6fe06ead649fc8d467d100d678cab66bc65cd84775c3072cb04964f7d3547e03",
+        "metadata": "22dc49c274d9dd17b8c624fe0c857955696ad38688e89284fb3c1748e7b216c5",
+        "svg": "ca94221cd4e251d57527eae890a78be76248561a4c978e3ebf3fb2a38cabe57a"
+      },
+      "missing_files": [
+        "png"
+      ],
+      "invalid_paths": []
+    },
+    {
+      "drawing_id": "DRW-M-12-RT-001",
+      "catalog_status": "DERIVED_FROM_SOURCE_BY_APPROVED_MIRROR",
+      "approved": false,
+      "reusable": false,
+      "asset_directory": "artifacts/drawings/DRW-M-12-RT-001",
+      "reused_files": {
+        "coordinates": "artifacts/drawings/DRW-M-12-RT-001/coordinates.json",
+        "metadata": "artifacts/drawings/DRW-M-12-RT-001/metadata.json",
+        "svg": "artifacts/drawings/DRW-M-12-RT-001/drawing.svg"
+      },
+      "source_hashes": {
+        "coordinates": "0a971e27c8341325630563c616a53cc8bad326e8e1664311dc4b509f444a6b1a",
+        "metadata": "ebb81fbed43ebcafacd68bfeac3830c4a2006567e32e5c5222e6ce73ee0cc890",
+        "svg": "841e2218640561ba26f26ab13c2b69f79ccceb9860e8c3c38bf6913b4cb9daeb"
+      },
+      "missing_files": [
+        "png"
+      ],
+      "invalid_paths": []
+    },
+    {
+      "drawing_id": "DRW-RH-11-TREY-RT-ON-001",
+      "catalog_status": "DERIVED_FROM_SOURCE_BY_APPROVED_MIRROR",
+      "approved": false,
+      "reusable": false,
+      "asset_directory": "artifacts/drawings/DRW-RH-11-TREY-RT-ON-001",
+      "reused_files": {
+        "coordinates": "artifacts/drawings/DRW-RH-11-TREY-RT-ON-001/coordinates.json",
+        "metadata": "artifacts/drawings/DRW-RH-11-TREY-RT-ON-001/metadata.json",
+        "svg": "artifacts/drawings/DRW-RH-11-TREY-RT-ON-001/drawing.svg"
+      },
+      "source_hashes": {
+        "coordinates": "248fa3ceb00e4d2bd39ab7202c851d9a4d6155b49d5c1dad413265aaa2ab934b",
+        "metadata": "dced78c8456554aaacba90c80adb7a74813f1fdd042738c1a9372a050a014b90",
+        "svg": "2b105edb3ce5edac6039518b3680b4d90f7626bf8248f6275d5c7aa7c67881fa"
+      },
+      "missing_files": [
+        "png"
+      ],
+      "invalid_paths": []
+    }
+  ]
+}

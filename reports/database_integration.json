@@ -1,0 +1,201 @@
+{
+  "valid": true,
+  "indexed_object_ids": 76,
+  "catalog_object_count": 24,
+  "database_file_links": 23,
+  "catalog_inline_links": 1,
+  "links": [
+    {
+      "category": "coverages",
+      "key": "COV 4 READ",
+      "object_id": "COV-4-READ",
+      "source_kind": "DATABASE_FILE",
+      "source_file": "database/defense/COV-4-READ.json",
+      "source_status": "SOURCE_TRACED"
+    },
+    {
+      "category": "defensive_personnel",
+      "key": "4-2",
+      "object_id": "DEF-PER-4-2",
+      "source_kind": "DATABASE_FILE",
+      "source_file": "database/defense/DEF-PER-4-2.json",
+      "source_status": "SOURCE_TRACED"
+    },
+    {
+      "category": "defensive_structures",
+      "key": "STUD",
+      "object_id": "DEF-STRUCT-STUD",
+      "source_kind": "DATABASE_FILE",
+      "source_file": "database/defense/DEF-STRUCT-STUD.json",
+      "source_status": "SOURCE_TRACED"
+    },
+    {
+      "category": "field_locations",
+      "key": "LH",
+      "object_id": "LOC-LH",
+      "source_kind": "DATABASE_FILE",
+      "source_file": "database/offense/field_locations/LOC-LH.json",
+      "source_status": "ACTIVE"
+    },
+    {
+      "category": "field_locations",
+      "key": "M",
+      "object_id": "LOC-M",
+      "source_kind": "DATABASE_FILE",
+      "source_file": "database/offense/field_locations/LOC-M.json",
+      "source_status": "ACTIVE"
+    },
+    {
+      "category": "field_locations",
+      "key": "RH",
+      "object_id": "LOC-RH",
+      "source_kind": "DATABASE_FILE",
+      "source_file": "database/offense/field_locations/LOC-RH.json",
+      "source_status": "ACTIVE"
+    },
+    {
+      "category": "formations",
+      "key": "DBLS LT",
+      "object_id": "FRM-11-DBLS-LT",
+      "source_kind": "DATABASE_FILE",
+      "source_file": "database/offense/FRM-11-DBLS-LT.json",
+      "source_status": null
+    },
+    {
+      "category": "formations",
+      "key": "DBLS RT",
+      "object_id": "FRM-11-DBLS-RT",
+      "source_kind": "DATABASE_FILE",
+      "source_file": "database/offense/FRM-11-DBLS-RT.json",
+      "source_status": null
+    },
+    {
+      "category": "formations",
+      "key": "RT",
+      "object_id": "FM-RT-001",
+      "source_kind": "DATABASE_FILE",
+      "source_file": "database/offense/FRM-11-RT-ON.json",
+      "source_status": "DERIVED_FROM_APPROVED_MIRROR"
+    },
+    {
+      "category": "motions",
+      "key": "H ORBIT",
+      "object_id": "MOT-H-ORBIT",
+      "source_kind": "DATABASE_FILE",
+      "source_file": "database/offense/MOT-H-ORBIT.json",
+      "source_status": "SOURCE_TRACED"
+    },
+    {
+      "category": "personnel",
+      "key": "11",
+      "object_id": "PER-11",
+      "source_kind": "CATALOG_INLINE",
+      "source_file": null,
+      "source_status": "RECOVERED"
+    },
+    {
+      "category": "variations",
+      "key": "DON",
+      "object_id": "VARIATION-DON-001",
+      "source_kind": "DATABASE_FILE",
+      "source_file": "database/offense/variations/VARIATION-DON-001.json",
+      "source_status": "SOURCE_VERIFIED_NEEDS_COACH_APPROVAL"
+    },
+    {
+      "category": "variations",
+      "key": "FLEX",
+      "object_id": "VARIATION-FLEX-001",
+      "source_kind": "DATABASE_FILE",
+      "source_file": "database/offense/variations/VARIATION-FLEX-001.json",
+      "source_status": "SOURCE_PATTERN_NEEDS_EXACT_GEOMETRY"
+    },
+    {
+      "category": "variations",
+      "key": "HAY",
+      "object_id": "VARIATION-HAY-001",
+      "source_kind": "DATABASE_FILE",
+      "source_file": "database/offense/variations/VARIATION-HAY-001.json",
+      "source_status": "SOURCE_VERIFIED_NEEDS_COACH_APPROVAL"
+    },
+    {
+      "category": "variations",
+      "key": "HAZE",
+      "object_id": "VARIATION-HAZE-001",
+      "source_kind": "DATABASE_FILE",
+      "source_file": "database/offense/variations/VARIATION-HAZE-001.json",
+      "source_status": "SOURCE_VERIFIED_NEEDS_COACH_APPROVAL"
+    },
+    {
+      "category": "variations",
+      "key": "HIDE",
+      "object_id": "VARIATION-HIDE-001",
+      "source_kind": "DATABASE_FILE",
+      "source_file": "database/offense/variations/VARIATION-HIDE-001.json",
+      "source_status": "SOURCE_PATTERN_NEEDS_EXACT_LANDMARK"
+    },
+    {
+      "category": "variations",
+      "key": "HO",
+      "object_id": "VARIATION-HO-001",
+      "source_kind": "DATABASE_FILE",
+      "source_file": "database/offense/variations/VARIATION-HO-001.json",
+      "source_status": "COACH_APPROVED"
+    },
+    {
+      "category": "variations",
+      "key": "HOAX",
+      "object_id": "VARIATION-HOAX-001",
+      "source_kind": "DATABASE_FILE",
+      "source_file": "database/offense/variations/VARIATION-HOAX-001.json",
+      "source_status": "SOURCE_VERIFIED_NEEDS_COACH_APPROVAL"
+    },
+    {
+      "category": "variations",
+      "key": "HUG",
+      "object_id": "VARIATION-HUG-001",
+      "source_kind": "DATABASE_FILE",
+      "source_file": "database/offense/variations/VARIATION-HUG-001.json",
+      "source_status": "SOURCE_VERIFIED_NEEDS_COACH_APPROVAL"
+    },
+    {
+      "category": "variations",
+      "key": "ON",
+      "object_id": "VARIATION-ON-001",
+      "source_kind": "DATABASE_FILE",
+      "source_file": "database/offense/variations/VARIATION-ON-001.json",
+      "source_status": "COACH_APPROVED"
+    },
+    {
+      "category": "variations",
+      "key": "OPEN",
+      "object_id": "VARIATION-OPEN-001",
+      "source_kind": "DATABASE_FILE",
+      "source_file": "database/offense/variations/VARIATION-OPEN-001.json",
+      "source_status": "SOURCE_VERIFIED_NEEDS_COACH_APPROVAL"
+    },
+    {
+      "category": "variations",
+      "key": "SNUG",
+      "object_id": "VARIATION-SNUG-001",
+      "source_kind": "DATABASE_FILE",
+      "source_file": "database/offense/variations/VARIATION-SNUG-001.json",
+      "source_status": "SOURCE_PATTERN_NEEDS_EXACT_GEOMETRY"
+    },
+    {
+      "category": "variations",
+      "key": "SQUEEZE",
+      "object_id": "VARIATION-SQUEEZE-001",
+      "source_kind": "DATABASE_FILE",
+      "source_file": "database/offense/variations/VARIATION-SQUEEZE-001.json",
+      "source_status": "SOURCE_PATTERN_NEEDS_EXACT_GEOMETRY"
+    },
+    {
+      "category": "variations",
+      "key": "WIDE",
+      "object_id": "VARIATION-WIDE-001",
+      "source_kind": "DATABASE_FILE",
+      "source_file": "database/offense/variations/VARIATION-WIDE-001.json",
+      "source_status": "SOURCE_VERIFIED_NEEDS_COACH_APPROVAL"
+    }
+  ]
+}

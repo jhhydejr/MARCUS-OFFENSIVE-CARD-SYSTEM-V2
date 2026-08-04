@@ -1,0 +1,3722 @@
+{
+  "audit_format": "marcus_repository_audit",
+  "audit_version": 1,
+  "duplicate_ids": {
+    "DRW-11-DBLS-LT-001": [
+      "artifacts/drawings/DRW-11-DBLS-LT-001/coordinates.json",
+      "artifacts/drawings/DRW-11-DBLS-LT-001/metadata.json",
+      "database/offense/FRM-11-DBLS-LT.json",
+      "database/offense/formation_geometry/GEOM-DRW-11-DBLS-LT-001.json",
+      "database/offense/formation_variants/VAR-11-DBLS-LT.json",
+      "output/batch/02/manifest.json",
+      "output/batch/02/validation.json"
+    ],
+    "DRW-11-DBLS-RT-001": [
+      "artifacts/drawings/DRW-11-DBLS-RT-001/coordinates.json",
+      "artifacts/drawings/DRW-11-DBLS-RT-001/metadata.json",
+      "database/offense/FRM-11-DBLS-RT.json",
+      "database/offense/formation_geometry/GEOM-DRW-11-DBLS-RT-001.json",
+      "database/offense/formation_variants/VAR-11-DBLS-RT.json",
+      "output/batch/01/manifest.json",
+      "output/batch/01/validation.json",
+      "output/dbls_rt/manifest.json",
+      "output/dbls_rt/validation.json"
+    ],
+    "DRW-11-RT-ON-001": [
+      "artifacts/drawings/DRW-11-RT-ON-001/coordinates.json",
+      "artifacts/drawings/DRW-11-RT-ON-001/metadata.json",
+      "database/offense/FRM-11-RT-ON.json",
+      "database/offense/formation_geometry/GEOM-DRW-11-RT-ON-001.json",
+      "database/offense/formation_variants/VAR-11-RT-ON.json",
+      "output/rt_on/manifest.json",
+      "output/rt_on/validation.json",
+      "output/target_report_v0_2.json"
+    ],
+    "DRW-11-RT-ON-H-ORBIT-001": [
+      "artifacts/drawings/DRW-11-RT-ON-H-ORBIT-001/metadata.json",
+      "database/offense/formation_geometry/GEOM-DRW-11-RT-ON-H-ORBIT-001.json",
+      "output/rt_on_h_orbit/manifest.json",
+      "output/rt_on_h_orbit/validation.json",
+      "output/target_report_v0_3.json",
+      "output/target_report_v0_4.json",
+      "output/target_report_v0_5.json"
+    ],
+    "DRW-11-TRIPS-LT-RH-001": [
+      "artifacts/drawings/DRW-11-TRIPS-LT-RH-001/coordinates.json",
+      "artifacts/drawings/DRW-11-TRIPS-LT-RH-001/metadata.json",
+      "database/offense/formation_geometry/GEOM-DRW-11-TRIPS-LT-RH-001.json",
+      "database/offense/formation_variants/VAR-11-TRIPS-LT-RH.json",
+      "database/offense/formations/FRM-11-TRIPS-LT-RH.json"
+    ],
+    "DRW-11-TRIPS-RT-LH-001": [
+      "artifacts/drawings/DRW-11-TRIPS-RT-LH-001/coordinates.json",
+      "artifacts/drawings/DRW-11-TRIPS-RT-LH-001/metadata.json",
+      "database/offense/formation_geometry/GEOM-DRW-11-TRIPS-RT-LH-001.json",
+      "database/offense/formation_variants/VAR-11-TRIPS-RT-LH.json",
+      "database/offense/formations/FRM-11-TRIPS-RT-LH.json"
+    ],
+    "DRW-21-LT-001": [
+      "artifacts/drawings/DRW-21-LT-001/coordinates.json",
+      "artifacts/drawings/DRW-21-LT-001/metadata.json",
+      "database/offense/formation_geometry/GEOM-DRW-21-LT-001.json",
+      "database/offense/formation_variants/VAR-21-LT.json",
+      "database/offense/formations/FRM-21-LT.json"
+    ],
+    "DRW-21-RT-001": [
+      "artifacts/drawings/DRW-21-RT-001/coordinates.json",
+      "artifacts/drawings/DRW-21-RT-001/metadata.json",
+      "database/offense/formation_geometry/GEOM-DRW-21-RT-001.json",
+      "database/offense/formation_variants/VAR-21-RT.json",
+      "database/offense/formations/FRM-21-RT.json"
+    ],
+    "DRW-LH-11-RT-ON-H-ORBIT-VS-4-2-STUD-COV4READ-001": [
+      "artifacts/drawings/DRW-LH-11-RT-ON-H-ORBIT-VS-4-2-STUD-COV4READ-001/metadata.json",
+      "database/master/PLAY-LH-11-RT-ON-H-ORBIT-VS-4-2-STUD-COV4READ.json",
+      "output/certification_v2_0_6/cards/01/drawing_scene.json",
+      "output/certification_v2_0_6/cards/01/manifest.json",
+      "output/certification_v2_0_6/cards/01/play_card.json",
+      "output/certification_v2_0_6/cards/01/validation.json",
+      "output/certification_v2_2_0/cards/01/asset_reuse.json",
+      "output/certification_v2_2_0/cards/01/drawing_scene.json",
+      "output/certification_v2_2_0/cards/01/manifest.json",
+      "output/certification_v2_2_0/cards/01/play_card.json",
+      "output/certification_v2_2_0/cards/01/validation.json",
+      "output/certification_v2_3_0/cards/01/asset_reuse.json",
+      "output/certification_v2_3_0/cards/01/drawing_scene.json",
+      "output/certification_v2_3_0/cards/01/manifest.json",
+      "output/certification_v2_3_0/cards/01/play_card.json",
+      "output/certification_v2_3_0/cards/01/validation.json",
+      "output/certification_v2_4_4/cards/01/asset_reuse.json",
+      "output/certification_v2_4_4/cards/01/drawing_scene.json",
+      "output/certification_v2_4_4/cards/01/manifest.json",
+      "output/certification_v2_4_4/cards/01/play_card.json",
+      "output/certification_v2_4_4/cards/01/validation.json",
+      "output/compile_report.json",
+      "output/target_call/manifest.json",
+      "output/target_call/validation.json",
+      "output/target_report_v0_6.json",
+      "output/v192_smoke/manifest.json",
+      "output/v192_smoke/validation.json",
+      "output/v193_smoke/manifest.json",
+      "output/v193_smoke/validation.json",
+      "output/v194_smoke/manifest.json",
+      "output/v194_smoke/validation.json",
+      "output/v194_strict/validation.json",
+      "output/v197_smoke/manifest.json",
+      "output/v197_smoke/validation.json",
+      "output/v2_0_2_smoke/drawing_scene.json",
+      "output/v2_0_2_smoke/manifest.json",
+      "output/v2_0_2_smoke/play_card.json",
+      "output/v2_0_2_smoke/validation.json",
+      "output/v2_1_0_smoke/drawing_scene.json",
+      "output/v2_1_0_smoke/manifest.json",
+      "output/v2_1_0_smoke/play_card.json",
+      "output/v2_1_0_smoke/validation.json",
+      "output/v2_2_0_smoke/asset_reuse.json",
+      "output/v2_2_0_smoke/drawing_scene.json",
+      "output/v2_2_0_smoke/manifest.json",
+      "output/v2_2_0_smoke/play_card.json",
+      "output/v2_2_0_smoke/validation.json",
+      "output/v2_smoke/drawing_scene.json",
+      "output/v2_smoke/manifest.json",
+      "output/v2_smoke/play_card.json",
+      "output/v2_smoke/validation.json",
+      "reports/certification_v2_2_1/cards/01/asset_reuse.json",
+      "reports/certification_v2_2_1/cards/01/drawing_scene.json",
+      "reports/certification_v2_2_1/cards/01/manifest.json",
+      "reports/certification_v2_2_1/cards/01/play_card.json",
+      "reports/certification_v2_2_1/cards/01/validation.json"
+    ],
+    "DRW-LH-11-TREY-LT-ON-001": [
+      "artifacts/drawings/DRW-LH-11-TREY-LT-ON-001/coordinates.json",
+      "artifacts/drawings/DRW-LH-11-TREY-LT-ON-001/metadata.json",
+      "database/offense/formation_geometry/GEOM-DRW-LH-11-TREY-LT-ON-001.json",
+      "database/offense/formation_variants/VAR-11-TREY-LT-ON-LH.json",
+      "database/offense/formations/FRM-11-TREY-LT-ON-LH.json"
+    ],
+    "DRW-M-12-LT-001": [
+      "artifacts/drawings/DRW-M-12-LT-001/coordinates.json",
+      "artifacts/drawings/DRW-M-12-LT-001/metadata.json",
+      "database/offense/formation_geometry/GEOM-DRW-M-12-LT-001.json",
+      "database/offense/formation_variants/VAR-12-LT-M.json",
+      "database/offense/formations/FRM-12-LT-M.json"
+    ],
+    "DRW-M-12-RT-001": [
+      "artifacts/drawings/DRW-M-12-RT-001/coordinates.json",
+      "artifacts/drawings/DRW-M-12-RT-001/metadata.json",
+      "database/offense/formation_geometry/GEOM-DRW-M-12-RT-001.json",
+      "database/offense/formation_variants/VAR-12-RT-M.json",
+      "database/offense/formations/FRM-12-RT-M.json"
+    ],
+    "DRW-RH-11-TREY-RT-ON-001": [
+      "artifacts/drawings/DRW-RH-11-TREY-RT-ON-001/coordinates.json",
+      "artifacts/drawings/DRW-RH-11-TREY-RT-ON-001/metadata.json",
+      "database/offense/formation_geometry/GEOM-DRW-RH-11-TREY-RT-ON-001.json",
+      "database/offense/formation_variants/VAR-11-TREY-RT-ON-RH.json",
+      "database/offense/formations/FRM-11-TREY-RT-ON-RH.json"
+    ],
+    "FRM-11-DBLS-LT": [
+      "artifacts/drawings/DRW-11-DBLS-LT-001/metadata.json",
+      "database/offense/CONST-11-DBLS-LT-001.json",
+      "database/offense/COORD-11-DBLS-LT-001.json",
+      "database/offense/FRM-11-DBLS-LT.json"
+    ],
+    "FRM-11-DBLS-RT": [
+      "database/offense/CONST-11-DBLS-RT-001.json",
+      "database/offense/COORD-11-DBLS-RT-001.json",
+      "database/offense/FRM-11-DBLS-RT.json"
+    ],
+    "LOC-LH": [
+      "database/offense/field_locations/LOC-LH.json",
+      "database/offense/formation_variants/VAR-11-TREY-LT-ON-LH.json",
+      "database/offense/formation_variants/VAR-11-TRIPS-RT-LH.json"
+    ],
+    "LOC-M": [
+      "database/offense/field_locations/LOC-M.json",
+      "database/offense/formation_variants/VAR-12-LT-M.json",
+      "database/offense/formation_variants/VAR-12-RT-M.json"
+    ],
+    "LOC-RH": [
+      "database/offense/field_locations/LOC-RH.json",
+      "database/offense/formation_variants/VAR-11-TREY-RT-ON-RH.json",
+      "database/offense/formation_variants/VAR-11-TRIPS-LT-RH.json"
+    ],
+    "MOT-H-ORBIT": [
+      "artifacts/drawings/DRW-11-RT-ON-H-ORBIT-001/metadata.json",
+      "database/offense/MOT-H-ORBIT.json"
+    ]
+  },
+  "extension_counts": {
+    ".json": 260,
+    ".md": 1,
+    ".pdf": 20,
+    ".png": 42,
+    ".py": 41,
+    ".svg": 39,
+    ".toml": 1,
+    ".txt": 2
+  },
+  "json_files": [
+    {
+      "object_ids": [],
+      "parse_error": null,
+      "path": "BUILD_LOG.json",
+      "sha256": "67e61fcad119cc180655e79ca70741526a45b91cde2d3e796feb145130d2a428",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [],
+      "parse_error": null,
+      "path": "PROJECT_MANIFEST.json",
+      "sha256": "1079a8497d316c7c79118169a9850c18b96933d8b2a8c9afe49c51c9f2b1a9ea",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "DRW-11-DBLS-LT-001"
+      ],
+      "parse_error": null,
+      "path": "artifacts/drawings/DRW-11-DBLS-LT-001/coordinates.json",
+      "sha256": "0aa07ff4956fe82640a8452aaca06fb91f0658ac4e31c37a3e0265235e1667ed",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "DRW-11-DBLS-LT-001",
+        "FRM-11-DBLS-LT"
+      ],
+      "parse_error": null,
+      "path": "artifacts/drawings/DRW-11-DBLS-LT-001/metadata.json",
+      "sha256": "8a2bccc7ecefa6caec9b0a05bde33c62028eb275c014c1d58119775116a4abd1",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "DRW-11-DBLS-RT-001"
+      ],
+      "parse_error": null,
+      "path": "artifacts/drawings/DRW-11-DBLS-RT-001/coordinates.json",
+      "sha256": "90f5f7b9504a163670417537f89a07d75105b50c082721a06dddf5b6dc1fe095",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "DRW-11-DBLS-RT-001"
+      ],
+      "parse_error": null,
+      "path": "artifacts/drawings/DRW-11-DBLS-RT-001/metadata.json",
+      "sha256": "9e6b451e360895c4022d41488163fa6ae2253c4d15060bc91e80d2741aac9be4",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "DRW-11-RT-ON-001"
+      ],
+      "parse_error": null,
+      "path": "artifacts/drawings/DRW-11-RT-ON-001/coordinates.json",
+      "sha256": "beb8994b877df75d9bcf687913e5821f1b946bdabbe0846121c6d0190f42caa6",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "DRW-11-RT-ON-001"
+      ],
+      "parse_error": null,
+      "path": "artifacts/drawings/DRW-11-RT-ON-001/metadata.json",
+      "sha256": "b0c8592c8f555be00364d1f7af85a74155547c1a2aef30c7b0af09533556e243",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "DRW-11-RT-ON-H-ORBIT-001",
+        "MOT-H-ORBIT"
+      ],
+      "parse_error": null,
+      "path": "artifacts/drawings/DRW-11-RT-ON-H-ORBIT-001/metadata.json",
+      "sha256": "99205ff19839a1ad79f61374643ba59387cee6d1550679c30f697a1e528ec952",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "DRW-11-TRIPS-LT-RH-001"
+      ],
+      "parse_error": null,
+      "path": "artifacts/drawings/DRW-11-TRIPS-LT-RH-001/coordinates.json",
+      "sha256": "fc7db4c4eea3f30fb451ca4e2fd465b21f46c90cc2e7bd0cd415cf3ef99adbbc",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "DRW-11-TRIPS-LT-RH-001"
+      ],
+      "parse_error": null,
+      "path": "artifacts/drawings/DRW-11-TRIPS-LT-RH-001/metadata.json",
+      "sha256": "d5b370c6e5cc2258906a62b1c2f26120e0ece26b9a8d5c58eb8c0c0a67d17a25",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "DRW-11-TRIPS-RT-LH-001"
+      ],
+      "parse_error": null,
+      "path": "artifacts/drawings/DRW-11-TRIPS-RT-LH-001/coordinates.json",
+      "sha256": "4095c97af7423af301a1c8d4b10853aa073a6c2ab64746206e2593fa6944ab4c",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "DRW-11-TRIPS-RT-LH-001"
+      ],
+      "parse_error": null,
+      "path": "artifacts/drawings/DRW-11-TRIPS-RT-LH-001/metadata.json",
+      "sha256": "5a89d78c984f46fac3aaf8912d45b9be7864fee33eb8c97e9a5e240b0fd3d95a",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "DRW-21-LT-001"
+      ],
+      "parse_error": null,
+      "path": "artifacts/drawings/DRW-21-LT-001/coordinates.json",
+      "sha256": "b180ec0758f44795ea2704f55f86717f167014f1a57a34342d9afdf2d8178bf8",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "DRW-21-LT-001"
+      ],
+      "parse_error": null,
+      "path": "artifacts/drawings/DRW-21-LT-001/metadata.json",
+      "sha256": "1bd9333c13888835dfc460ebf499c63b8d9660f71c3f1bdd3365162e3bbd4af5",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "DRW-21-RT-001"
+      ],
+      "parse_error": null,
+      "path": "artifacts/drawings/DRW-21-RT-001/coordinates.json",
+      "sha256": "2f7b4ea982f659ddff7b2af504e91520fa7d2457887b97ab90a228e8d51e3112",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "DRW-21-RT-001"
+      ],
+      "parse_error": null,
+      "path": "artifacts/drawings/DRW-21-RT-001/metadata.json",
+      "sha256": "0e992783562832c2b9c410a5aaee3e72c8f1f38672c171037a321bbcba92b2e7",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "DRW-LH-11-RT-ON-H-ORBIT-VS-4-2-STUD-COV4READ-001"
+      ],
+      "parse_error": null,
+      "path": "artifacts/drawings/DRW-LH-11-RT-ON-H-ORBIT-VS-4-2-STUD-COV4READ-001/metadata.json",
+      "sha256": "05bc4731339c4fb9a5c3d0c5431ffb5638b63023c5dc1f5d68a57a44e2418a1b",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "DRW-LH-11-TREY-LT-ON-001"
+      ],
+      "parse_error": null,
+      "path": "artifacts/drawings/DRW-LH-11-TREY-LT-ON-001/coordinates.json",
+      "sha256": "41249730300c714071e45164e1c160beb9be918b7bc81df20f5632f297ddb964",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "DRW-LH-11-TREY-LT-ON-001"
+      ],
+      "parse_error": null,
+      "path": "artifacts/drawings/DRW-LH-11-TREY-LT-ON-001/metadata.json",
+      "sha256": "397b13333562e102a5362d3b7dc64eaff5f4754dcb55857422fc81513c17857d",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "DRW-M-12-LT-001"
+      ],
+      "parse_error": null,
+      "path": "artifacts/drawings/DRW-M-12-LT-001/coordinates.json",
+      "sha256": "6fe06ead649fc8d467d100d678cab66bc65cd84775c3072cb04964f7d3547e03",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "DRW-M-12-LT-001"
+      ],
+      "parse_error": null,
+      "path": "artifacts/drawings/DRW-M-12-LT-001/metadata.json",
+      "sha256": "22dc49c274d9dd17b8c624fe0c857955696ad38688e89284fb3c1748e7b216c5",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "DRW-M-12-RT-001"
+      ],
+      "parse_error": null,
+      "path": "artifacts/drawings/DRW-M-12-RT-001/coordinates.json",
+      "sha256": "0a971e27c8341325630563c616a53cc8bad326e8e1664311dc4b509f444a6b1a",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "DRW-M-12-RT-001"
+      ],
+      "parse_error": null,
+      "path": "artifacts/drawings/DRW-M-12-RT-001/metadata.json",
+      "sha256": "ebb81fbed43ebcafacd68bfeac3830c4a2006567e32e5c5222e6ce73ee0cc890",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "DRW-RH-11-TREY-RT-ON-001"
+      ],
+      "parse_error": null,
+      "path": "artifacts/drawings/DRW-RH-11-TREY-RT-ON-001/coordinates.json",
+      "sha256": "248fa3ceb00e4d2bd39ab7202c851d9a4d6155b49d5c1dad413265aaa2ab934b",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "DRW-RH-11-TREY-RT-ON-001"
+      ],
+      "parse_error": null,
+      "path": "artifacts/drawings/DRW-RH-11-TREY-RT-ON-001/metadata.json",
+      "sha256": "dced78c8456554aaacba90c80adb7a74813f1fdd042738c1a9372a050a014b90",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "COV-4-READ"
+      ],
+      "parse_error": null,
+      "path": "database/defense/COV-4-READ.json",
+      "sha256": "c870f563f2b5cee4c25eacfb68e0bd59634efbce0e21ed84fd15e012d24f8579",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "DEF-PER-4-2"
+      ],
+      "parse_error": null,
+      "path": "database/defense/DEF-PER-4-2.json",
+      "sha256": "1c84633ba23d563ccd0d6944da5b30820247b0ce4740326db14e406e0fa50cc1",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "DEF-STRUCT-STUD"
+      ],
+      "parse_error": null,
+      "path": "database/defense/DEF-STRUCT-STUD.json",
+      "sha256": "2341f7490c0278482932f232db43284b3cda50510428d86217141ddfa5b45c6d",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "DRW-LH-11-RT-ON-H-ORBIT-VS-4-2-STUD-COV4READ-001",
+        "PLAY-LH-11-RT-ON-H-ORBIT-VS-4-2-STUD-COV4READ"
+      ],
+      "parse_error": null,
+      "path": "database/master/PLAY-LH-11-RT-ON-H-ORBIT-VS-4-2-STUD-COV4READ.json",
+      "sha256": "ad537e24e9ba9cd077c250d2637fc4156a43e03a82c57c7f2ed16118ba44713d",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [],
+      "parse_error": null,
+      "path": "database/master/call_grammar.json",
+      "sha256": "e4377b218935c298225628495f7b9c394ff028de5d94ef7a60e75d7d0c8f00ec",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [],
+      "parse_error": null,
+      "path": "database/master/catalog.json",
+      "sha256": "0548c39e947db19e612182aadb537bb2b6d99c8adfc4973c4a1ce11483f21612",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "FRM-11-DBLS-LT"
+      ],
+      "parse_error": null,
+      "path": "database/offense/CONST-11-DBLS-LT-001.json",
+      "sha256": "65148d491e03c9cab317e4d53330a2280c8b8084dc03df55a90129f5b3268a67",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "FRM-11-DBLS-RT"
+      ],
+      "parse_error": null,
+      "path": "database/offense/CONST-11-DBLS-RT-001.json",
+      "sha256": "aa23d79deb15e9ba127fb7fbe11cc65512581852b9a7a181ef0a40aa1c01d71f",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "FRM-11-DBLS-LT"
+      ],
+      "parse_error": null,
+      "path": "database/offense/COORD-11-DBLS-LT-001.json",
+      "sha256": "3091471c0dffca2ec1fc0a7647d7e1ff21f777352b1ec4a42edc01d55ea59b87",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "FRM-11-DBLS-RT"
+      ],
+      "parse_error": null,
+      "path": "database/offense/COORD-11-DBLS-RT-001.json",
+      "sha256": "0cc37340f0db92d1d2cfc2194ac94960046d82ab2e1b812af8ac9fa4f8cfe246",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "DRW-11-DBLS-LT-001",
+        "FRM-11-DBLS-LT"
+      ],
+      "parse_error": null,
+      "path": "database/offense/FRM-11-DBLS-LT.json",
+      "sha256": "598a28faebfcb99906df6f5e5961a3866022ca2a0265fabdd6fefcc36b05dc28",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "DRW-11-DBLS-RT-001",
+        "FRM-11-DBLS-RT"
+      ],
+      "parse_error": null,
+      "path": "database/offense/FRM-11-DBLS-RT.json",
+      "sha256": "d575fc9fd8ceeb0fd395195289d1ba124189f4694d8257a6a3eed52d62877246",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "DRW-11-RT-ON-001",
+        "FM-RT-001",
+        "FRM-11-RT-ON"
+      ],
+      "parse_error": null,
+      "path": "database/offense/FRM-11-RT-ON.json",
+      "sha256": "cdc9eaa98177ea00ccdbae6858083c90d1237dc42423b8674bc568ff66d783d1",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "MOT-H-ORBIT"
+      ],
+      "parse_error": null,
+      "path": "database/offense/MOT-H-ORBIT.json",
+      "sha256": "03bd6e283eb2437e2f4ad885165b7ebead1bdfa9158d687dd8232f5f647c91d0",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [],
+      "parse_error": null,
+      "path": "database/offense/assignments/README.json",
+      "sha256": "f794ee66041f40efa9dd533f4009bb1b68ee20ddaf43374bd7009e5514f94b6e",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "LOC-LH"
+      ],
+      "parse_error": null,
+      "path": "database/offense/field_locations/LOC-LH.json",
+      "sha256": "1a7fd664c0ae29cec7354cc1cc7a04d23854a3dbd26a9a1f279f8087546fa777",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "LOC-M"
+      ],
+      "parse_error": null,
+      "path": "database/offense/field_locations/LOC-M.json",
+      "sha256": "a9be83826562534575e74075d0916371f6d73506b7670058e273dde722c48bf1",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "LOC-RH"
+      ],
+      "parse_error": null,
+      "path": "database/offense/field_locations/LOC-RH.json",
+      "sha256": "8b1a3a6b9cc9b6fdb58bb276b4dc2e6a89b3290dcbe2fb27562a5a75d7aa1915",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "FMF-DBLS-001"
+      ],
+      "parse_error": null,
+      "path": "database/offense/formation_families/FMF-DBLS-001.json",
+      "sha256": "9410809bf04464099286c7865a7ea936bbaa913000532070a6abc71d8cc61d6a",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "FMF-RT-001"
+      ],
+      "parse_error": null,
+      "path": "database/offense/formation_families/FMF-RT-001.json",
+      "sha256": "783bb65800fcb3770fecfaab72b291a4fe06b07c00ac2d6471c1982a153a68cc",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "FMF-TREY-001"
+      ],
+      "parse_error": null,
+      "path": "database/offense/formation_families/FMF-TREY-001.json",
+      "sha256": "d419dabf6c84273a1d77ddf6d8404fa265857e0097ab44eb105614cd1329906a",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "FMF-TRIPS-001"
+      ],
+      "parse_error": null,
+      "path": "database/offense/formation_families/FMF-TRIPS-001.json",
+      "sha256": "2dbb201168b46b3e5dd56c42d5735e809e7860fcfcfa426b0d7944ccac7da77b",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "DRW-11-DBLS-LT-001",
+        "GEOM-DRW-11-DBLS-LT-001"
+      ],
+      "parse_error": null,
+      "path": "database/offense/formation_geometry/GEOM-DRW-11-DBLS-LT-001.json",
+      "sha256": "0035d4138ca5b65e035a8e8d7039933e7e94d20a4798a8a93370ddf96a1aa17d",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "DRW-11-DBLS-RT-001",
+        "GEOM-DRW-11-DBLS-RT-001"
+      ],
+      "parse_error": null,
+      "path": "database/offense/formation_geometry/GEOM-DRW-11-DBLS-RT-001.json",
+      "sha256": "4e8f0370ab527d691262ad0a5ef89173982a6971dc5b7c8a32c869d27dae6bdf",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "DRW-11-RT-ON-001",
+        "GEOM-DRW-11-RT-ON-001"
+      ],
+      "parse_error": null,
+      "path": "database/offense/formation_geometry/GEOM-DRW-11-RT-ON-001.json",
+      "sha256": "ed9303779d7f5fbe91bbd176c3446869b0a60f6cde0111a5593edf5e80e9ff5e",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "DRW-11-RT-ON-H-ORBIT-001",
+        "GEOM-DRW-11-RT-ON-H-ORBIT-001"
+      ],
+      "parse_error": null,
+      "path": "database/offense/formation_geometry/GEOM-DRW-11-RT-ON-H-ORBIT-001.json",
+      "sha256": "50ddfea8f3269f34d3ad171dc55d1cbf5c1b8beb0f07d546e87a8f745997b591",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "DRW-11-TRIPS-LT-RH-001",
+        "GEOM-DRW-11-TRIPS-LT-RH-001"
+      ],
+      "parse_error": null,
+      "path": "database/offense/formation_geometry/GEOM-DRW-11-TRIPS-LT-RH-001.json",
+      "sha256": "498928ad53d9b796e00f9b7fe205882d8f46d85cff5f8c68e26de381c18996da",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "DRW-11-TRIPS-RT-LH-001",
+        "GEOM-DRW-11-TRIPS-RT-LH-001"
+      ],
+      "parse_error": null,
+      "path": "database/offense/formation_geometry/GEOM-DRW-11-TRIPS-RT-LH-001.json",
+      "sha256": "0a6e31da35cb9c6fcacd470b1386cc9d9117eaf09940473433fca6d6c4945430",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "DRW-21-LT-001",
+        "GEOM-DRW-21-LT-001"
+      ],
+      "parse_error": null,
+      "path": "database/offense/formation_geometry/GEOM-DRW-21-LT-001.json",
+      "sha256": "1a78388487ecde63c995c3d8b834e92ee4cccfa70524028ab203bdfeeb0ce9a3",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "DRW-21-RT-001",
+        "GEOM-DRW-21-RT-001"
+      ],
+      "parse_error": null,
+      "path": "database/offense/formation_geometry/GEOM-DRW-21-RT-001.json",
+      "sha256": "9fad33dbb5d9aedf8ae99e5a759b101c0dc90184da8e443f74da2fb010aa9f23",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "DRW-LH-11-TREY-LT-ON-001",
+        "GEOM-DRW-LH-11-TREY-LT-ON-001"
+      ],
+      "parse_error": null,
+      "path": "database/offense/formation_geometry/GEOM-DRW-LH-11-TREY-LT-ON-001.json",
+      "sha256": "6c427eb2112e2fbc2f5bb97890a70bad159dbe05219ca5727d04c84f1b160da8",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "DRW-M-12-LT-001",
+        "GEOM-DRW-M-12-LT-001"
+      ],
+      "parse_error": null,
+      "path": "database/offense/formation_geometry/GEOM-DRW-M-12-LT-001.json",
+      "sha256": "696d935c70aff0c119ac05724bac37bcfa5abd139c581ff8bb1a8d550a2d1b60",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "DRW-M-12-RT-001",
+        "GEOM-DRW-M-12-RT-001"
+      ],
+      "parse_error": null,
+      "path": "database/offense/formation_geometry/GEOM-DRW-M-12-RT-001.json",
+      "sha256": "a463fec6f045298406b84f7dfb1b17ef7ec6ce919fd9ebdb8140464ef5805066",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "DRW-RH-11-TREY-RT-ON-001",
+        "GEOM-DRW-RH-11-TREY-RT-ON-001"
+      ],
+      "parse_error": null,
+      "path": "database/offense/formation_geometry/GEOM-DRW-RH-11-TREY-RT-ON-001.json",
+      "sha256": "e1422e5b7005024d86cb7befefcecd5134ede996e852d48a510fcea271313827",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [],
+      "parse_error": null,
+      "path": "database/offense/formation_geometry_registry.json",
+      "sha256": "094bfb41388aec7cc6e42bc2b9a467e3a121fc6774f7da756b06a33522aceb4f",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [],
+      "parse_error": null,
+      "path": "database/offense/formation_inheritance_registry.json",
+      "sha256": "a0a722c1f7fe7f42a48bdc1aea4c0cca3ebd68d944838bb0f7737ab2e7836861",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [],
+      "parse_error": null,
+      "path": "database/offense/formation_layer_registry.json",
+      "sha256": "dc71e9dd843259d0fab5ec78adc6ddf10e2a1266464612758617d554516a78b5",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [],
+      "parse_error": null,
+      "path": "database/offense/formation_registry.json",
+      "sha256": "2e7498988ee1360aa69a884af33d5888d30f10ac37974acf10c87bcc4a8e67d4",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "DRW-11-DBLS-LT-001",
+        "VAR-11-DBLS-LT"
+      ],
+      "parse_error": null,
+      "path": "database/offense/formation_variants/VAR-11-DBLS-LT.json",
+      "sha256": "831e65a32838678ce9080d50fb64b70bd1d152ffc00948099e98c2d938fc7883",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "DRW-11-DBLS-RT-001",
+        "VAR-11-DBLS-RT"
+      ],
+      "parse_error": null,
+      "path": "database/offense/formation_variants/VAR-11-DBLS-RT.json",
+      "sha256": "88295aaeb1a2c25792e2afbcb96ad11d114b16e85d4791573e8a4c377d6a6559",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "DRW-11-RT-ON-001",
+        "VAR-11-RT-ON"
+      ],
+      "parse_error": null,
+      "path": "database/offense/formation_variants/VAR-11-RT-ON.json",
+      "sha256": "6c90fffb3c60ea31c69896bfcf6a527e242d4c2f955613951b1601e254a97c1e",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "DRW-LH-11-TREY-LT-ON-001",
+        "LOC-LH",
+        "VAR-11-TREY-LT-ON-LH"
+      ],
+      "parse_error": null,
+      "path": "database/offense/formation_variants/VAR-11-TREY-LT-ON-LH.json",
+      "sha256": "e5dc48a0053c15ddd865de988d0751c5676b19a646261d8d81ba14b619272c1f",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "DRW-RH-11-TREY-RT-ON-001",
+        "LOC-RH",
+        "VAR-11-TREY-RT-ON-RH"
+      ],
+      "parse_error": null,
+      "path": "database/offense/formation_variants/VAR-11-TREY-RT-ON-RH.json",
+      "sha256": "11f955d2d9eb0234f4c8b175d6492dbc04ba940499e9158b11d1de408ff8f315",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "DRW-11-TRIPS-LT-RH-001",
+        "LOC-RH",
+        "VAR-11-TRIPS-LT-RH"
+      ],
+      "parse_error": null,
+      "path": "database/offense/formation_variants/VAR-11-TRIPS-LT-RH.json",
+      "sha256": "7cbaad6f03b68cffd70b423dcf73df61f0ba677b178cabfd051aaeb58e69320d",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "DRW-11-TRIPS-RT-LH-001",
+        "LOC-LH",
+        "VAR-11-TRIPS-RT-LH"
+      ],
+      "parse_error": null,
+      "path": "database/offense/formation_variants/VAR-11-TRIPS-RT-LH.json",
+      "sha256": "2b410eace571478437ba9159d2ac7c69edf8eaf1bb28b2f3a926e00360a4af79",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "DRW-M-12-LT-001",
+        "LOC-M",
+        "VAR-12-LT-M"
+      ],
+      "parse_error": null,
+      "path": "database/offense/formation_variants/VAR-12-LT-M.json",
+      "sha256": "d3ae93294e1a7a1b1177d7ba8ef78df5b89b14f3cddb0fca8b3bcc62e807d2c0",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "DRW-M-12-RT-001",
+        "LOC-M",
+        "VAR-12-RT-M"
+      ],
+      "parse_error": null,
+      "path": "database/offense/formation_variants/VAR-12-RT-M.json",
+      "sha256": "7f59d22d5c644a865d92d60468a8c178e485ab45336b4c43b022ad1b977722e2",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "DRW-21-LT-001",
+        "VAR-21-LT"
+      ],
+      "parse_error": null,
+      "path": "database/offense/formation_variants/VAR-21-LT.json",
+      "sha256": "e42ca50d06bdb5468fc3fba1b5e630b68f8a0ddc6e2c967055b56dbff6541f0f",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "DRW-21-RT-001",
+        "VAR-21-RT"
+      ],
+      "parse_error": null,
+      "path": "database/offense/formation_variants/VAR-21-RT.json",
+      "sha256": "439aea4684de408bf55487d61c7e3376388781c4350247406b342fbabe8ff79b",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "DRW-LH-11-TREY-LT-ON-001",
+        "FRM-11-TREY-LT-ON-LH"
+      ],
+      "parse_error": null,
+      "path": "database/offense/formations/FRM-11-TREY-LT-ON-LH.json",
+      "sha256": "ca6365eaf4e7c712664e33e52f578de49a1f6d1e70a1d6c88e4eeee1cca84eb0",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "DRW-RH-11-TREY-RT-ON-001",
+        "FRM-11-TREY-RT-ON-RH"
+      ],
+      "parse_error": null,
+      "path": "database/offense/formations/FRM-11-TREY-RT-ON-RH.json",
+      "sha256": "c933846a85af9481daa54a78e25f95c1c9b2577b6e4c79a4572f5ac838930ff6",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "DRW-11-TRIPS-LT-RH-001",
+        "FRM-11-TRIPS-LT-RH"
+      ],
+      "parse_error": null,
+      "path": "database/offense/formations/FRM-11-TRIPS-LT-RH.json",
+      "sha256": "9c0848c0a4339bcb4f36654e2c71fc91e97c860dbc0756471e96143ea04cc315",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "DRW-11-TRIPS-RT-LH-001",
+        "FRM-11-TRIPS-RT-LH"
+      ],
+      "parse_error": null,
+      "path": "database/offense/formations/FRM-11-TRIPS-RT-LH.json",
+      "sha256": "cf1294ef70ef42f90bb3fce0163290a5bb3bf2279bdd5362f31ce1a4045d0bc7",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "DRW-M-12-LT-001",
+        "FRM-12-LT-M"
+      ],
+      "parse_error": null,
+      "path": "database/offense/formations/FRM-12-LT-M.json",
+      "sha256": "50ff48a394de2bb261a887024293470ed9c09b02a6e15c9118fecd4578356758",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "DRW-M-12-RT-001",
+        "FRM-12-RT-M"
+      ],
+      "parse_error": null,
+      "path": "database/offense/formations/FRM-12-RT-M.json",
+      "sha256": "14444c3bff5ae12d03ca401a6706cb8e6f192bd51f3387ab5ccf58f78308b819",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "DRW-21-LT-001",
+        "FRM-21-LT"
+      ],
+      "parse_error": null,
+      "path": "database/offense/formations/FRM-21-LT.json",
+      "sha256": "a699780e1e7c4b576911c6e44a9d1a68554429ad758190dc296de21d00930c21",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "DRW-21-RT-001",
+        "FRM-21-RT"
+      ],
+      "parse_error": null,
+      "path": "database/offense/formations/FRM-21-RT.json",
+      "sha256": "3e9bfaa41cf2c634fd802c78e956264cbf21eb49ace6fcb73496e60c2154ba6e",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [],
+      "parse_error": null,
+      "path": "database/offense/variation_execution_registry.json",
+      "sha256": "dc1900bb68a6ef118384d4ad4e1fffef6c2419a95351672ebe2bf096c35ac53d",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [],
+      "parse_error": null,
+      "path": "database/offense/variation_registry.json",
+      "sha256": "6c60a09690cf57518d9dfe88d710e0eb83f7d822575da1e2b70b0c52e127040d",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [],
+      "parse_error": null,
+      "path": "database/offense/variation_source_occurrence_registry.json",
+      "sha256": "04650dec0d52967057f1449620b12c9f0eb2523bb26befbe11f6e1751b0fe882",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "VARIATION-DON-001"
+      ],
+      "parse_error": null,
+      "path": "database/offense/variations/VARIATION-DON-001.json",
+      "sha256": "7b5b8ad6d10ea860d719b1ab72f724fa3079a8e148b6fb7eff72137ed34aa2d9",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "VARIATION-FLEX-001"
+      ],
+      "parse_error": null,
+      "path": "database/offense/variations/VARIATION-FLEX-001.json",
+      "sha256": "f90f1fbf98565152634a9d88e33a2ce3cc1d462238f2c49e2be9ec90f067e2ac",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "VARIATION-HAY-001"
+      ],
+      "parse_error": null,
+      "path": "database/offense/variations/VARIATION-HAY-001.json",
+      "sha256": "5360b668328b1b0beb5507a853dedca88ea2edb2bb68c3affc95faff7756df04",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "VARIATION-HAZE-001"
+      ],
+      "parse_error": null,
+      "path": "database/offense/variations/VARIATION-HAZE-001.json",
+      "sha256": "b4bd2ac5d04083189ab7ab4cacf8acc3de4c17a2fe7b28bfd5b798002c8e8df4",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "VARIATION-HIDE-001"
+      ],
+      "parse_error": null,
+      "path": "database/offense/variations/VARIATION-HIDE-001.json",
+      "sha256": "95a0e51b5eb9c9ca6865c39fa6d2815ab29fc68dbe90fbc602ef8b77765f27cf",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "VARIATION-HO-001"
+      ],
+      "parse_error": null,
+      "path": "database/offense/variations/VARIATION-HO-001.json",
+      "sha256": "aa2ce553148c54b262dc6e262b21682566b3ce8ef54ae8217e4c830ffcc38f2b",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "VARIATION-HOAX-001"
+      ],
+      "parse_error": null,
+      "path": "database/offense/variations/VARIATION-HOAX-001.json",
+      "sha256": "30eddc52fe5b2a9af28941c3ea526a7912fc884116c4f1210ffa058e69759942",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "VARIATION-HUG-001"
+      ],
+      "parse_error": null,
+      "path": "database/offense/variations/VARIATION-HUG-001.json",
+      "sha256": "b56d7540dcfa7b87dd71e228694498aa41284d3bc66b95e2eaa26bf1d519bf09",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "VARIATION-ON-001"
+      ],
+      "parse_error": null,
+      "path": "database/offense/variations/VARIATION-ON-001.json",
+      "sha256": "543973ee480c96e8f8ca0d0c3d9185edaa7439c53d2caedb5ab9516be3ba1cb5",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "VARIATION-OPEN-001"
+      ],
+      "parse_error": null,
+      "path": "database/offense/variations/VARIATION-OPEN-001.json",
+      "sha256": "19b618673aff21f90f347c91896eaaff83f10b66f26210e3fb1fbd7b7c136828",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "VARIATION-SNUG-001"
+      ],
+      "parse_error": null,
+      "path": "database/offense/variations/VARIATION-SNUG-001.json",
+      "sha256": "a83417d74013dbad9a47425801288724a44fe53148d67551b2c5911a53328f04",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "VARIATION-SQUEEZE-001"
+      ],
+      "parse_error": null,
+      "path": "database/offense/variations/VARIATION-SQUEEZE-001.json",
+      "sha256": "831cd025e9331f28ee332134a09925bd13fc6c8f91c99c3f17faac52bbf6221d",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "VARIATION-WIDE-001"
+      ],
+      "parse_error": null,
+      "path": "database/offense/variations/VARIATION-WIDE-001.json",
+      "sha256": "e3c752037806c78a3da69fb59156fe13bdc02be3fe8b8042bb5af3d82cf06bdc",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "STYLE-DEFENSE-LABEL-002"
+      ],
+      "parse_error": null,
+      "path": "database/renderer/defense_label_style.json",
+      "sha256": "34a1a55156da5d2cc699990a9926595e2c202c365a7057ff375c143df9a836fd",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [],
+      "parse_error": null,
+      "path": "database/renderer/global_card_style.json",
+      "sha256": "5815cbd27c3c26e076f2f55300cd0384b3e0e89c36dc81e6bbab6ae9b393134f",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "RENDER-RULE-MOTION-ORIGIN-001"
+      ],
+      "parse_error": null,
+      "path": "database/renderer/motion_line_origin_rule.json",
+      "sha256": "49305b29bdc5266981069e556363e85f6765bfcbf0dde19eb38a6c61202770c6",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "STYLE-TITLE-BOX-002"
+      ],
+      "parse_error": null,
+      "path": "database/renderer/title_box_style.json",
+      "sha256": "8d241798f1233255b334630ac70140428c805a4837a977546a15e74aa12fb88a",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [],
+      "parse_error": null,
+      "path": "database/schemas/movement_rendering_policy.schema.json",
+      "sha256": "e3d62f16c1b1805aa8357b6e72c32e3d5c7d3f85131d2cfa1773e1fb06b670c4",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "DRW-11-DBLS-RT-001"
+      ],
+      "parse_error": null,
+      "path": "output/batch/01/manifest.json",
+      "sha256": "507367b61735c77f4853bd59240abd27faef5db7a69e4369bfce4abe7b46a63a",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "DRW-11-DBLS-RT-001"
+      ],
+      "parse_error": null,
+      "path": "output/batch/01/validation.json",
+      "sha256": "23da9d9950b25e4f9a59c513dd37890fe6823a363106a66657f141dd3d21db76",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "DRW-11-DBLS-LT-001"
+      ],
+      "parse_error": null,
+      "path": "output/batch/02/manifest.json",
+      "sha256": "a45430269b87651ff11785e92fc3328ce5569da6a81e73f2518e7cd2c88b028a",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "DRW-11-DBLS-LT-001"
+      ],
+      "parse_error": null,
+      "path": "output/batch/02/validation.json",
+      "sha256": "a734c6a444695e5d01b50d902fa8e7e05683e8e7c8d42e354ae2f210f85e4ca6",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [],
+      "parse_error": null,
+      "path": "output/batch/batch_summary.json",
+      "sha256": "000528039da67d511f12428f78aac2fe79e6af66bbfc0f6d362dbd32add19a49",
+      "top_level_type": "list"
+    },
+    {
+      "object_ids": [],
+      "parse_error": null,
+      "path": "output/certification_v2_0_6/cards/01/assignment_bindings.json",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "top_level_type": "list"
+    },
+    {
+      "object_ids": [],
+      "parse_error": null,
+      "path": "output/certification_v2_0_6/cards/01/assignment_plan.json",
+      "sha256": "bcc18b893986afe18a5fa5dfbc27092a6d349fa5829379182bd192061d554211",
+      "top_level_type": "list"
+    },
+    {
+      "object_ids": [],
+      "parse_error": null,
+      "path": "output/certification_v2_0_6/cards/01/card_layout.json",
+      "sha256": "2fcb2d7d2abeea80b0ffc1d8f243a796e660d694cbdb196cbae0a92d45fa6008",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [],
+      "parse_error": null,
+      "path": "output/certification_v2_0_6/cards/01/card_layout_validation.json",
+      "sha256": "5816ccbb5252e6a60d4307259cf36492a79882cf1eb34272798a1a62ce53f6e6",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "DRW-LH-11-RT-ON-H-ORBIT-VS-4-2-STUD-COV4READ-001"
+      ],
+      "parse_error": null,
+      "path": "output/certification_v2_0_6/cards/01/drawing_scene.json",
+      "sha256": "5dda71b09dd6685336c9db1181e9adf247dea68859e48f4289704282ab1afd0c",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [],
+      "parse_error": null,
+      "path": "output/certification_v2_0_6/cards/01/drawing_scene_validation.json",
+      "sha256": "fb621c14a1a9e0d02679c9df19df762efc814ba0d59400840a3180923ece170c",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "DRW-LH-11-RT-ON-H-ORBIT-VS-4-2-STUD-COV4READ-001"
+      ],
+      "parse_error": null,
+      "path": "output/certification_v2_0_6/cards/01/manifest.json",
+      "sha256": "d4a09a8ba1a9a8f3eb99c08ecdb29ac764162e6c1c9c0243c3e008a3e52ac596",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [],
+      "parse_error": null,
+      "path": "output/certification_v2_0_6/cards/01/output_integrity.json",
+      "sha256": "c7e511337d0662a7439627e301ce993f07fc01bf1b1f6e26e9c727568363f860",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [],
+      "parse_error": null,
+      "path": "output/certification_v2_0_6/cards/01/pipeline_report.json",
+      "sha256": "39e1ab7d3c0b88905bbc37ce53389652752d4fa728929c83151cf1badfeb0940",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "DRW-LH-11-RT-ON-H-ORBIT-VS-4-2-STUD-COV4READ-001"
+      ],
+      "parse_error": null,
+      "path": "output/certification_v2_0_6/cards/01/play_card.json",
+      "sha256": "f5be4feddc075e4741e912bb38925055a71b0684c81b06bb1647c22ddf4e7f92",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "DRW-LH-11-RT-ON-H-ORBIT-VS-4-2-STUD-COV4READ-001"
+      ],
+      "parse_error": null,
+      "path": "output/certification_v2_0_6/cards/01/validation.json",
+      "sha256": "be753f2c65487e264231b37727e70fbf4a372edd2095ded0c118b266ab016918",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [],
+      "parse_error": null,
+      "path": "output/certification_v2_0_6/certification_report.json",
+      "sha256": "138db3c2784d6fabfcd190c2b4980e4b74e868bfe52888fdf2f9b26e6637e396",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "DRW-LH-11-RT-ON-H-ORBIT-VS-4-2-STUD-COV4READ-001"
+      ],
+      "parse_error": null,
+      "path": "output/certification_v2_2_0/cards/01/asset_reuse.json",
+      "sha256": "be6699899646ee5fe477ab893639fe1e50728118e256839dad0c053d9d1a1630",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [],
+      "parse_error": null,
+      "path": "output/certification_v2_2_0/cards/01/assignment_bindings.json",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "top_level_type": "list"
+    },
+    {
+      "object_ids": [],
+      "parse_error": null,
+      "path": "output/certification_v2_2_0/cards/01/assignment_plan.json",
+      "sha256": "bcc18b893986afe18a5fa5dfbc27092a6d349fa5829379182bd192061d554211",
+      "top_level_type": "list"
+    },
+    {
+      "object_ids": [],
+      "parse_error": null,
+      "path": "output/certification_v2_2_0/cards/01/card_layout.json",
+      "sha256": "2fcb2d7d2abeea80b0ffc1d8f243a796e660d694cbdb196cbae0a92d45fa6008",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [],
+      "parse_error": null,
+      "path": "output/certification_v2_2_0/cards/01/card_layout_validation.json",
+      "sha256": "5816ccbb5252e6a60d4307259cf36492a79882cf1eb34272798a1a62ce53f6e6",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [],
+      "parse_error": null,
+      "path": "output/certification_v2_2_0/cards/01/database_resolution.json",
+      "sha256": "08e9ac5f3a3d523e2d601fa33d464025614888cffa83c3f0aad9f47efe4837dd",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [],
+      "parse_error": null,
+      "path": "output/certification_v2_2_0/cards/01/database_resolution_validation.json",
+      "sha256": "8f7ae24b6fe2b1874daf0da0c9519d1780b3373a84397508afcab15102eff326",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "DRW-LH-11-RT-ON-H-ORBIT-VS-4-2-STUD-COV4READ-001"
+      ],
+      "parse_error": null,
+      "path": "output/certification_v2_2_0/cards/01/drawing_scene.json",
+      "sha256": "5dda71b09dd6685336c9db1181e9adf247dea68859e48f4289704282ab1afd0c",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [],
+      "parse_error": null,
+      "path": "output/certification_v2_2_0/cards/01/drawing_scene_validation.json",
+      "sha256": "fb621c14a1a9e0d02679c9df19df762efc814ba0d59400840a3180923ece170c",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "DRW-LH-11-RT-ON-H-ORBIT-VS-4-2-STUD-COV4READ-001"
+      ],
+      "parse_error": null,
+      "path": "output/certification_v2_2_0/cards/01/manifest.json",
+      "sha256": "5321dd76e42940290bcc0e60bd2794c7c61a5e22f9c5a302553a420547c7552e",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [],
+      "parse_error": null,
+      "path": "output/certification_v2_2_0/cards/01/output_integrity.json",
+      "sha256": "4c0d5c00c584555a2d600d19a17f7c0bed01438790cdbba0b661f82fb3e97a2e",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [],
+      "parse_error": null,
+      "path": "output/certification_v2_2_0/cards/01/pipeline_report.json",
+      "sha256": "899c9b84efb5d28d85d63b126e1a4fc42191ffdee5734c6ffffe90bc8cf123e0",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "DRW-LH-11-RT-ON-H-ORBIT-VS-4-2-STUD-COV4READ-001"
+      ],
+      "parse_error": null,
+      "path": "output/certification_v2_2_0/cards/01/play_card.json",
+      "sha256": "f5be4feddc075e4741e912bb38925055a71b0684c81b06bb1647c22ddf4e7f92",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "DRW-LH-11-RT-ON-H-ORBIT-VS-4-2-STUD-COV4READ-001"
+      ],
+      "parse_error": null,
+      "path": "output/certification_v2_2_0/cards/01/validation.json",
+      "sha256": "91d7da576685351ba928b2274f13fb26a395eb0b05e1871aac0a97b52f7774e4",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [],
+      "parse_error": null,
+      "path": "output/certification_v2_2_0/certification_report.json",
+      "sha256": "302dabb36ddda434f9b78f15995380e74fe791b08e752bcdd627788d7382db2a",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "DRW-LH-11-RT-ON-H-ORBIT-VS-4-2-STUD-COV4READ-001"
+      ],
+      "parse_error": null,
+      "path": "output/certification_v2_3_0/cards/01/asset_reuse.json",
+      "sha256": "be6699899646ee5fe477ab893639fe1e50728118e256839dad0c053d9d1a1630",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [],
+      "parse_error": null,
+      "path": "output/certification_v2_3_0/cards/01/assignment_bindings.json",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "top_level_type": "list"
+    },
+    {
+      "object_ids": [],
+      "parse_error": null,
+      "path": "output/certification_v2_3_0/cards/01/assignment_plan.json",
+      "sha256": "bcc18b893986afe18a5fa5dfbc27092a6d349fa5829379182bd192061d554211",
+      "top_level_type": "list"
+    },
+    {
+      "object_ids": [],
+      "parse_error": null,
+      "path": "output/certification_v2_3_0/cards/01/card_layout.json",
+      "sha256": "2fcb2d7d2abeea80b0ffc1d8f243a796e660d694cbdb196cbae0a92d45fa6008",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [],
+      "parse_error": null,
+      "path": "output/certification_v2_3_0/cards/01/card_layout_validation.json",
+      "sha256": "5816ccbb5252e6a60d4307259cf36492a79882cf1eb34272798a1a62ce53f6e6",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [],
+      "parse_error": null,
+      "path": "output/certification_v2_3_0/cards/01/database_resolution.json",
+      "sha256": "08e9ac5f3a3d523e2d601fa33d464025614888cffa83c3f0aad9f47efe4837dd",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [],
+      "parse_error": null,
+      "path": "output/certification_v2_3_0/cards/01/database_resolution_validation.json",
+      "sha256": "8f7ae24b6fe2b1874daf0da0c9519d1780b3373a84397508afcab15102eff326",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "DRW-LH-11-RT-ON-H-ORBIT-VS-4-2-STUD-COV4READ-001"
+      ],
+      "parse_error": null,
+      "path": "output/certification_v2_3_0/cards/01/drawing_scene.json",
+      "sha256": "5dda71b09dd6685336c9db1181e9adf247dea68859e48f4289704282ab1afd0c",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [],
+      "parse_error": null,
+      "path": "output/certification_v2_3_0/cards/01/drawing_scene_validation.json",
+      "sha256": "fb621c14a1a9e0d02679c9df19df762efc814ba0d59400840a3180923ece170c",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "DRW-LH-11-RT-ON-H-ORBIT-VS-4-2-STUD-COV4READ-001"
+      ],
+      "parse_error": null,
+      "path": "output/certification_v2_3_0/cards/01/manifest.json",
+      "sha256": "9900adceaea9c3bab18968f85cbf43bfc71b161b58443250e275f98204b8c3cb",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [],
+      "parse_error": null,
+      "path": "output/certification_v2_3_0/cards/01/output_integrity.json",
+      "sha256": "4c0d5c00c584555a2d600d19a17f7c0bed01438790cdbba0b661f82fb3e97a2e",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [],
+      "parse_error": null,
+      "path": "output/certification_v2_3_0/cards/01/pipeline_report.json",
+      "sha256": "5f874c209031b1f12b3d6eb397d918d0723c4a1cae427d27d1b28a89c93264b4",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "DRW-LH-11-RT-ON-H-ORBIT-VS-4-2-STUD-COV4READ-001"
+      ],
+      "parse_error": null,
+      "path": "output/certification_v2_3_0/cards/01/play_card.json",
+      "sha256": "f5be4feddc075e4741e912bb38925055a71b0684c81b06bb1647c22ddf4e7f92",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "DRW-LH-11-RT-ON-H-ORBIT-VS-4-2-STUD-COV4READ-001"
+      ],
+      "parse_error": null,
+      "path": "output/certification_v2_3_0/cards/01/validation.json",
+      "sha256": "91d7da576685351ba928b2274f13fb26a395eb0b05e1871aac0a97b52f7774e4",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [],
+      "parse_error": null,
+      "path": "output/certification_v2_3_0/certification_report.json",
+      "sha256": "2149680a9b3376f8925ec3cd2e7dc885951c605198a9efaa0ab8d296ff470855",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [],
+      "parse_error": null,
+      "path": "output/certification_v2_3_0/database_health.json",
+      "sha256": "a05b150dbe45ea97fd9f1852e9607730e54722b25bf2bf85be948644fe9681c1",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [],
+      "parse_error": null,
+      "path": "output/certification_v2_3_0/drawing_asset_inventory.json",
+      "sha256": "90c42bb79f2337169242257e271403564141b786420b6e7486ad83573898e2a9",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "DRW-LH-11-RT-ON-H-ORBIT-VS-4-2-STUD-COV4READ-001"
+      ],
+      "parse_error": null,
+      "path": "output/certification_v2_4_4/cards/01/asset_reuse.json",
+      "sha256": "be6699899646ee5fe477ab893639fe1e50728118e256839dad0c053d9d1a1630",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [],
+      "parse_error": null,
+      "path": "output/certification_v2_4_4/cards/01/assignment_bindings.json",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "top_level_type": "list"
+    },
+    {
+      "object_ids": [],
+      "parse_error": null,
+      "path": "output/certification_v2_4_4/cards/01/assignment_plan.json",
+      "sha256": "bcc18b893986afe18a5fa5dfbc27092a6d349fa5829379182bd192061d554211",
+      "top_level_type": "list"
+    },
+    {
+      "object_ids": [],
+      "parse_error": null,
+      "path": "output/certification_v2_4_4/cards/01/call_slots.json",
+      "sha256": "c23b62fddc06522b54eb6184122ee2d12308ac385506ade8e232049c90f4135d",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [],
+      "parse_error": null,
+      "path": "output/certification_v2_4_4/cards/01/card_layout.json",
+      "sha256": "2fcb2d7d2abeea80b0ffc1d8f243a796e660d694cbdb196cbae0a92d45fa6008",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [],
+      "parse_error": null,
+      "path": "output/certification_v2_4_4/cards/01/card_layout_validation.json",
+      "sha256": "5816ccbb5252e6a60d4307259cf36492a79882cf1eb34272798a1a62ce53f6e6",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [],
+      "parse_error": null,
+      "path": "output/certification_v2_4_4/cards/01/database_resolution.json",
+      "sha256": "08e9ac5f3a3d523e2d601fa33d464025614888cffa83c3f0aad9f47efe4837dd",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [],
+      "parse_error": null,
+      "path": "output/certification_v2_4_4/cards/01/database_resolution_validation.json",
+      "sha256": "8f7ae24b6fe2b1874daf0da0c9519d1780b3373a84397508afcab15102eff326",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "DRW-LH-11-RT-ON-H-ORBIT-VS-4-2-STUD-COV4READ-001"
+      ],
+      "parse_error": null,
+      "path": "output/certification_v2_4_4/cards/01/drawing_scene.json",
+      "sha256": "5dda71b09dd6685336c9db1181e9adf247dea68859e48f4289704282ab1afd0c",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [],
+      "parse_error": null,
+      "path": "output/certification_v2_4_4/cards/01/drawing_scene_validation.json",
+      "sha256": "fb621c14a1a9e0d02679c9df19df762efc814ba0d59400840a3180923ece170c",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "DRW-LH-11-RT-ON-H-ORBIT-VS-4-2-STUD-COV4READ-001"
+      ],
+      "parse_error": null,
+      "path": "output/certification_v2_4_4/cards/01/manifest.json",
+      "sha256": "12efa9e3c86bda27a7e151431264f81091d9472496cee4a0aabd1adc10480f1b",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [],
+      "parse_error": null,
+      "path": "output/certification_v2_4_4/cards/01/output_integrity.json",
+      "sha256": "1938ef1705b93c640c2ed7402244449a1586b86d1f84026fc33260165d3bfcfa",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [],
+      "parse_error": null,
+      "path": "output/certification_v2_4_4/cards/01/pipeline_report.json",
+      "sha256": "2c2e9d2ebddbfac6d96ea36f3771f9d5ccfce7c6e67024091c496c5c943af087",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "DRW-LH-11-RT-ON-H-ORBIT-VS-4-2-STUD-COV4READ-001"
+      ],
+      "parse_error": null,
+      "path": "output/certification_v2_4_4/cards/01/play_card.json",
+      "sha256": "f5be4feddc075e4741e912bb38925055a71b0684c81b06bb1647c22ddf4e7f92",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "DRW-LH-11-RT-ON-H-ORBIT-VS-4-2-STUD-COV4READ-001"
+      ],
+      "parse_error": null,
+      "path": "output/certification_v2_4_4/cards/01/validation.json",
+      "sha256": "4144b638879961bf3dbd6daa1de0db93c38b904f240dbc6307240dbfe75342fe",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [],
+      "parse_error": null,
+      "path": "output/certification_v2_4_4/certification_report.json",
+      "sha256": "75840bfe53e8a9ce3c6a27be6fa723925c5ab1996762c57713d149bb11be5742",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [],
+      "parse_error": null,
+      "path": "output/certification_v2_4_4/database_health.json",
+      "sha256": "42d2eff82cdae8e3326455ac8c9b10acfb97afbf376be1530dd79baf671619d2",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [],
+      "parse_error": null,
+      "path": "output/certification_v2_4_4/drawing_asset_inventory.json",
+      "sha256": "90c42bb79f2337169242257e271403564141b786420b6e7486ad83573898e2a9",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "DRW-LH-11-RT-ON-H-ORBIT-VS-4-2-STUD-COV4READ-001"
+      ],
+      "parse_error": null,
+      "path": "output/compile_report.json",
+      "sha256": "e5f30f3d9e40e63827576294cdd4d7f53d1ed91f5d56046f0f0126753cf82b30",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "DRW-11-DBLS-RT-001"
+      ],
+      "parse_error": null,
+      "path": "output/dbls_rt/manifest.json",
+      "sha256": "1e2332f958302faf803b6d78ffe989fa19862657ae315f84d55fc85ee80998f5",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "DRW-11-DBLS-RT-001"
+      ],
+      "parse_error": null,
+      "path": "output/dbls_rt/validation.json",
+      "sha256": "23da9d9950b25e4f9a59c513dd37890fe6823a363106a66657f141dd3d21db76",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "DRW-11-RT-ON-001"
+      ],
+      "parse_error": null,
+      "path": "output/rt_on/manifest.json",
+      "sha256": "f49ed3642ca455cf27a8278e02c53e5b06e98888ba3a1e88e10a767d3e6786d9",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "DRW-11-RT-ON-001"
+      ],
+      "parse_error": null,
+      "path": "output/rt_on/validation.json",
+      "sha256": "7a60a63441dbdbf0ef719efa0b25107876b84c31b517561d28011c84236354c0",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "DRW-11-RT-ON-H-ORBIT-001"
+      ],
+      "parse_error": null,
+      "path": "output/rt_on_h_orbit/manifest.json",
+      "sha256": "2c78a0c0885bea0f3fbc71ac75e4058334b4b8a50db88dccfe9f1f8b0dc80448",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "DRW-11-RT-ON-H-ORBIT-001"
+      ],
+      "parse_error": null,
+      "path": "output/rt_on_h_orbit/validation.json",
+      "sha256": "9c5d7ec229747d285ddacb0f46cd5f1393cbfe253f649e30fe2c47fc470317df",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "DRW-LH-11-RT-ON-H-ORBIT-VS-4-2-STUD-COV4READ-001"
+      ],
+      "parse_error": null,
+      "path": "output/target_call/manifest.json",
+      "sha256": "37c70edea9e6594d978a020cc988e3739c003b93f41e5f87b5964f1ddd90e64f",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "DRW-LH-11-RT-ON-H-ORBIT-VS-4-2-STUD-COV4READ-001"
+      ],
+      "parse_error": null,
+      "path": "output/target_call/validation.json",
+      "sha256": "5d1b0fc314357c1ea0d7f6ec7871eb12cd65a8312fdf6f50310ae13db8816238",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [],
+      "parse_error": null,
+      "path": "output/target_report.json",
+      "sha256": "4deca7017cccac1b42e7b11cd3dfc61d4b86eadfb648d9b622894a5e37d35a6f",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "DRW-11-RT-ON-001"
+      ],
+      "parse_error": null,
+      "path": "output/target_report_v0_2.json",
+      "sha256": "f9a0af54815f629676474715aff09394780a339fb088f4d7a8e6a4bf579d1845",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "DRW-11-RT-ON-H-ORBIT-001"
+      ],
+      "parse_error": null,
+      "path": "output/target_report_v0_3.json",
+      "sha256": "8fb9c784f31c22dfe85a9579da190f1efbca7af60997413281900f87cc6cf7f3",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "DRW-11-RT-ON-H-ORBIT-001"
+      ],
+      "parse_error": null,
+      "path": "output/target_report_v0_4.json",
+      "sha256": "8fb9c784f31c22dfe85a9579da190f1efbca7af60997413281900f87cc6cf7f3",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "DRW-11-RT-ON-H-ORBIT-001"
+      ],
+      "parse_error": null,
+      "path": "output/target_report_v0_5.json",
+      "sha256": "8fb9c784f31c22dfe85a9579da190f1efbca7af60997413281900f87cc6cf7f3",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "DRW-LH-11-RT-ON-H-ORBIT-VS-4-2-STUD-COV4READ-001"
+      ],
+      "parse_error": null,
+      "path": "output/target_report_v0_6.json",
+      "sha256": "5d1b0fc314357c1ea0d7f6ec7871eb12cd65a8312fdf6f50310ae13db8816238",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "DRW-LH-11-RT-ON-H-ORBIT-VS-4-2-STUD-COV4READ-001"
+      ],
+      "parse_error": null,
+      "path": "output/v192_smoke/manifest.json",
+      "sha256": "0865d140cbb3c274c0622c9ab82484cabe6963122659a4031c5037353f05eac3",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "DRW-LH-11-RT-ON-H-ORBIT-VS-4-2-STUD-COV4READ-001"
+      ],
+      "parse_error": null,
+      "path": "output/v192_smoke/validation.json",
+      "sha256": "e5f30f3d9e40e63827576294cdd4d7f53d1ed91f5d56046f0f0126753cf82b30",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "DRW-LH-11-RT-ON-H-ORBIT-VS-4-2-STUD-COV4READ-001"
+      ],
+      "parse_error": null,
+      "path": "output/v193_smoke/manifest.json",
+      "sha256": "d70338abeaf66252b7d52f2fecc818bb3cd07dfbe43459b1b0046038e2b58638",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "DRW-LH-11-RT-ON-H-ORBIT-VS-4-2-STUD-COV4READ-001"
+      ],
+      "parse_error": null,
+      "path": "output/v193_smoke/validation.json",
+      "sha256": "520c4acd74b61028cc5b54f17ed56efec8d75d0d32a117f2b86a816a671ac6d1",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "DRW-LH-11-RT-ON-H-ORBIT-VS-4-2-STUD-COV4READ-001"
+      ],
+      "parse_error": null,
+      "path": "output/v194_smoke/manifest.json",
+      "sha256": "3a6533cfef3f4ab040560c25bcfc1d47c5624fbe51dc6874391c4df25cfdb76b",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "DRW-LH-11-RT-ON-H-ORBIT-VS-4-2-STUD-COV4READ-001"
+      ],
+      "parse_error": null,
+      "path": "output/v194_smoke/validation.json",
+      "sha256": "3dde64c932309e90e491ad5bdc173fdf617e43057e3d76f0d7a926792e9839ce",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "DRW-LH-11-RT-ON-H-ORBIT-VS-4-2-STUD-COV4READ-001"
+      ],
+      "parse_error": null,
+      "path": "output/v194_strict/validation.json",
+      "sha256": "3dde64c932309e90e491ad5bdc173fdf617e43057e3d76f0d7a926792e9839ce",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [],
+      "parse_error": null,
+      "path": "output/v197_smoke/assignment_bindings.json",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "top_level_type": "list"
+    },
+    {
+      "object_ids": [],
+      "parse_error": null,
+      "path": "output/v197_smoke/assignment_plan.json",
+      "sha256": "bcc18b893986afe18a5fa5dfbc27092a6d349fa5829379182bd192061d554211",
+      "top_level_type": "list"
+    },
+    {
+      "object_ids": [
+        "DRW-LH-11-RT-ON-H-ORBIT-VS-4-2-STUD-COV4READ-001"
+      ],
+      "parse_error": null,
+      "path": "output/v197_smoke/manifest.json",
+      "sha256": "108af7c9d1f62801aab8ea8a5fd2d5502f2a865b1a6bebfc4383f9304ecc50ca",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "DRW-LH-11-RT-ON-H-ORBIT-VS-4-2-STUD-COV4READ-001"
+      ],
+      "parse_error": null,
+      "path": "output/v197_smoke/validation.json",
+      "sha256": "89bd127329a60566a6fdf7beee950d7a350cb6d371b1523efaad9d2fa510243b",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [],
+      "parse_error": null,
+      "path": "output/v2_0_2_smoke/assignment_bindings.json",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "top_level_type": "list"
+    },
+    {
+      "object_ids": [],
+      "parse_error": null,
+      "path": "output/v2_0_2_smoke/assignment_plan.json",
+      "sha256": "bcc18b893986afe18a5fa5dfbc27092a6d349fa5829379182bd192061d554211",
+      "top_level_type": "list"
+    },
+    {
+      "object_ids": [
+        "DRW-LH-11-RT-ON-H-ORBIT-VS-4-2-STUD-COV4READ-001"
+      ],
+      "parse_error": null,
+      "path": "output/v2_0_2_smoke/drawing_scene.json",
+      "sha256": "5dda71b09dd6685336c9db1181e9adf247dea68859e48f4289704282ab1afd0c",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [],
+      "parse_error": null,
+      "path": "output/v2_0_2_smoke/drawing_scene_validation.json",
+      "sha256": "fb621c14a1a9e0d02679c9df19df762efc814ba0d59400840a3180923ece170c",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "DRW-LH-11-RT-ON-H-ORBIT-VS-4-2-STUD-COV4READ-001"
+      ],
+      "parse_error": null,
+      "path": "output/v2_0_2_smoke/manifest.json",
+      "sha256": "db95a73087643026784adaa1790e3325a55507528c4faad8cc6b4d5842e1786e",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [],
+      "parse_error": null,
+      "path": "output/v2_0_2_smoke/output_integrity.json",
+      "sha256": "9c929bd0aa3239664a802729c9e2422a41567eaee6b21ebba8c2eab3400d1673",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "DRW-LH-11-RT-ON-H-ORBIT-VS-4-2-STUD-COV4READ-001"
+      ],
+      "parse_error": null,
+      "path": "output/v2_0_2_smoke/play_card.json",
+      "sha256": "f5be4feddc075e4741e912bb38925055a71b0684c81b06bb1647c22ddf4e7f92",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "DRW-LH-11-RT-ON-H-ORBIT-VS-4-2-STUD-COV4READ-001"
+      ],
+      "parse_error": null,
+      "path": "output/v2_0_2_smoke/validation.json",
+      "sha256": "c638ca8da0a6b38ecc29cd77fe03fdba3560c080a392496daf27e30a08cbb2c6",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [],
+      "parse_error": null,
+      "path": "output/v2_1_0_smoke/assignment_bindings.json",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "top_level_type": "list"
+    },
+    {
+      "object_ids": [],
+      "parse_error": null,
+      "path": "output/v2_1_0_smoke/assignment_plan.json",
+      "sha256": "bcc18b893986afe18a5fa5dfbc27092a6d349fa5829379182bd192061d554211",
+      "top_level_type": "list"
+    },
+    {
+      "object_ids": [],
+      "parse_error": null,
+      "path": "output/v2_1_0_smoke/card_layout.json",
+      "sha256": "2fcb2d7d2abeea80b0ffc1d8f243a796e660d694cbdb196cbae0a92d45fa6008",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [],
+      "parse_error": null,
+      "path": "output/v2_1_0_smoke/card_layout_validation.json",
+      "sha256": "5816ccbb5252e6a60d4307259cf36492a79882cf1eb34272798a1a62ce53f6e6",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [],
+      "parse_error": null,
+      "path": "output/v2_1_0_smoke/database_resolution.json",
+      "sha256": "08e9ac5f3a3d523e2d601fa33d464025614888cffa83c3f0aad9f47efe4837dd",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "DRW-LH-11-RT-ON-H-ORBIT-VS-4-2-STUD-COV4READ-001"
+      ],
+      "parse_error": null,
+      "path": "output/v2_1_0_smoke/drawing_scene.json",
+      "sha256": "5dda71b09dd6685336c9db1181e9adf247dea68859e48f4289704282ab1afd0c",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [],
+      "parse_error": null,
+      "path": "output/v2_1_0_smoke/drawing_scene_validation.json",
+      "sha256": "fb621c14a1a9e0d02679c9df19df762efc814ba0d59400840a3180923ece170c",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "DRW-LH-11-RT-ON-H-ORBIT-VS-4-2-STUD-COV4READ-001"
+      ],
+      "parse_error": null,
+      "path": "output/v2_1_0_smoke/manifest.json",
+      "sha256": "b2eee0231d66bbd0abd248a57b8be9d2533e8e279c897027470327a7a5d93362",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [],
+      "parse_error": null,
+      "path": "output/v2_1_0_smoke/output_integrity.json",
+      "sha256": "b58aa57d50e1fb43c26b8b7f50918e93ef66ae5a7a4b2bd1098a8fa2319b94b4",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "DRW-LH-11-RT-ON-H-ORBIT-VS-4-2-STUD-COV4READ-001"
+      ],
+      "parse_error": null,
+      "path": "output/v2_1_0_smoke/play_card.json",
+      "sha256": "f5be4feddc075e4741e912bb38925055a71b0684c81b06bb1647c22ddf4e7f92",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "DRW-LH-11-RT-ON-H-ORBIT-VS-4-2-STUD-COV4READ-001"
+      ],
+      "parse_error": null,
+      "path": "output/v2_1_0_smoke/validation.json",
+      "sha256": "3a0f9b438482c8d4034843c0b59f2179c056f9a52f73e339a16e91dd93797f3e",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "DRW-LH-11-RT-ON-H-ORBIT-VS-4-2-STUD-COV4READ-001"
+      ],
+      "parse_error": null,
+      "path": "output/v2_2_0_smoke/asset_reuse.json",
+      "sha256": "be6699899646ee5fe477ab893639fe1e50728118e256839dad0c053d9d1a1630",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [],
+      "parse_error": null,
+      "path": "output/v2_2_0_smoke/assignment_bindings.json",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "top_level_type": "list"
+    },
+    {
+      "object_ids": [],
+      "parse_error": null,
+      "path": "output/v2_2_0_smoke/assignment_plan.json",
+      "sha256": "bcc18b893986afe18a5fa5dfbc27092a6d349fa5829379182bd192061d554211",
+      "top_level_type": "list"
+    },
+    {
+      "object_ids": [],
+      "parse_error": null,
+      "path": "output/v2_2_0_smoke/card_layout.json",
+      "sha256": "2fcb2d7d2abeea80b0ffc1d8f243a796e660d694cbdb196cbae0a92d45fa6008",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [],
+      "parse_error": null,
+      "path": "output/v2_2_0_smoke/card_layout_validation.json",
+      "sha256": "5816ccbb5252e6a60d4307259cf36492a79882cf1eb34272798a1a62ce53f6e6",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [],
+      "parse_error": null,
+      "path": "output/v2_2_0_smoke/database_resolution.json",
+      "sha256": "08e9ac5f3a3d523e2d601fa33d464025614888cffa83c3f0aad9f47efe4837dd",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [],
+      "parse_error": null,
+      "path": "output/v2_2_0_smoke/database_resolution_validation.json",
+      "sha256": "8f7ae24b6fe2b1874daf0da0c9519d1780b3373a84397508afcab15102eff326",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "DRW-LH-11-RT-ON-H-ORBIT-VS-4-2-STUD-COV4READ-001"
+      ],
+      "parse_error": null,
+      "path": "output/v2_2_0_smoke/drawing_scene.json",
+      "sha256": "5dda71b09dd6685336c9db1181e9adf247dea68859e48f4289704282ab1afd0c",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [],
+      "parse_error": null,
+      "path": "output/v2_2_0_smoke/drawing_scene_validation.json",
+      "sha256": "fb621c14a1a9e0d02679c9df19df762efc814ba0d59400840a3180923ece170c",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "DRW-LH-11-RT-ON-H-ORBIT-VS-4-2-STUD-COV4READ-001"
+      ],
+      "parse_error": null,
+      "path": "output/v2_2_0_smoke/manifest.json",
+      "sha256": "ba7e380ce189a7a4652a956afeaa9f0e0a0364130d93c16772e3b717e549a7f0",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [],
+      "parse_error": null,
+      "path": "output/v2_2_0_smoke/output_integrity.json",
+      "sha256": "4c0d5c00c584555a2d600d19a17f7c0bed01438790cdbba0b661f82fb3e97a2e",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [],
+      "parse_error": null,
+      "path": "output/v2_2_0_smoke/pipeline_report.json",
+      "sha256": "6d248f0eaf14683fe09ebb5b9642c1ef7b382c4543bed966d27617137242d0e3",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "DRW-LH-11-RT-ON-H-ORBIT-VS-4-2-STUD-COV4READ-001"
+      ],
+      "parse_error": null,
+      "path": "output/v2_2_0_smoke/play_card.json",
+      "sha256": "f5be4feddc075e4741e912bb38925055a71b0684c81b06bb1647c22ddf4e7f92",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "DRW-LH-11-RT-ON-H-ORBIT-VS-4-2-STUD-COV4READ-001"
+      ],
+      "parse_error": null,
+      "path": "output/v2_2_0_smoke/validation.json",
+      "sha256": "91d7da576685351ba928b2274f13fb26a395eb0b05e1871aac0a97b52f7774e4",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [],
+      "parse_error": null,
+      "path": "output/v2_smoke/assignment_bindings.json",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "top_level_type": "list"
+    },
+    {
+      "object_ids": [],
+      "parse_error": null,
+      "path": "output/v2_smoke/assignment_plan.json",
+      "sha256": "bcc18b893986afe18a5fa5dfbc27092a6d349fa5829379182bd192061d554211",
+      "top_level_type": "list"
+    },
+    {
+      "object_ids": [
+        "DRW-LH-11-RT-ON-H-ORBIT-VS-4-2-STUD-COV4READ-001"
+      ],
+      "parse_error": null,
+      "path": "output/v2_smoke/drawing_scene.json",
+      "sha256": "5dda71b09dd6685336c9db1181e9adf247dea68859e48f4289704282ab1afd0c",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "DRW-LH-11-RT-ON-H-ORBIT-VS-4-2-STUD-COV4READ-001"
+      ],
+      "parse_error": null,
+      "path": "output/v2_smoke/manifest.json",
+      "sha256": "13005f15e63f9e80ca6377565a2ce9c67e36f65739f250924fe30c313eb0bb4e",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "DRW-LH-11-RT-ON-H-ORBIT-VS-4-2-STUD-COV4READ-001"
+      ],
+      "parse_error": null,
+      "path": "output/v2_smoke/play_card.json",
+      "sha256": "f5be4feddc075e4741e912bb38925055a71b0684c81b06bb1647c22ddf4e7f92",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "DRW-LH-11-RT-ON-H-ORBIT-VS-4-2-STUD-COV4READ-001"
+      ],
+      "parse_error": null,
+      "path": "output/v2_smoke/validation.json",
+      "sha256": "89bd127329a60566a6fdf7beee950d7a350cb6d371b1523efaad9d2fa510243b",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [],
+      "parse_error": null,
+      "path": "policies/playbook_terminology_policy.json",
+      "sha256": "6f9c5a9fbc81e96fbdaa6987739c376e28214096380e15e2aff800307843338b",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [],
+      "parse_error": null,
+      "path": "policies/renderer_first_policy.json",
+      "sha256": "2da7f3732678c56d0116130d7929ac8b0876512c14cd13aed67d5808b3e13fad",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "DRW-LH-11-RT-ON-H-ORBIT-VS-4-2-STUD-COV4READ-001"
+      ],
+      "parse_error": null,
+      "path": "reports/certification_v2_2_1/cards/01/asset_reuse.json",
+      "sha256": "be6699899646ee5fe477ab893639fe1e50728118e256839dad0c053d9d1a1630",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [],
+      "parse_error": null,
+      "path": "reports/certification_v2_2_1/cards/01/assignment_bindings.json",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "top_level_type": "list"
+    },
+    {
+      "object_ids": [],
+      "parse_error": null,
+      "path": "reports/certification_v2_2_1/cards/01/assignment_plan.json",
+      "sha256": "bcc18b893986afe18a5fa5dfbc27092a6d349fa5829379182bd192061d554211",
+      "top_level_type": "list"
+    },
+    {
+      "object_ids": [],
+      "parse_error": null,
+      "path": "reports/certification_v2_2_1/cards/01/card_layout.json",
+      "sha256": "2fcb2d7d2abeea80b0ffc1d8f243a796e660d694cbdb196cbae0a92d45fa6008",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [],
+      "parse_error": null,
+      "path": "reports/certification_v2_2_1/cards/01/card_layout_validation.json",
+      "sha256": "5816ccbb5252e6a60d4307259cf36492a79882cf1eb34272798a1a62ce53f6e6",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [],
+      "parse_error": null,
+      "path": "reports/certification_v2_2_1/cards/01/database_resolution.json",
+      "sha256": "08e9ac5f3a3d523e2d601fa33d464025614888cffa83c3f0aad9f47efe4837dd",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [],
+      "parse_error": null,
+      "path": "reports/certification_v2_2_1/cards/01/database_resolution_validation.json",
+      "sha256": "8f7ae24b6fe2b1874daf0da0c9519d1780b3373a84397508afcab15102eff326",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "DRW-LH-11-RT-ON-H-ORBIT-VS-4-2-STUD-COV4READ-001"
+      ],
+      "parse_error": null,
+      "path": "reports/certification_v2_2_1/cards/01/drawing_scene.json",
+      "sha256": "5dda71b09dd6685336c9db1181e9adf247dea68859e48f4289704282ab1afd0c",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [],
+      "parse_error": null,
+      "path": "reports/certification_v2_2_1/cards/01/drawing_scene_validation.json",
+      "sha256": "fb621c14a1a9e0d02679c9df19df762efc814ba0d59400840a3180923ece170c",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "DRW-LH-11-RT-ON-H-ORBIT-VS-4-2-STUD-COV4READ-001"
+      ],
+      "parse_error": null,
+      "path": "reports/certification_v2_2_1/cards/01/manifest.json",
+      "sha256": "be6b05ef195bdf6a3210b4684c2a7fe4646193cf4c168154c2f543349a4344c3",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [],
+      "parse_error": null,
+      "path": "reports/certification_v2_2_1/cards/01/output_integrity.json",
+      "sha256": "4c0d5c00c584555a2d600d19a17f7c0bed01438790cdbba0b661f82fb3e97a2e",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [],
+      "parse_error": null,
+      "path": "reports/certification_v2_2_1/cards/01/pipeline_report.json",
+      "sha256": "21b6964e3328e7c52df0d7c236d2d100b45301032e4bc5f49b5894dc09e60248",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "DRW-LH-11-RT-ON-H-ORBIT-VS-4-2-STUD-COV4READ-001"
+      ],
+      "parse_error": null,
+      "path": "reports/certification_v2_2_1/cards/01/play_card.json",
+      "sha256": "f5be4feddc075e4741e912bb38925055a71b0684c81b06bb1647c22ddf4e7f92",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [
+        "DRW-LH-11-RT-ON-H-ORBIT-VS-4-2-STUD-COV4READ-001"
+      ],
+      "parse_error": null,
+      "path": "reports/certification_v2_2_1/cards/01/validation.json",
+      "sha256": "91d7da576685351ba928b2274f13fb26a395eb0b05e1871aac0a97b52f7774e4",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [],
+      "parse_error": null,
+      "path": "reports/certification_v2_2_1/certification_report.json",
+      "sha256": "ee72b2771d4d566cc8f76721b287256594bdfa78ca111ca9d4dbde98de3e9bef",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [],
+      "parse_error": null,
+      "path": "reports/certification_v2_2_1/drawing_asset_inventory.json",
+      "sha256": "90c42bb79f2337169242257e271403564141b786420b6e7486ad83573898e2a9",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [],
+      "parse_error": null,
+      "path": "reports/database_health.json",
+      "sha256": "a05b150dbe45ea97fd9f1852e9607730e54722b25bf2bf85be948644fe9681c1",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [],
+      "parse_error": null,
+      "path": "reports/database_integration.json",
+      "sha256": "052ab0d4d0816fbe5013fc0801729829fdda0d08db5f0c9553a7e304ee814bde",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [],
+      "parse_error": null,
+      "path": "reports/repository_audit.json",
+      "sha256": "1debdf743efe7f3c962cb0c21cbd873d7ff06ce34050d0be8b4b067705a6d4e0",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [],
+      "parse_error": null,
+      "path": "schemas/object.schema.json",
+      "sha256": "67cf73c64925377eb01a1cbe45eef936ef1a0c1fbc583ae498742db2d5686f27",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [],
+      "parse_error": null,
+      "path": "styles/card_layout.json",
+      "sha256": "167a497f0a93a67a8565ab56c312feb33d4ee82a7f68156a81bae26eb1580047",
+      "top_level_type": "dict"
+    },
+    {
+      "object_ids": [],
+      "parse_error": null,
+      "path": "styles/global_card_style.json",
+      "sha256": "5815cbd27c3c26e076f2f55300cd0384b3e0e89c36dc81e6bbab6ae9b393134f",
+      "top_level_type": "dict"
+    }
+  ],
+  "json_parse_errors": [],
+  "object_type_counts": {
+    "compiled_play_card": 1,
+    "coverage": 1,
+    "defensive_personnel_structure": 1,
+    "defensive_stunt": 1,
+    "field_location": 3,
+    "formation": 8,
+    "formation_family": 4,
+    "formation_geometry": 12,
+    "formation_modifier_resolution": 1,
+    "formation_variant": 11,
+    "formation_variation": 13,
+    "formation_variation_registry": 1,
+    "motion": 1,
+    "renderer_rule": 1
+  },
+  "root": "work244",
+  "status_counts": {
+    "ACTIVE": 13,
+    "ACTIVE_WITH_MIRROR_DERIVATIONS": 1,
+    "APPROVED": 15,
+    "BASELINE_CANDIDATE_PENDING_COACH_CONFIRMATION": 2,
+    "CANONICAL": 2,
+    "CANONICAL_COACH_APPROVED_IDENTITY_AND_RECOVERED_BASELINE": 2,
+    "CANONICAL_DERIVED_EXACT_MIRROR": 3,
+    "CANONICAL_RECOVERED": 1,
+    "CERTIFIED": 5,
+    "COACH_APPROVED": 3,
+    "DERIVED_BY_APPROVED_HORIZONTAL_MIRROR": 4,
+    "DERIVED_FROM_APPROVED_MIRROR": 4,
+    "DERIVED_FROM_SOURCE_BY_APPROVED_MIRROR": 16,
+    "EXTRACTED_FROM_SOURCE_SVG": 4,
+    "FORMATION_GEOMETRY_LIBRARY_CREATED": 1,
+    "SOURCE_IMPORTED_NEEDS_COACH_APPROVAL": 16,
+    "SOURCE_PATTERN_NEEDS_EXACT_GEOMETRY": 3,
+    "SOURCE_PATTERN_NEEDS_EXACT_LANDMARK": 1,
+    "SOURCE_TRACED": 4,
+    "SOURCE_TRACED_COMPOSITE": 2,
+    "SOURCE_TRACED_MOTION_COMPOSITE": 2,
+    "SOURCE_VERIFIED_NEEDS_COACH_APPROVAL": 7
+  },
+  "summary": {
+    "canonical_id_count": 76,
+    "duplicate_id_count": 19,
+    "file_count": 406,
+    "json_count": 260,
+    "json_parse_error_count": 0,
+    "pdf_count": 20,
+    "png_count": 42,
+    "python_count": 41,
+    "svg_count": 39,
+    "unresolved_reference_count": 257
+  },
+  "unresolved_references": [
+    {
+      "field": "coordinate_set_id",
+      "source": "artifacts/drawings/DRW-11-DBLS-LT-001/metadata.json",
+      "target": "COORD-11-DBLS-LT-001"
+    },
+    {
+      "field": "constraint_set_id",
+      "source": "artifacts/drawings/DRW-11-DBLS-LT-001/metadata.json",
+      "target": "CONST-11-DBLS-LT-001"
+    },
+    {
+      "field": "global_style_id",
+      "source": "artifacts/drawings/DRW-11-DBLS-LT-001/metadata.json",
+      "target": "STYLE-GLOBAL-CARD-003"
+    },
+    {
+      "field": "renderer_policy_id",
+      "source": "artifacts/drawings/DRW-11-DBLS-LT-001/metadata.json",
+      "target": "POLICY-RENDERER-FIRST-001"
+    },
+    {
+      "field": "coordinate_set_id",
+      "source": "artifacts/drawings/DRW-11-DBLS-RT-001/coordinates.json",
+      "target": "COORD-DBLS-RT-V04"
+    },
+    {
+      "field": "formation_record_id",
+      "source": "artifacts/drawings/DRW-11-DBLS-RT-001/metadata.json",
+      "target": "FM-DBLS-RT-001"
+    },
+    {
+      "field": "coordinate_set_id",
+      "source": "artifacts/drawings/DRW-11-DBLS-RT-001/metadata.json",
+      "target": "COORD-DBLS-RT-V04"
+    },
+    {
+      "field": "global_style_id",
+      "source": "artifacts/drawings/DRW-11-DBLS-RT-001/metadata.json",
+      "target": "STYLE-GLOBAL-CARD-003"
+    },
+    {
+      "field": "renderer_policy_id",
+      "source": "artifacts/drawings/DRW-11-DBLS-RT-001/metadata.json",
+      "target": "POLICY-RENDERER-FIRST-001"
+    },
+    {
+      "field": "coordinate_set_id",
+      "source": "artifacts/drawings/DRW-11-RT-ON-001/coordinates.json",
+      "target": "SVGSET-11-RT-ON"
+    },
+    {
+      "field": "formation_record_id",
+      "source": "artifacts/drawings/DRW-11-RT-ON-001/metadata.json",
+      "target": "FRM-11-RT"
+    },
+    {
+      "field": "coordinate_set_id",
+      "source": "artifacts/drawings/DRW-11-RT-ON-001/metadata.json",
+      "target": "SVGSET-11-RT-ON"
+    },
+    {
+      "field": "source_drawing_id",
+      "source": "artifacts/drawings/DRW-11-RT-ON-001/metadata.json",
+      "target": "DRW-11-LT-ON-001"
+    },
+    {
+      "field": "global_style_id",
+      "source": "artifacts/drawings/DRW-11-RT-ON-001/metadata.json",
+      "target": "STYLE-GLOBAL-CARD-003"
+    },
+    {
+      "field": "renderer_policy_id",
+      "source": "artifacts/drawings/DRW-11-RT-ON-001/metadata.json",
+      "target": "POLICY-RENDERER-FIRST-001"
+    },
+    {
+      "field": "global_style_id",
+      "source": "artifacts/drawings/DRW-11-RT-ON-H-ORBIT-001/metadata.json",
+      "target": "STYLE-GLOBAL-CARD-003"
+    },
+    {
+      "field": "renderer_policy_id",
+      "source": "artifacts/drawings/DRW-11-RT-ON-H-ORBIT-001/metadata.json",
+      "target": "POLICY-RENDERER-FIRST-001"
+    },
+    {
+      "field": "coordinate_set_id",
+      "source": "artifacts/drawings/DRW-11-TRIPS-LT-RH-001/coordinates.json",
+      "target": "COORD-11-TRIPS-LT-RH-001"
+    },
+    {
+      "field": "coordinate_set_id",
+      "source": "artifacts/drawings/DRW-11-TRIPS-LT-RH-001/metadata.json",
+      "target": "COORD-11-TRIPS-LT-RH-001"
+    },
+    {
+      "field": "global_style_id",
+      "source": "artifacts/drawings/DRW-11-TRIPS-LT-RH-001/metadata.json",
+      "target": "STYLE-GLOBAL-CARD-003"
+    },
+    {
+      "field": "renderer_policy_id",
+      "source": "artifacts/drawings/DRW-11-TRIPS-LT-RH-001/metadata.json",
+      "target": "POLICY-RENDERER-FIRST-001"
+    },
+    {
+      "field": "coordinate_set_id",
+      "source": "artifacts/drawings/DRW-11-TRIPS-RT-LH-001/coordinates.json",
+      "target": "COORD-11-TRIPS-RT-LH-001"
+    },
+    {
+      "field": "coordinate_set_id",
+      "source": "artifacts/drawings/DRW-11-TRIPS-RT-LH-001/metadata.json",
+      "target": "COORD-11-TRIPS-RT-LH-001"
+    },
+    {
+      "field": "global_style_id",
+      "source": "artifacts/drawings/DRW-11-TRIPS-RT-LH-001/metadata.json",
+      "target": "STYLE-GLOBAL-CARD-003"
+    },
+    {
+      "field": "renderer_policy_id",
+      "source": "artifacts/drawings/DRW-11-TRIPS-RT-LH-001/metadata.json",
+      "target": "POLICY-RENDERER-FIRST-001"
+    },
+    {
+      "field": "coordinate_set_id",
+      "source": "artifacts/drawings/DRW-21-LT-001/coordinates.json",
+      "target": "COORD-21-LT-001"
+    },
+    {
+      "field": "coordinate_set_id",
+      "source": "artifacts/drawings/DRW-21-LT-001/metadata.json",
+      "target": "COORD-21-LT-001"
+    },
+    {
+      "field": "global_style_id",
+      "source": "artifacts/drawings/DRW-21-LT-001/metadata.json",
+      "target": "STYLE-GLOBAL-CARD-003"
+    },
+    {
+      "field": "renderer_policy_id",
+      "source": "artifacts/drawings/DRW-21-LT-001/metadata.json",
+      "target": "POLICY-RENDERER-FIRST-001"
+    },
+    {
+      "field": "coordinate_set_id",
+      "source": "artifacts/drawings/DRW-21-RT-001/coordinates.json",
+      "target": "COORD-21-RT-001"
+    },
+    {
+      "field": "coordinate_set_id",
+      "source": "artifacts/drawings/DRW-21-RT-001/metadata.json",
+      "target": "COORD-21-RT-001"
+    },
+    {
+      "field": "global_style_id",
+      "source": "artifacts/drawings/DRW-21-RT-001/metadata.json",
+      "target": "STYLE-GLOBAL-CARD-003"
+    },
+    {
+      "field": "renderer_policy_id",
+      "source": "artifacts/drawings/DRW-21-RT-001/metadata.json",
+      "target": "POLICY-RENDERER-FIRST-001"
+    },
+    {
+      "field": "global_style_id",
+      "source": "artifacts/drawings/DRW-LH-11-RT-ON-H-ORBIT-VS-4-2-STUD-COV4READ-001/metadata.json",
+      "target": "STYLE-GLOBAL-CARD-003"
+    },
+    {
+      "field": "renderer_policy_id",
+      "source": "artifacts/drawings/DRW-LH-11-RT-ON-H-ORBIT-VS-4-2-STUD-COV4READ-001/metadata.json",
+      "target": "POLICY-RENDERER-FIRST-001"
+    },
+    {
+      "field": "coordinate_set_id",
+      "source": "artifacts/drawings/DRW-LH-11-TREY-LT-ON-001/coordinates.json",
+      "target": "COORD-11-TREY-LT-ON-LH-001"
+    },
+    {
+      "field": "coordinate_set_id",
+      "source": "artifacts/drawings/DRW-LH-11-TREY-LT-ON-001/metadata.json",
+      "target": "COORD-11-TREY-LT-ON-LH-001"
+    },
+    {
+      "field": "global_style_id",
+      "source": "artifacts/drawings/DRW-LH-11-TREY-LT-ON-001/metadata.json",
+      "target": "STYLE-GLOBAL-CARD-003"
+    },
+    {
+      "field": "renderer_policy_id",
+      "source": "artifacts/drawings/DRW-LH-11-TREY-LT-ON-001/metadata.json",
+      "target": "POLICY-RENDERER-FIRST-001"
+    },
+    {
+      "field": "coordinate_set_id",
+      "source": "artifacts/drawings/DRW-M-12-LT-001/coordinates.json",
+      "target": "COORD-12-LT-M-001"
+    },
+    {
+      "field": "coordinate_set_id",
+      "source": "artifacts/drawings/DRW-M-12-LT-001/metadata.json",
+      "target": "COORD-12-LT-M-001"
+    },
+    {
+      "field": "global_style_id",
+      "source": "artifacts/drawings/DRW-M-12-LT-001/metadata.json",
+      "target": "STYLE-GLOBAL-CARD-003"
+    },
+    {
+      "field": "renderer_policy_id",
+      "source": "artifacts/drawings/DRW-M-12-LT-001/metadata.json",
+      "target": "POLICY-RENDERER-FIRST-001"
+    },
+    {
+      "field": "coordinate_set_id",
+      "source": "artifacts/drawings/DRW-M-12-RT-001/coordinates.json",
+      "target": "COORD-12-RT-M-001"
+    },
+    {
+      "field": "coordinate_set_id",
+      "source": "artifacts/drawings/DRW-M-12-RT-001/metadata.json",
+      "target": "COORD-12-RT-M-001"
+    },
+    {
+      "field": "global_style_id",
+      "source": "artifacts/drawings/DRW-M-12-RT-001/metadata.json",
+      "target": "STYLE-GLOBAL-CARD-003"
+    },
+    {
+      "field": "renderer_policy_id",
+      "source": "artifacts/drawings/DRW-M-12-RT-001/metadata.json",
+      "target": "POLICY-RENDERER-FIRST-001"
+    },
+    {
+      "field": "coordinate_set_id",
+      "source": "artifacts/drawings/DRW-RH-11-TREY-RT-ON-001/coordinates.json",
+      "target": "COORD-11-TREY-RT-ON-RH-001"
+    },
+    {
+      "field": "coordinate_set_id",
+      "source": "artifacts/drawings/DRW-RH-11-TREY-RT-ON-001/metadata.json",
+      "target": "COORD-11-TREY-RT-ON-RH-001"
+    },
+    {
+      "field": "global_style_id",
+      "source": "artifacts/drawings/DRW-RH-11-TREY-RT-ON-001/metadata.json",
+      "target": "STYLE-GLOBAL-CARD-003"
+    },
+    {
+      "field": "renderer_policy_id",
+      "source": "artifacts/drawings/DRW-RH-11-TREY-RT-ON-001/metadata.json",
+      "target": "POLICY-RENDERER-FIRST-001"
+    },
+    {
+      "field": "system_id",
+      "source": "database/master/catalog.json",
+      "target": "MARCUS-OFFENSIVE-CAD"
+    },
+    {
+      "field": "id",
+      "source": "database/master/catalog.json",
+      "target": "PER-11"
+    },
+    {
+      "field": "id",
+      "source": "database/master/catalog.json",
+      "target": "PLAYOBJ-11-RT-ON-H-ORBIT"
+    },
+    {
+      "field": "id",
+      "source": "database/master/catalog.json",
+      "target": "STYLE-GLOBAL-CARD-003"
+    },
+    {
+      "field": "id",
+      "source": "database/master/catalog.json",
+      "target": "POLICY-RENDERER-FIRST-001"
+    },
+    {
+      "field": "id",
+      "source": "database/master/catalog.json",
+      "target": "REGISTRY-FORMATIONS-001"
+    },
+    {
+      "field": "id",
+      "source": "database/master/catalog.json",
+      "target": "REGISTRY-FORMATION-INHERITANCE-001"
+    },
+    {
+      "field": "id",
+      "source": "database/master/catalog.json",
+      "target": "REGISTRY-FORMATION-LAYERS-001"
+    },
+    {
+      "field": "id",
+      "source": "database/master/catalog.json",
+      "target": "REGISTRY-FORMATION-VARIATIONS-001"
+    },
+    {
+      "field": "id",
+      "source": "database/master/catalog.json",
+      "target": "REGISTRY-VARIATION-SOURCE-OCCURRENCES-001"
+    },
+    {
+      "field": "id",
+      "source": "database/master/catalog.json",
+      "target": "REGISTRY-FORMATION-GEOMETRY-001"
+    },
+    {
+      "field": "constraint_set_id",
+      "source": "database/offense/CONST-11-DBLS-LT-001.json",
+      "target": "CONST-11-DBLS-LT-001"
+    },
+    {
+      "field": "id",
+      "source": "database/offense/CONST-11-DBLS-LT-001.json",
+      "target": "C-001"
+    },
+    {
+      "field": "id",
+      "source": "database/offense/CONST-11-DBLS-LT-001.json",
+      "target": "C-002"
+    },
+    {
+      "field": "id",
+      "source": "database/offense/CONST-11-DBLS-LT-001.json",
+      "target": "C-003"
+    },
+    {
+      "field": "id",
+      "source": "database/offense/CONST-11-DBLS-LT-001.json",
+      "target": "C-004"
+    },
+    {
+      "field": "id",
+      "source": "database/offense/CONST-11-DBLS-LT-001.json",
+      "target": "C-005"
+    },
+    {
+      "field": "id",
+      "source": "database/offense/CONST-11-DBLS-LT-001.json",
+      "target": "C-006"
+    },
+    {
+      "field": "id",
+      "source": "database/offense/CONST-11-DBLS-LT-001.json",
+      "target": "C-007"
+    },
+    {
+      "field": "id",
+      "source": "database/offense/CONST-11-DBLS-LT-001.json",
+      "target": "C-008"
+    },
+    {
+      "field": "id",
+      "source": "database/offense/CONST-11-DBLS-LT-001.json",
+      "target": "C-009"
+    },
+    {
+      "field": "id",
+      "source": "database/offense/CONST-11-DBLS-LT-001.json",
+      "target": "C-010"
+    },
+    {
+      "field": "constraint_set_id",
+      "source": "database/offense/CONST-11-DBLS-RT-001.json",
+      "target": "CONST-11-DBLS-RT-001"
+    },
+    {
+      "field": "id",
+      "source": "database/offense/CONST-11-DBLS-RT-001.json",
+      "target": "C-001"
+    },
+    {
+      "field": "id",
+      "source": "database/offense/CONST-11-DBLS-RT-001.json",
+      "target": "C-002"
+    },
+    {
+      "field": "id",
+      "source": "database/offense/CONST-11-DBLS-RT-001.json",
+      "target": "C-003"
+    },
+    {
+      "field": "id",
+      "source": "database/offense/CONST-11-DBLS-RT-001.json",
+      "target": "C-004"
+    },
+    {
+      "field": "id",
+      "source": "database/offense/CONST-11-DBLS-RT-001.json",
+      "target": "C-005"
+    },
+    {
+      "field": "id",
+      "source": "database/offense/CONST-11-DBLS-RT-001.json",
+      "target": "C-006"
+    },
+    {
+      "field": "id",
+      "source": "database/offense/CONST-11-DBLS-RT-001.json",
+      "target": "C-007"
+    },
+    {
+      "field": "id",
+      "source": "database/offense/CONST-11-DBLS-RT-001.json",
+      "target": "C-008"
+    },
+    {
+      "field": "id",
+      "source": "database/offense/CONST-11-DBLS-RT-001.json",
+      "target": "C-009"
+    },
+    {
+      "field": "id",
+      "source": "database/offense/CONST-11-DBLS-RT-001.json",
+      "target": "C-010"
+    },
+    {
+      "field": "coordinate_set_id",
+      "source": "database/offense/COORD-11-DBLS-LT-001.json",
+      "target": "COORD-11-DBLS-LT-001"
+    },
+    {
+      "field": "legacy_coordinate_set_id",
+      "source": "database/offense/COORD-11-DBLS-LT-001.json",
+      "target": "COORD-DBLS-LT-V04"
+    },
+    {
+      "field": "coordinate_set_id",
+      "source": "database/offense/COORD-11-DBLS-LT-001.json",
+      "target": "COORD-DBLS-LT-V04"
+    },
+    {
+      "field": "coordinate_set_id",
+      "source": "database/offense/COORD-11-DBLS-RT-001.json",
+      "target": "COORD-11-DBLS-RT-001"
+    },
+    {
+      "field": "legacy_coordinate_set_id",
+      "source": "database/offense/COORD-11-DBLS-RT-001.json",
+      "target": "COORD-DBLS-RT-V04"
+    },
+    {
+      "field": "coordinate_set_id",
+      "source": "database/offense/COORD-11-DBLS-RT-001.json",
+      "target": "COORD-DBLS-RT-V04"
+    },
+    {
+      "field": "legacy_formation_record_id",
+      "source": "database/offense/FRM-11-DBLS-LT.json",
+      "target": "FM-DBLS-LT-001"
+    },
+    {
+      "field": "default_backfield_id",
+      "source": "database/offense/FRM-11-DBLS-LT.json",
+      "target": "BF-GUN-001"
+    },
+    {
+      "field": "coordinate_set_id",
+      "source": "database/offense/FRM-11-DBLS-LT.json",
+      "target": "COORD-11-DBLS-LT-001"
+    },
+    {
+      "field": "constraint_set_id",
+      "source": "database/offense/FRM-11-DBLS-LT.json",
+      "target": "CONST-11-DBLS-LT-001"
+    },
+    {
+      "field": "validation_record_id",
+      "source": "database/offense/FRM-11-DBLS-LT.json",
+      "target": "VAL-11-DBLS-LT-001"
+    },
+    {
+      "field": "player_id",
+      "source": "database/offense/FRM-11-DBLS-LT.json",
+      "target": "PLY-X-001"
+    },
+    {
+      "field": "alignment_object_id",
+      "source": "database/offense/FRM-11-DBLS-LT.json",
+      "target": "AO-WR"
+    },
+    {
+      "field": "player_id",
+      "source": "database/offense/FRM-11-DBLS-LT.json",
+      "target": "PLY-H-001"
+    },
+    {
+      "field": "alignment_object_id",
+      "source": "database/offense/FRM-11-DBLS-LT.json",
+      "target": "AO-SLOT"
+    },
+    {
+      "field": "player_id",
+      "source": "database/offense/FRM-11-DBLS-LT.json",
+      "target": "PLY-LT-001"
+    },
+    {
+      "field": "alignment_object_id",
+      "source": "database/offense/FRM-11-DBLS-LT.json",
+      "target": "AO-OL"
+    },
+    {
+      "field": "player_id",
+      "source": "database/offense/FRM-11-DBLS-LT.json",
+      "target": "PLY-LG-001"
+    },
+    {
+      "field": "alignment_object_id",
+      "source": "database/offense/FRM-11-DBLS-LT.json",
+      "target": "AO-OL"
+    },
+    {
+      "field": "player_id",
+      "source": "database/offense/FRM-11-DBLS-LT.json",
+      "target": "PLY-C-001"
+    },
+    {
+      "field": "alignment_object_id",
+      "source": "database/offense/FRM-11-DBLS-LT.json",
+      "target": "AO-CENTER"
+    },
+    {
+      "field": "player_id",
+      "source": "database/offense/FRM-11-DBLS-LT.json",
+      "target": "PLY-RG-001"
+    },
+    {
+      "field": "alignment_object_id",
+      "source": "database/offense/FRM-11-DBLS-LT.json",
+      "target": "AO-OL"
+    },
+    {
+      "field": "player_id",
+      "source": "database/offense/FRM-11-DBLS-LT.json",
+      "target": "PLY-RT-001"
+    },
+    {
+      "field": "alignment_object_id",
+      "source": "database/offense/FRM-11-DBLS-LT.json",
+      "target": "AO-OL"
+    },
+    {
+      "field": "player_id",
+      "source": "database/offense/FRM-11-DBLS-LT.json",
+      "target": "PLY-Y-001"
+    },
+    {
+      "field": "alignment_object_id",
+      "source": "database/offense/FRM-11-DBLS-LT.json",
+      "target": "AO-SLOT"
+    },
+    {
+      "field": "player_id",
+      "source": "database/offense/FRM-11-DBLS-LT.json",
+      "target": "PLY-Z-001"
+    },
+    {
+      "field": "alignment_object_id",
+      "source": "database/offense/FRM-11-DBLS-LT.json",
+      "target": "AO-WR"
+    },
+    {
+      "field": "player_id",
+      "source": "database/offense/FRM-11-DBLS-LT.json",
+      "target": "PLY-QB-001"
+    },
+    {
+      "field": "alignment_object_id",
+      "source": "database/offense/FRM-11-DBLS-LT.json",
+      "target": "AO-QB-GUN"
+    },
+    {
+      "field": "player_id",
+      "source": "database/offense/FRM-11-DBLS-LT.json",
+      "target": "PLY-B-001"
+    },
+    {
+      "field": "alignment_object_id",
+      "source": "database/offense/FRM-11-DBLS-LT.json",
+      "target": "AO-BACK-GUN-WEAK"
+    },
+    {
+      "field": "id",
+      "source": "database/offense/FRM-11-DBLS-LT.json",
+      "target": "REL-001"
+    },
+    {
+      "field": "id",
+      "source": "database/offense/FRM-11-DBLS-LT.json",
+      "target": "REL-002"
+    },
+    {
+      "field": "id",
+      "source": "database/offense/FRM-11-DBLS-LT.json",
+      "target": "REL-003"
+    },
+    {
+      "field": "id",
+      "source": "database/offense/FRM-11-DBLS-LT.json",
+      "target": "REL-004"
+    },
+    {
+      "field": "id",
+      "source": "database/offense/FRM-11-DBLS-LT.json",
+      "target": "REL-005"
+    },
+    {
+      "field": "legacy_formation_record_id",
+      "source": "database/offense/FRM-11-DBLS-RT.json",
+      "target": "FM-DBLS-RT-001"
+    },
+    {
+      "field": "default_backfield_id",
+      "source": "database/offense/FRM-11-DBLS-RT.json",
+      "target": "BF-GUN-001"
+    },
+    {
+      "field": "coordinate_set_id",
+      "source": "database/offense/FRM-11-DBLS-RT.json",
+      "target": "COORD-11-DBLS-RT-001"
+    },
+    {
+      "field": "constraint_set_id",
+      "source": "database/offense/FRM-11-DBLS-RT.json",
+      "target": "CONST-11-DBLS-RT-001"
+    },
+    {
+      "field": "validation_record_id",
+      "source": "database/offense/FRM-11-DBLS-RT.json",
+      "target": "VAL-11-DBLS-RT-001"
+    },
+    {
+      "field": "player_id",
+      "source": "database/offense/FRM-11-DBLS-RT.json",
+      "target": "PLY-X-001"
+    },
+    {
+      "field": "alignment_object_id",
+      "source": "database/offense/FRM-11-DBLS-RT.json",
+      "target": "AO-WR"
+    },
+    {
+      "field": "player_id",
+      "source": "database/offense/FRM-11-DBLS-RT.json",
+      "target": "PLY-H-001"
+    },
+    {
+      "field": "alignment_object_id",
+      "source": "database/offense/FRM-11-DBLS-RT.json",
+      "target": "AO-SLOT"
+    },
+    {
+      "field": "player_id",
+      "source": "database/offense/FRM-11-DBLS-RT.json",
+      "target": "PLY-LT-001"
+    },
+    {
+      "field": "alignment_object_id",
+      "source": "database/offense/FRM-11-DBLS-RT.json",
+      "target": "AO-OL"
+    },
+    {
+      "field": "player_id",
+      "source": "database/offense/FRM-11-DBLS-RT.json",
+      "target": "PLY-LG-001"
+    },
+    {
+      "field": "alignment_object_id",
+      "source": "database/offense/FRM-11-DBLS-RT.json",
+      "target": "AO-OL"
+    },
+    {
+      "field": "player_id",
+      "source": "database/offense/FRM-11-DBLS-RT.json",
+      "target": "PLY-C-001"
+    },
+    {
+      "field": "alignment_object_id",
+      "source": "database/offense/FRM-11-DBLS-RT.json",
+      "target": "AO-CENTER"
+    },
+    {
+      "field": "player_id",
+      "source": "database/offense/FRM-11-DBLS-RT.json",
+      "target": "PLY-RG-001"
+    },
+    {
+      "field": "alignment_object_id",
+      "source": "database/offense/FRM-11-DBLS-RT.json",
+      "target": "AO-OL"
+    },
+    {
+      "field": "player_id",
+      "source": "database/offense/FRM-11-DBLS-RT.json",
+      "target": "PLY-RT-001"
+    },
+    {
+      "field": "alignment_object_id",
+      "source": "database/offense/FRM-11-DBLS-RT.json",
+      "target": "AO-OL"
+    },
+    {
+      "field": "player_id",
+      "source": "database/offense/FRM-11-DBLS-RT.json",
+      "target": "PLY-Y-001"
+    },
+    {
+      "field": "alignment_object_id",
+      "source": "database/offense/FRM-11-DBLS-RT.json",
+      "target": "AO-SLOT"
+    },
+    {
+      "field": "player_id",
+      "source": "database/offense/FRM-11-DBLS-RT.json",
+      "target": "PLY-Z-001"
+    },
+    {
+      "field": "alignment_object_id",
+      "source": "database/offense/FRM-11-DBLS-RT.json",
+      "target": "AO-WR"
+    },
+    {
+      "field": "player_id",
+      "source": "database/offense/FRM-11-DBLS-RT.json",
+      "target": "PLY-QB-001"
+    },
+    {
+      "field": "alignment_object_id",
+      "source": "database/offense/FRM-11-DBLS-RT.json",
+      "target": "AO-QB-GUN"
+    },
+    {
+      "field": "player_id",
+      "source": "database/offense/FRM-11-DBLS-RT.json",
+      "target": "PLY-B-001"
+    },
+    {
+      "field": "alignment_object_id",
+      "source": "database/offense/FRM-11-DBLS-RT.json",
+      "target": "AO-BACK-GUN-WEAK"
+    },
+    {
+      "field": "id",
+      "source": "database/offense/FRM-11-DBLS-RT.json",
+      "target": "REL-001"
+    },
+    {
+      "field": "id",
+      "source": "database/offense/FRM-11-DBLS-RT.json",
+      "target": "REL-002"
+    },
+    {
+      "field": "id",
+      "source": "database/offense/FRM-11-DBLS-RT.json",
+      "target": "REL-003"
+    },
+    {
+      "field": "id",
+      "source": "database/offense/FRM-11-DBLS-RT.json",
+      "target": "REL-004"
+    },
+    {
+      "field": "id",
+      "source": "database/offense/FRM-11-DBLS-RT.json",
+      "target": "REL-005"
+    },
+    {
+      "field": "modifier_id",
+      "source": "database/offense/FRM-11-RT-ON.json",
+      "target": "VR-ON-001"
+    },
+    {
+      "field": "coordinate_set_id",
+      "source": "database/offense/FRM-11-RT-ON.json",
+      "target": "SVGSET-11-RT-ON"
+    },
+    {
+      "field": "source_drawing_id",
+      "source": "database/offense/FRM-11-RT-ON.json",
+      "target": "DRW-11-LT-ON-001"
+    },
+    {
+      "field": "coordinate_set_id",
+      "source": "database/offense/formation_families/FMF-RT-001.json",
+      "target": "COORD-21-RT-001"
+    },
+    {
+      "field": "coordinate_set_id",
+      "source": "database/offense/formation_families/FMF-RT-001.json",
+      "target": "COORD-21-LT-001"
+    },
+    {
+      "field": "coordinate_set_id",
+      "source": "database/offense/formation_families/FMF-RT-001.json",
+      "target": "COORD-12-LT-M-001"
+    },
+    {
+      "field": "coordinate_set_id",
+      "source": "database/offense/formation_families/FMF-RT-001.json",
+      "target": "COORD-12-RT-M-001"
+    },
+    {
+      "field": "coordinate_set_id",
+      "source": "database/offense/formation_families/FMF-TREY-001.json",
+      "target": "COORD-11-TREY-LT-ON-LH-001"
+    },
+    {
+      "field": "coordinate_set_id",
+      "source": "database/offense/formation_families/FMF-TREY-001.json",
+      "target": "COORD-11-TREY-RT-ON-RH-001"
+    },
+    {
+      "field": "coordinate_set_id",
+      "source": "database/offense/formation_families/FMF-TRIPS-001.json",
+      "target": "COORD-11-TRIPS-RT-LH-001"
+    },
+    {
+      "field": "coordinate_set_id",
+      "source": "database/offense/formation_families/FMF-TRIPS-001.json",
+      "target": "COORD-11-TRIPS-LT-RH-001"
+    },
+    {
+      "field": "coordinate_set_id",
+      "source": "database/offense/formation_geometry/GEOM-DRW-11-DBLS-RT-001.json",
+      "target": "COORD-DBLS-RT-V04"
+    },
+    {
+      "field": "coordinate_set_id",
+      "source": "database/offense/formation_geometry/GEOM-DRW-11-RT-ON-001.json",
+      "target": "SVGSET-11-RT-ON"
+    },
+    {
+      "field": "coordinate_set_id",
+      "source": "database/offense/formation_geometry/GEOM-DRW-11-RT-ON-H-ORBIT-001.json",
+      "target": "COORD-DRW-11-RT-ON-H-ORBIT-001-AUTO"
+    },
+    {
+      "field": "coordinate_set_id",
+      "source": "database/offense/formation_geometry/GEOM-DRW-11-TRIPS-LT-RH-001.json",
+      "target": "COORD-11-TRIPS-LT-RH-001"
+    },
+    {
+      "field": "coordinate_set_id",
+      "source": "database/offense/formation_geometry/GEOM-DRW-11-TRIPS-RT-LH-001.json",
+      "target": "COORD-11-TRIPS-RT-LH-001"
+    },
+    {
+      "field": "coordinate_set_id",
+      "source": "database/offense/formation_geometry/GEOM-DRW-21-LT-001.json",
+      "target": "COORD-21-LT-001"
+    },
+    {
+      "field": "coordinate_set_id",
+      "source": "database/offense/formation_geometry/GEOM-DRW-21-RT-001.json",
+      "target": "COORD-21-RT-001"
+    },
+    {
+      "field": "coordinate_set_id",
+      "source": "database/offense/formation_geometry/GEOM-DRW-LH-11-TREY-LT-ON-001.json",
+      "target": "COORD-11-TREY-LT-ON-LH-001"
+    },
+    {
+      "field": "coordinate_set_id",
+      "source": "database/offense/formation_geometry/GEOM-DRW-M-12-LT-001.json",
+      "target": "COORD-12-LT-M-001"
+    },
+    {
+      "field": "coordinate_set_id",
+      "source": "database/offense/formation_geometry/GEOM-DRW-M-12-RT-001.json",
+      "target": "COORD-12-RT-M-001"
+    },
+    {
+      "field": "coordinate_set_id",
+      "source": "database/offense/formation_geometry/GEOM-DRW-RH-11-TREY-RT-ON-001.json",
+      "target": "COORD-11-TREY-RT-ON-RH-001"
+    },
+    {
+      "field": "registry_id",
+      "source": "database/offense/formation_geometry_registry.json",
+      "target": "REGISTRY-FORMATION-GEOMETRY-001"
+    },
+    {
+      "field": "registry_id",
+      "source": "database/offense/formation_inheritance_registry.json",
+      "target": "REGISTRY-FORMATION-INHERITANCE-001"
+    },
+    {
+      "field": "rule_id",
+      "source": "database/offense/formation_inheritance_registry.json",
+      "target": "FORM-MIRROR-001"
+    },
+    {
+      "field": "registry_id",
+      "source": "database/offense/formation_layer_registry.json",
+      "target": "REGISTRY-FORMATION-LAYERS-001"
+    },
+    {
+      "field": "formation_variation_registry_id",
+      "source": "database/offense/formation_layer_registry.json",
+      "target": "REGISTRY-FORMATION-VARIATIONS-001"
+    },
+    {
+      "field": "registry_id",
+      "source": "database/offense/formation_registry.json",
+      "target": "REGISTRY-FORMATIONS-001"
+    },
+    {
+      "field": "coordinate_set_id",
+      "source": "database/offense/formation_variants/VAR-11-TREY-LT-ON-LH.json",
+      "target": "COORD-11-TREY-LT-ON-LH-001"
+    },
+    {
+      "field": "coordinate_set_id",
+      "source": "database/offense/formation_variants/VAR-11-TREY-RT-ON-RH.json",
+      "target": "COORD-11-TREY-RT-ON-RH-001"
+    },
+    {
+      "field": "coordinate_set_id",
+      "source": "database/offense/formation_variants/VAR-11-TRIPS-LT-RH.json",
+      "target": "COORD-11-TRIPS-LT-RH-001"
+    },
+    {
+      "field": "coordinate_set_id",
+      "source": "database/offense/formation_variants/VAR-11-TRIPS-RT-LH.json",
+      "target": "COORD-11-TRIPS-RT-LH-001"
+    },
+    {
+      "field": "coordinate_set_id",
+      "source": "database/offense/formation_variants/VAR-12-LT-M.json",
+      "target": "COORD-12-LT-M-001"
+    },
+    {
+      "field": "coordinate_set_id",
+      "source": "database/offense/formation_variants/VAR-12-RT-M.json",
+      "target": "COORD-12-RT-M-001"
+    },
+    {
+      "field": "coordinate_set_id",
+      "source": "database/offense/formation_variants/VAR-21-LT.json",
+      "target": "COORD-21-LT-001"
+    },
+    {
+      "field": "coordinate_set_id",
+      "source": "database/offense/formation_variants/VAR-21-RT.json",
+      "target": "COORD-21-RT-001"
+    },
+    {
+      "field": "coordinate_set_id",
+      "source": "database/offense/formations/FRM-11-TREY-LT-ON-LH.json",
+      "target": "COORD-11-TREY-LT-ON-LH-001"
+    },
+    {
+      "field": "coordinate_set_id",
+      "source": "database/offense/formations/FRM-11-TREY-RT-ON-RH.json",
+      "target": "COORD-11-TREY-RT-ON-RH-001"
+    },
+    {
+      "field": "coordinate_set_id",
+      "source": "database/offense/formations/FRM-11-TRIPS-LT-RH.json",
+      "target": "COORD-11-TRIPS-LT-RH-001"
+    },
+    {
+      "field": "coordinate_set_id",
+      "source": "database/offense/formations/FRM-11-TRIPS-RT-LH.json",
+      "target": "COORD-11-TRIPS-RT-LH-001"
+    },
+    {
+      "field": "coordinate_set_id",
+      "source": "database/offense/formations/FRM-12-LT-M.json",
+      "target": "COORD-12-LT-M-001"
+    },
+    {
+      "field": "coordinate_set_id",
+      "source": "database/offense/formations/FRM-12-RT-M.json",
+      "target": "COORD-12-RT-M-001"
+    },
+    {
+      "field": "coordinate_set_id",
+      "source": "database/offense/formations/FRM-21-LT.json",
+      "target": "COORD-21-LT-001"
+    },
+    {
+      "field": "coordinate_set_id",
+      "source": "database/offense/formations/FRM-21-RT.json",
+      "target": "COORD-21-RT-001"
+    },
+    {
+      "field": "registry_id",
+      "source": "database/offense/variation_execution_registry.json",
+      "target": "REGISTRY-VARIATION-EXECUTION-001"
+    },
+    {
+      "field": "registry_id",
+      "source": "database/offense/variation_registry.json",
+      "target": "REGISTRY-FORMATION-VARIATIONS-001"
+    },
+    {
+      "field": "source_occurrence_registry_id",
+      "source": "database/offense/variation_registry.json",
+      "target": "REGISTRY-VARIATION-SOURCE-OCCURRENCES-001"
+    },
+    {
+      "field": "registry_id",
+      "source": "database/offense/variation_source_occurrence_registry.json",
+      "target": "REGISTRY-VARIATION-SOURCE-OCCURRENCES-001"
+    },
+    {
+      "field": "style_id",
+      "source": "database/renderer/global_card_style.json",
+      "target": "STYLE-GLOBAL-CARD-003"
+    },
+    {
+      "field": "renderer_policy_id",
+      "source": "database/renderer/global_card_style.json",
+      "target": "POLICY-RENDERER-FIRST-001"
+    },
+    {
+      "field": "schema_id",
+      "source": "database/schemas/movement_rendering_policy.schema.json",
+      "target": "SCHEMA-MOVEMENT-RENDERING-001"
+    },
+    {
+      "field": "layout_id",
+      "source": "output/certification_v2_0_6/cards/01/card_layout.json",
+      "target": "LAYOUT-PLAY-CARD-001"
+    },
+    {
+      "field": "layout_id",
+      "source": "output/certification_v2_0_6/cards/01/card_layout_validation.json",
+      "target": "LAYOUT-PLAY-CARD-001"
+    },
+    {
+      "field": "card_layout_id",
+      "source": "output/certification_v2_0_6/cards/01/manifest.json",
+      "target": "LAYOUT-PLAY-CARD-001"
+    },
+    {
+      "field": "layout_id",
+      "source": "output/certification_v2_0_6/cards/01/manifest.json",
+      "target": "LAYOUT-PLAY-CARD-001"
+    },
+    {
+      "field": "layout_id",
+      "source": "output/certification_v2_0_6/cards/01/validation.json",
+      "target": "LAYOUT-PLAY-CARD-001"
+    },
+    {
+      "field": "layout_id",
+      "source": "output/certification_v2_2_0/cards/01/card_layout.json",
+      "target": "LAYOUT-PLAY-CARD-001"
+    },
+    {
+      "field": "layout_id",
+      "source": "output/certification_v2_2_0/cards/01/card_layout_validation.json",
+      "target": "LAYOUT-PLAY-CARD-001"
+    },
+    {
+      "field": "object_id",
+      "source": "output/certification_v2_2_0/cards/01/database_resolution.json",
+      "target": "PER-11"
+    },
+    {
+      "field": "object_id",
+      "source": "output/certification_v2_2_0/cards/01/database_resolution_validation.json",
+      "target": "PER-11"
+    },
+    {
+      "field": "card_layout_id",
+      "source": "output/certification_v2_2_0/cards/01/manifest.json",
+      "target": "LAYOUT-PLAY-CARD-001"
+    },
+    {
+      "field": "layout_id",
+      "source": "output/certification_v2_2_0/cards/01/manifest.json",
+      "target": "LAYOUT-PLAY-CARD-001"
+    },
+    {
+      "field": "layout_id",
+      "source": "output/certification_v2_2_0/cards/01/validation.json",
+      "target": "LAYOUT-PLAY-CARD-001"
+    },
+    {
+      "field": "layout_id",
+      "source": "output/certification_v2_3_0/cards/01/card_layout.json",
+      "target": "LAYOUT-PLAY-CARD-001"
+    },
+    {
+      "field": "layout_id",
+      "source": "output/certification_v2_3_0/cards/01/card_layout_validation.json",
+      "target": "LAYOUT-PLAY-CARD-001"
+    },
+    {
+      "field": "object_id",
+      "source": "output/certification_v2_3_0/cards/01/database_resolution.json",
+      "target": "PER-11"
+    },
+    {
+      "field": "object_id",
+      "source": "output/certification_v2_3_0/cards/01/database_resolution_validation.json",
+      "target": "PER-11"
+    },
+    {
+      "field": "card_layout_id",
+      "source": "output/certification_v2_3_0/cards/01/manifest.json",
+      "target": "LAYOUT-PLAY-CARD-001"
+    },
+    {
+      "field": "layout_id",
+      "source": "output/certification_v2_3_0/cards/01/manifest.json",
+      "target": "LAYOUT-PLAY-CARD-001"
+    },
+    {
+      "field": "layout_id",
+      "source": "output/certification_v2_3_0/cards/01/validation.json",
+      "target": "LAYOUT-PLAY-CARD-001"
+    },
+    {
+      "field": "layout_id",
+      "source": "output/certification_v2_4_4/cards/01/card_layout.json",
+      "target": "LAYOUT-PLAY-CARD-001"
+    },
+    {
+      "field": "layout_id",
+      "source": "output/certification_v2_4_4/cards/01/card_layout_validation.json",
+      "target": "LAYOUT-PLAY-CARD-001"
+    },
+    {
+      "field": "object_id",
+      "source": "output/certification_v2_4_4/cards/01/database_resolution.json",
+      "target": "PER-11"
+    },
+    {
+      "field": "object_id",
+      "source": "output/certification_v2_4_4/cards/01/database_resolution_validation.json",
+      "target": "PER-11"
+    },
+    {
+      "field": "card_layout_id",
+      "source": "output/certification_v2_4_4/cards/01/manifest.json",
+      "target": "LAYOUT-PLAY-CARD-001"
+    },
+    {
+      "field": "layout_id",
+      "source": "output/certification_v2_4_4/cards/01/manifest.json",
+      "target": "LAYOUT-PLAY-CARD-001"
+    },
+    {
+      "field": "layout_id",
+      "source": "output/certification_v2_4_4/cards/01/validation.json",
+      "target": "LAYOUT-PLAY-CARD-001"
+    },
+    {
+      "field": "layout_id",
+      "source": "output/v2_1_0_smoke/card_layout.json",
+      "target": "LAYOUT-PLAY-CARD-001"
+    },
+    {
+      "field": "layout_id",
+      "source": "output/v2_1_0_smoke/card_layout_validation.json",
+      "target": "LAYOUT-PLAY-CARD-001"
+    },
+    {
+      "field": "object_id",
+      "source": "output/v2_1_0_smoke/database_resolution.json",
+      "target": "PER-11"
+    },
+    {
+      "field": "card_layout_id",
+      "source": "output/v2_1_0_smoke/manifest.json",
+      "target": "LAYOUT-PLAY-CARD-001"
+    },
+    {
+      "field": "layout_id",
+      "source": "output/v2_1_0_smoke/manifest.json",
+      "target": "LAYOUT-PLAY-CARD-001"
+    },
+    {
+      "field": "layout_id",
+      "source": "output/v2_1_0_smoke/validation.json",
+      "target": "LAYOUT-PLAY-CARD-001"
+    },
+    {
+      "field": "layout_id",
+      "source": "output/v2_2_0_smoke/card_layout.json",
+      "target": "LAYOUT-PLAY-CARD-001"
+    },
+    {
+      "field": "layout_id",
+      "source": "output/v2_2_0_smoke/card_layout_validation.json",
+      "target": "LAYOUT-PLAY-CARD-001"
+    },
+    {
+      "field": "object_id",
+      "source": "output/v2_2_0_smoke/database_resolution.json",
+      "target": "PER-11"
+    },
+    {
+      "field": "object_id",
+      "source": "output/v2_2_0_smoke/database_resolution_validation.json",
+      "target": "PER-11"
+    },
+    {
+      "field": "card_layout_id",
+      "source": "output/v2_2_0_smoke/manifest.json",
+      "target": "LAYOUT-PLAY-CARD-001"
+    },
+    {
+      "field": "layout_id",
+      "source": "output/v2_2_0_smoke/manifest.json",
+      "target": "LAYOUT-PLAY-CARD-001"
+    },
+    {
+      "field": "layout_id",
+      "source": "output/v2_2_0_smoke/validation.json",
+      "target": "LAYOUT-PLAY-CARD-001"
+    },
+    {
+      "field": "policy_id",
+      "source": "policies/playbook_terminology_policy.json",
+      "target": "POLICY-PLAYBOOK-TERMINOLOGY-001"
+    },
+    {
+      "field": "policy_id",
+      "source": "policies/renderer_first_policy.json",
+      "target": "POLICY-RENDERER-FIRST-001"
+    },
+    {
+      "field": "layout_id",
+      "source": "reports/certification_v2_2_1/cards/01/card_layout.json",
+      "target": "LAYOUT-PLAY-CARD-001"
+    },
+    {
+      "field": "layout_id",
+      "source": "reports/certification_v2_2_1/cards/01/card_layout_validation.json",
+      "target": "LAYOUT-PLAY-CARD-001"
+    },
+    {
+      "field": "object_id",
+      "source": "reports/certification_v2_2_1/cards/01/database_resolution.json",
+      "target": "PER-11"
+    },
+    {
+      "field": "object_id",
+      "source": "reports/certification_v2_2_1/cards/01/database_resolution_validation.json",
+      "target": "PER-11"
+    },
+    {
+      "field": "card_layout_id",
+      "source": "reports/certification_v2_2_1/cards/01/manifest.json",
+      "target": "LAYOUT-PLAY-CARD-001"
+    },
+    {
+      "field": "layout_id",
+      "source": "reports/certification_v2_2_1/cards/01/manifest.json",
+      "target": "LAYOUT-PLAY-CARD-001"
+    },
+    {
+      "field": "layout_id",
+      "source": "reports/certification_v2_2_1/cards/01/validation.json",
+      "target": "LAYOUT-PLAY-CARD-001"
+    },
+    {
+      "field": "object_id",
+      "source": "reports/database_integration.json",
+      "target": "PER-11"
+    },
+    {
+      "field": "layout_id",
+      "source": "styles/card_layout.json",
+      "target": "LAYOUT-PLAY-CARD-001"
+    },
+    {
+      "field": "style_id",
+      "source": "styles/global_card_style.json",
+      "target": "STYLE-GLOBAL-CARD-003"
+    },
+    {
+      "field": "renderer_policy_id",
+      "source": "styles/global_card_style.json",
+      "target": "POLICY-RENDERER-FIRST-001"
+    }
+  ]
+}

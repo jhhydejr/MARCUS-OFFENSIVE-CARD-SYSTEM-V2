@@ -1,0 +1,30 @@
+{
+  "policy_id": "POLICY-PLAYBOOK-TERMINOLOGY-001",
+  "status": "APPROVED",
+  "rules": [
+    "Use only terminology found in the playbook or directly approved by the coach.",
+    "Formation changes are called variations.",
+    "Do not introduce substitute football terminology.",
+    "Use only the supplied variation list unless the coach adds another variation."
+  ],
+  "approved_variations": [
+    "ON",
+    "HO",
+    "DON",
+    "OPEN",
+    "WIDE",
+    "HUG",
+    "HAY",
+    "HAZE",
+    "HOAX",
+    "SNUG",
+    "FLEX",
+    "SQUEEZE",
+    "HIDE"
+  ],
+  "executable_enforcement": {
+    "parser_field": "variation",
+    "catalog_category": "variations",
+    "engine_module": "src/marcus_cad/variations.py"
+  }
+}

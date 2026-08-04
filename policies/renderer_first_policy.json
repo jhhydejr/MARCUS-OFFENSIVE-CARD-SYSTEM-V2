@@ -1,0 +1,11 @@
+{
+  "policy_id": "POLICY-RENDERER-FIRST-001",
+  "status": "APPROVED",
+  "rules": [
+    "All visual changes update CAD data, renderer configuration, SVG templates, and tests.",
+    "No AI-generated image, mockup, or preview is permitted for Marcus CAD project work.",
+    "SVG is the master artifact.",
+    "PNG and PDF are generated only when explicitly requested or required by testing.",
+    "The working project directory is primary; ZIP files are release snapshots."
+  ]
+}
