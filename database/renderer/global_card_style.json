@@ -1,0 +1,8 @@
+{
+  "style_id": "STYLE-GLOBAL-CARD-003",
+  "status": "APPROVED",
+  "offensive_player_radius": 19,
+  "field_number_fill": "#808080",
+  "field_number_black_percentage": 50,
+  "renderer_policy_id": "POLICY-RENDERER-FIRST-001"
+}

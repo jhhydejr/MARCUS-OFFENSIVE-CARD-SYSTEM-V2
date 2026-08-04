@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0",
+  "object_id": "BF-GUN-001",
+  "backfield_name": "GUN",
+  "aliases": [
+    "GUN"
+  ],
+  "status": "COACH_APPROVED",
+  "approval": {
+    "authority": "Chief Engineer",
+    "status": "COACH_APPROVED",
+    "scope": "Global default backfield when no other backfield is called"
+  },
+  "players": [
+    {
+      "label": "QB",
+      "alignment_object_id": "AO-QB-GUN",
+      "relationship": "CENTERED_BEHIND_CENTER",
+      "depth_yards": 5.0
+    },
+    {
+      "label": "B",
+      "alignment_object_id": "AO-BACK-GUN-WEAK",
+      "relationship": "WEAK_OF_QB",
+      "depth_yards": 6.0
+    }
+  ],
+  "source_traceability": [
+    "database/offense/FRM-11-DBLS-LT.json",
+    "database/offense/FRM-11-DBLS-RT.json",
+    "database/offense/CONST-11-DBLS-LT-001.json",
+    "database/offense/CONST-11-DBLS-RT-001.json"
+  ],
+  "notes": [
+    "GUN is assumed when the backfield slot is omitted.",
+    "An explicitly called non-GUN backfield must resolve to its own approved object.",
+    "This object does not create new coordinates; it uses the approved QB and back geometry stored with the selected formation."
+  ],
+  "default_when_omitted": true
+}

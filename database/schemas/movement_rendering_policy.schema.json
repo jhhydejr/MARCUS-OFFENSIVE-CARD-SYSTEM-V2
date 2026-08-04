@@ -1,0 +1,13 @@
+{
+  "schema_id": "SCHEMA-MOVEMENT-RENDERING-001",
+  "description": "Per-motion or per-shift drawing behavior. No global assumption is allowed.",
+  "fields": {
+    "show_origin_player": "boolean",
+    "show_motion_path": "boolean",
+    "show_arrowhead": "boolean",
+    "show_destination_marker": "boolean",
+    "destination_marker_type": "null | player_symbol | open_circle | ghost_symbol | landmark_tick",
+    "destination_label": "optional string",
+    "rule_scope": "object-specific"
+  }
+}

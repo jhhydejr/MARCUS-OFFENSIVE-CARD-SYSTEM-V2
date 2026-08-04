@@ -1,0 +1,61 @@
+{
+  "object_id": "FMF-RT-001",
+  "object_type": "formation_family",
+  "canonical_name": "RT/LT",
+  "status": "ACTIVE",
+  "directional": true,
+  "rules": [
+    "Standalone RT/LT family.",
+    "Personnel, field location, and variation are separate layers."
+  ],
+  "member_object_ids": [
+    "FRM-11-RT-ON",
+    "FRM-21-RT",
+    "FRM-21-LT",
+    "FRM-12-LT-M",
+    "FRM-12-RT-M"
+  ],
+  "supported_personnel": [
+    "11",
+    "12",
+    "21"
+  ],
+  "supported_field_locations": [
+    "M"
+  ],
+  "source_traceability": [
+    {
+      "member_object_id": "FRM-11-RT-ON",
+      "drawing_id": "DRW-11-RT-ON-001",
+      "coordinate_set_id": null,
+      "status": "DERIVED_FROM_APPROVED_MIRROR"
+    },
+    {
+      "member_object_id": "FRM-21-RT",
+      "drawing_id": "DRW-21-RT-001",
+      "coordinate_set_id": "COORD-21-RT-001",
+      "status": "SOURCE_IMPORTED_NEEDS_COACH_APPROVAL"
+    },
+    {
+      "member_object_id": "FRM-21-LT",
+      "drawing_id": "DRW-21-LT-001",
+      "coordinate_set_id": "COORD-21-LT-001",
+      "status": "DERIVED_FROM_SOURCE_BY_APPROVED_MIRROR"
+    },
+    {
+      "member_object_id": "FRM-12-LT-M",
+      "drawing_id": "DRW-M-12-LT-001",
+      "coordinate_set_id": "COORD-12-LT-M-001",
+      "status": "SOURCE_IMPORTED_NEEDS_COACH_APPROVAL"
+    },
+    {
+      "member_object_id": "FRM-12-RT-M",
+      "drawing_id": "DRW-M-12-RT-001",
+      "coordinate_set_id": "COORD-12-RT-M-001",
+      "status": "DERIVED_FROM_SOURCE_BY_APPROVED_MIRROR"
+    }
+  ],
+  "supported_variations": [
+    "ON"
+  ]
+}

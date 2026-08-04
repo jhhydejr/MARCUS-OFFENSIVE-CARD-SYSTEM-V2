@@ -1,0 +1,87 @@
+{
+  "object_id": "GEOM-DRW-RH-11-TREY-RT-ON-001",
+  "object_type": "formation_geometry",
+  "drawing_id": "DRW-RH-11-TREY-RT-ON-001",
+  "call": "RH (11) TREY RT ON",
+  "status": "DERIVED_FROM_APPROVED_MIRROR",
+  "coordinate_set_id": "COORD-11-TREY-RT-ON-RH-001",
+  "renderer_profile_id": "HANDOFF_V1_1700x950",
+  "extraction_source": "STORED_COORDINATE_SET",
+  "source_svg": "artifacts/drawings/DRW-RH-11-TREY-RT-ON-001/drawing.svg",
+  "source_svg_sha256": "2b105edb3ce5edac6039518b3680b4d90f7626bf8248f6275d5c7aa7c67881fa",
+  "player_count": 11,
+  "players": [
+    {
+      "label": "X",
+      "svg_x": 222.937602,
+      "svg_y": 617.0,
+      "radius": 19
+    },
+    {
+      "label": "Y",
+      "svg_x": 1246.374685,
+      "svg_y": 617.0,
+      "radius": 19
+    },
+    {
+      "label": "RT",
+      "svg_x": 912.249593,
+      "svg_y": 619.0,
+      "radius": 19
+    },
+    {
+      "label": "RG",
+      "svg_x": 979.874611,
+      "svg_y": 619.0,
+      "radius": 19
+    },
+    {
+      "label": "C",
+      "svg_x": 1047.49963,
+      "svg_y": 619.0,
+      "radius": 19
+    },
+    {
+      "label": "LG",
+      "svg_x": 1115.124648,
+      "svg_y": 619.0,
+      "radius": 19
+    },
+    {
+      "label": "LT",
+      "svg_x": 1182.749667,
+      "svg_y": 619.0,
+      "radius": 19
+    },
+    {
+      "label": "H",
+      "svg_x": 1361.718542,
+      "svg_y": 629.0,
+      "radius": 19
+    },
+    {
+      "label": "Z",
+      "svg_x": 1477.062398,
+      "svg_y": 629.0,
+      "radius": 19
+    },
+    {
+      "label": "Q",
+      "svg_x": 1047.49963,
+      "svg_y": 703.0,
+      "radius": 19
+    },
+    {
+      "label": "B",
+      "svg_x": 956.430858,
+      "svg_y": 727.0,
+      "radius": 19
+    }
+  ],
+  "validation": {
+    "svg_exists": true,
+    "player_count_is_11": true,
+    "all_players_have_coordinates": true,
+    "all_offensive_circles_radius_19": true
+  }
+}

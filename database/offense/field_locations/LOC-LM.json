@@ -1,0 +1,9 @@
+{
+  "object_id": "LOC-LM",
+  "object_type": "field_location",
+  "canonical_name": "LM",
+  "status": "ACTIVE",
+  "definition": "Place the offensive center halfway between the left hash and field center.",
+  "anchor_rule": "MIDPOINT_LEFT_HASH_TO_CENTER",
+  "geometry_source": "FIELD_SVG_LANDMARKS"
+}

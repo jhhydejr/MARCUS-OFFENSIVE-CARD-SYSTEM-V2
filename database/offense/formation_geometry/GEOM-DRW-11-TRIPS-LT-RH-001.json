@@ -1,0 +1,87 @@
+{
+  "object_id": "GEOM-DRW-11-TRIPS-LT-RH-001",
+  "object_type": "formation_geometry",
+  "drawing_id": "DRW-11-TRIPS-LT-RH-001",
+  "call": "RH (11) TRIPS LT",
+  "status": "DERIVED_FROM_APPROVED_MIRROR",
+  "coordinate_set_id": "COORD-11-TRIPS-LT-RH-001",
+  "renderer_profile_id": "HANDOFF_V1_1700x950",
+  "extraction_source": "STORED_COORDINATE_SET",
+  "source_svg": "artifacts/drawings/DRW-11-TRIPS-LT-RH-001/drawing.svg",
+  "source_svg_sha256": "05a7b65d0a7509fe8ed48cfccefbafab2e928c04205f4d6774c6d19b2ee45f44",
+  "player_count": 11,
+  "players": [
+    {
+      "label": "Z",
+      "svg_x": 222.937602,
+      "svg_y": 617.0,
+      "radius": 19
+    },
+    {
+      "label": "X",
+      "svg_x": 1477.062398,
+      "svg_y": 617.0,
+      "radius": 19
+    },
+    {
+      "label": "RT",
+      "svg_x": 912.249593,
+      "svg_y": 619.0,
+      "radius": 19
+    },
+    {
+      "label": "RG",
+      "svg_x": 979.874611,
+      "svg_y": 619.0,
+      "radius": 19
+    },
+    {
+      "label": "C",
+      "svg_x": 1047.49963,
+      "svg_y": 619.0,
+      "radius": 19
+    },
+    {
+      "label": "LG",
+      "svg_x": 1115.124648,
+      "svg_y": 619.0,
+      "radius": 19
+    },
+    {
+      "label": "LT",
+      "svg_x": 1182.749667,
+      "svg_y": 619.0,
+      "radius": 19
+    },
+    {
+      "label": "H",
+      "svg_x": 452.708265,
+      "svg_y": 629.0,
+      "radius": 19
+    },
+    {
+      "label": "Y",
+      "svg_x": 682.478929,
+      "svg_y": 629.0,
+      "radius": 19
+    },
+    {
+      "label": "Q",
+      "svg_x": 1047.49963,
+      "svg_y": 703.0,
+      "radius": 19
+    },
+    {
+      "label": "B",
+      "svg_x": 1138.568401,
+      "svg_y": 727.0,
+      "radius": 19
+    }
+  ],
+  "validation": {
+    "svg_exists": true,
+    "player_count_is_11": true,
+    "all_players_have_coordinates": true,
+    "all_offensive_circles_radius_19": true
+  }
+}

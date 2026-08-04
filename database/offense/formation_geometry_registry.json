@@ -1,0 +1,157 @@
+{
+  "registry_id": "REGISTRY-FORMATION-GEOMETRY-001",
+  "version": "1.6.0",
+  "status": "ACTIVE",
+  "rule": "Formation geometry is extracted only from stored or source-traced SVG/coordinate artifacts.",
+  "geometry_objects": [
+    {
+      "geometry_id": "GEOM-DRW-11-DBLS-LT-001",
+      "drawing_id": "DRW-11-DBLS-LT-001",
+      "call": "(11) DBLS LT",
+      "player_count": 10,
+      "status": "CANONICAL_DERIVED_EXACT_MIRROR",
+      "file": "database/offense/formation_geometry/GEOM-DRW-11-DBLS-LT-001.json"
+    },
+    {
+      "geometry_id": "GEOM-DRW-11-DBLS-RT-001",
+      "drawing_id": "DRW-11-DBLS-RT-001",
+      "call": "(11) DBLS RT",
+      "player_count": 10,
+      "status": "BASELINE_CANDIDATE_PENDING_COACH_CONFIRMATION",
+      "file": "database/offense/formation_geometry/GEOM-DRW-11-DBLS-RT-001.json"
+    },
+    {
+      "geometry_id": "GEOM-DRW-11-RT-ON-001",
+      "drawing_id": "DRW-11-RT-ON-001",
+      "call": "(11) RT ON",
+      "player_count": 11,
+      "status": "DERIVED_FROM_APPROVED_MIRROR",
+      "file": "database/offense/formation_geometry/GEOM-DRW-11-RT-ON-001.json"
+    },
+    {
+      "geometry_id": "GEOM-DRW-11-RT-ON-H-ORBIT-001",
+      "drawing_id": "DRW-11-RT-ON-H-ORBIT-001",
+      "call": "(11) RT ON H ORBIT",
+      "player_count": 11,
+      "status": "SOURCE_TRACED_MOTION_COMPOSITE",
+      "file": "database/offense/formation_geometry/GEOM-DRW-11-RT-ON-H-ORBIT-001.json"
+    },
+    {
+      "geometry_id": "GEOM-DRW-11-TRIPS-LT-RH-001",
+      "drawing_id": "DRW-11-TRIPS-LT-RH-001",
+      "call": "RH (11) TRIPS LT",
+      "player_count": 11,
+      "status": "DERIVED_FROM_SOURCE_BY_APPROVED_MIRROR",
+      "file": "database/offense/formation_geometry/GEOM-DRW-11-TRIPS-LT-RH-001.json"
+    },
+    {
+      "geometry_id": "GEOM-DRW-11-TRIPS-RT-LH-001",
+      "drawing_id": "DRW-11-TRIPS-RT-LH-001",
+      "call": "LH (11) TRIPS RT",
+      "player_count": 11,
+      "status": "SOURCE_IMPORTED_NEEDS_COACH_APPROVAL",
+      "file": "database/offense/formation_geometry/GEOM-DRW-11-TRIPS-RT-LH-001.json"
+    },
+    {
+      "geometry_id": "GEOM-DRW-21-LT-001",
+      "drawing_id": "DRW-21-LT-001",
+      "call": "(21) LT",
+      "player_count": 11,
+      "status": "DERIVED_FROM_SOURCE_BY_APPROVED_MIRROR",
+      "file": "database/offense/formation_geometry/GEOM-DRW-21-LT-001.json"
+    },
+    {
+      "geometry_id": "GEOM-DRW-21-RT-001",
+      "drawing_id": "DRW-21-RT-001",
+      "call": "(21) RT",
+      "player_count": 11,
+      "status": "SOURCE_IMPORTED_NEEDS_COACH_APPROVAL",
+      "file": "database/offense/formation_geometry/GEOM-DRW-21-RT-001.json"
+    },
+    {
+      "geometry_id": "GEOM-DRW-LH-11-TREY-LT-ON-001",
+      "drawing_id": "DRW-LH-11-TREY-LT-ON-001",
+      "call": "LH (11) TREY LT ON",
+      "player_count": 11,
+      "status": "SOURCE_IMPORTED_NEEDS_COACH_APPROVAL",
+      "file": "database/offense/formation_geometry/GEOM-DRW-LH-11-TREY-LT-ON-001.json"
+    },
+    {
+      "geometry_id": "GEOM-DRW-M-12-LT-001",
+      "drawing_id": "DRW-M-12-LT-001",
+      "call": "M (12) LT",
+      "player_count": 11,
+      "status": "SOURCE_IMPORTED_NEEDS_COACH_APPROVAL",
+      "file": "database/offense/formation_geometry/GEOM-DRW-M-12-LT-001.json"
+    },
+    {
+      "geometry_id": "GEOM-DRW-M-12-RT-001",
+      "drawing_id": "DRW-M-12-RT-001",
+      "call": "M (12) RT",
+      "player_count": 11,
+      "status": "DERIVED_FROM_SOURCE_BY_APPROVED_MIRROR",
+      "file": "database/offense/formation_geometry/GEOM-DRW-M-12-RT-001.json"
+    },
+    {
+      "geometry_id": "GEOM-DRW-RH-11-TREY-RT-ON-001",
+      "drawing_id": "DRW-RH-11-TREY-RT-ON-001",
+      "call": "RH (11) TREY RT ON",
+      "player_count": 11,
+      "status": "DERIVED_FROM_SOURCE_BY_APPROVED_MIRROR",
+      "file": "database/offense/formation_geometry/GEOM-DRW-RH-11-TREY-RT-ON-001.json"
+    },
+    {
+      "geometry_id": "GEOM-DRW-11-LT-ON-001",
+      "drawing_id": "DRW-11-LT-ON-001",
+      "call": "(11) LT ON",
+      "player_count": 11,
+      "status": "COACH_APPROVED",
+      "file": "database/offense/formation_geometry/GEOM-DRW-11-LT-ON-001.json"
+    }
+  ],
+  "source_candidates": [
+    {
+      "source_member": "Marcus_SVG_All_Available_Data_Handoff_v1/01_SVG_DRAWINGS/11_DBLS_RT_visio_base_v3.svg",
+      "file": "sources/formation_svgs/11_DBLS_RT_visio_base_v3.svg",
+      "sha256": "342de65856b2bbe11174df2c58854bee280bce385e74e3ba719752e2dd88811f",
+      "extracted_player_count": 11
+    },
+    {
+      "source_member": "Marcus_SVG_All_Available_Data_Handoff_v1/01_SVG_DRAWINGS/11_TRIPS_RT_LEFT_HASH_v4.svg",
+      "file": "sources/formation_svgs/11_TRIPS_RT_LEFT_HASH_v4.svg",
+      "sha256": "0b0a556a85e19485191abfb5e5d81c83c3da567463c7995667464055c8f27ea9",
+      "extracted_player_count": 11
+    },
+    {
+      "source_member": "Marcus_SVG_All_Available_Data_Handoff_v1/01_SVG_DRAWINGS/21_RT.svg",
+      "file": "sources/formation_svgs/21_RT.svg",
+      "sha256": "06f1b96b09ff6ea653689c016863f670d1d2f72b52edb4363ec6fbe83a75ce11",
+      "extracted_player_count": 11
+    },
+    {
+      "source_member": "Marcus_SVG_All_Available_Data_Handoff_v1/01_SVG_DRAWINGS/LH_11_TREY_LT_ON.svg",
+      "file": "sources/formation_svgs/LH_11_TREY_LT_ON.svg",
+      "sha256": "67eebf7bb64ce9eaff5fd477fc71e9d53254f9c798cae869c4e79dec3eaa9d16",
+      "extracted_player_count": 11
+    },
+    {
+      "source_member": "Marcus_SVG_All_Available_Data_Handoff_v1/01_SVG_DRAWINGS/M_12_LT_v4.svg",
+      "file": "sources/formation_svgs/M_12_LT_v4.svg",
+      "sha256": "de31701c177b1b54ceb03862c0eafad48aad8640bdb50ae70f914be37b60839f",
+      "extracted_player_count": 11
+    },
+    {
+      "source_member": "Marcus_SVG_All_Available_Data_Handoff_v1/01_SVG_DRAWINGS/11_LT_ON.svg",
+      "file": "sources/formation_svgs/11_LT_ON.svg",
+      "sha256": "e9c7c47391a4da715d0285a4eb9263026c963b07a33b5e719ff8bcee1465cfa5",
+      "extracted_player_count": 11,
+      "promotion_status": "PROMOTED_TO_COACH_APPROVED_CANONICAL",
+      "promoted_drawing_id": "DRW-11-LT-ON-001"
+    }
+  ],
+  "summary": {
+    "geometry_object_count": 13,
+    "eleven_player_geometry_count": 11,
+    "source_candidate_count": 6
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "object_id": "COV-4-READ",
+  "object_type": "coverage",
+  "canonical_name": "COV 4 READ",
+  "status": "SOURCE_TRACED",
+  "definition": "Secondary run support where #3 supports inside of #2; #2 takes pitch and #3 takes QB.",
+  "source": {
+    "document": "MARCUS IDENTIFICATION OF DEFENSES.pdf",
+    "pages": [
+      6,
+      84
+    ],
+    "evidence_file": "sources/defense/COVER_4_READ_page_84.png"
+  },
+  "renderer": {
+    "read_players": [
+      {
+        "label": "#2",
+        "player": "S",
+        "path": "M 1018 452 L 1275 640",
+        "assignment": "PITCH"
+      },
+      {
+        "label": "#3",
+        "player": "SS",
+        "path": "M 1072 305 L 1110 650",
+        "assignment": "QB"
+      }
+    ]
+  }
+}

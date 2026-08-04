@@ -1,0 +1,90 @@
+{
+  "registry_id": "REGISTRY-FORMATIONS-001",
+  "version": "1.2.0",
+  "status": "ACTIVE_WITH_MIRROR_DERIVATIONS",
+  "rule": "Each formation concept is stored once and referenced by object ID.",
+  "approved_existing": [
+    {
+      "object_id": "FRM-11-DBLS-RT",
+      "drawing_id": "DRW-11-DBLS-RT-001",
+      "status": "CANONICAL"
+    },
+    {
+      "object_id": "FRM-11-DBLS-LT",
+      "drawing_id": "DRW-11-DBLS-LT-001",
+      "status": "CANONICAL"
+    },
+    {
+      "object_id": "FRM-11-RT-ON",
+      "drawing_id": "DRW-11-RT-ON-001",
+      "status": "DERIVED_FROM_APPROVED_MIRROR"
+    },
+    {
+      "object_id": "FRM-11-TRIPS-RT-LH",
+      "drawing_id": "DRW-11-TRIPS-RT-LH-001",
+      "status": "COACH_APPROVED",
+      "call": "LH (11) TRIPS RT",
+      "provenance": "SOURCE_IMPORTED"
+    },
+    {
+      "object_id": "FRM-11-TREY-LT-ON-LH",
+      "drawing_id": "DRW-LH-11-TREY-LT-ON-001",
+      "status": "COACH_APPROVED",
+      "call": "LH (11) TREY LT ON",
+      "provenance": "SOURCE_IMPORTED"
+    },
+    {
+      "object_id": "FRM-11-LT-ON",
+      "drawing_id": "DRW-11-LT-ON-001",
+      "status": "COACH_APPROVED",
+      "call": "(11) LT ON",
+      "provenance": "SOURCE_IMPORTED"
+    }
+  ],
+  "source_imported": [
+    {
+      "object_id": "FRM-21-RT",
+      "drawing_id": "DRW-21-RT-001",
+      "call": "(21) RT",
+      "player_count_extracted": 11
+    },
+    {
+      "object_id": "FRM-12-LT-M",
+      "drawing_id": "DRW-M-12-LT-001",
+      "call": "M (12) LT",
+      "player_count_extracted": 11
+    }
+  ],
+  "derived_mirrors": [
+    {
+      "object_id": "FRM-11-TRIPS-LT-RH",
+      "drawing_id": "DRW-11-TRIPS-LT-RH-001",
+      "call": "RH (11) TRIPS LT",
+      "mirror_of": "FRM-11-TRIPS-RT-LH",
+      "player_count": 11,
+      "status": "DERIVED_FROM_APPROVED_MIRROR"
+    },
+    {
+      "object_id": "FRM-21-LT",
+      "drawing_id": "DRW-21-LT-001",
+      "call": "(21) LT",
+      "mirror_of": "FRM-21-RT",
+      "player_count": 11
+    },
+    {
+      "object_id": "FRM-11-TREY-RT-ON-RH",
+      "drawing_id": "DRW-RH-11-TREY-RT-ON-001",
+      "call": "RH (11) TREY RT ON",
+      "mirror_of": "FRM-11-TREY-LT-ON-LH",
+      "player_count": 11,
+      "status": "DERIVED_FROM_APPROVED_MIRROR"
+    },
+    {
+      "object_id": "FRM-12-RT-M",
+      "drawing_id": "DRW-M-12-RT-001",
+      "call": "M (12) RT",
+      "mirror_of": "FRM-12-LT-M",
+      "player_count": 11
+    }
+  ]
+}

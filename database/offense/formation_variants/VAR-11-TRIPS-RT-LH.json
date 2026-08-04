@@ -1,0 +1,17 @@
+{
+  "object_id": "VAR-11-TRIPS-RT-LH",
+  "object_type": "formation_variant",
+  "formation_object_id": "FRM-11-TRIPS-RT-LH",
+  "formation_family_id": "FMF-TRIPS-001",
+  "personnel": "11",
+  "direction": "RT",
+  "field_location_id": "LOC-LH",
+  "drawing_id": "DRW-11-TRIPS-RT-LH-001",
+  "coordinate_set_id": "COORD-11-TRIPS-RT-LH-001",
+  "renderer_profile_id": "HANDOFF_V1_1700x950",
+  "status": "SOURCE_IMPORTED_NEEDS_COACH_APPROVAL",
+  "variation_ids": [],
+  "terminology_version": "PLAYBOOK_VARIATION_V1",
+  "formation_geometry_id": "GEOM-DRW-11-TRIPS-RT-LH-001",
+  "formation_geometry_file": "database/offense/formation_geometry/GEOM-DRW-11-TRIPS-RT-LH-001.json"
+}

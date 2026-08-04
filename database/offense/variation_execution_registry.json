@@ -1,0 +1,24 @@
+{
+  "registry_id": "REGISTRY-VARIATION-EXECUTION-001",
+  "version": "1.3.0",
+  "status": "ACTIVE",
+  "executable_relational_variations": [
+    "ON",
+    "HO",
+    "DON",
+    "HAY",
+    "HAZE",
+    "HOAX"
+  ],
+  "geometry_required_before_execution": [
+    "OPEN",
+    "WIDE",
+    "HUG",
+    "SNUG",
+    "FLEX",
+    "SQUEEZE",
+    "HIDE"
+  ],
+  "engine": "src/marcus_cad/variations.py",
+  "rule": "No landmark or split geometry is invented."
+}

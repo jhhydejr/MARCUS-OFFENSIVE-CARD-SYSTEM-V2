@@ -1,0 +1,37 @@
+{
+  "object_id": "FMF-TRIPS-001",
+  "object_type": "formation_family",
+  "canonical_name": "TRIPS",
+  "status": "ACTIVE",
+  "directional": true,
+  "rules": [
+    "Three-receiver surface.",
+    "Directional counterpart is horizontal mirror."
+  ],
+  "member_object_ids": [
+    "FRM-11-TRIPS-RT-LH",
+    "FRM-11-TRIPS-LT-RH"
+  ],
+  "supported_personnel": [
+    "11"
+  ],
+  "supported_field_locations": [
+    "LH",
+    "RH"
+  ],
+  "source_traceability": [
+    {
+      "member_object_id": "FRM-11-TRIPS-RT-LH",
+      "drawing_id": "DRW-11-TRIPS-RT-LH-001",
+      "coordinate_set_id": "COORD-11-TRIPS-RT-LH-001",
+      "status": "SOURCE_IMPORTED_NEEDS_COACH_APPROVAL"
+    },
+    {
+      "member_object_id": "FRM-11-TRIPS-LT-RH",
+      "drawing_id": "DRW-11-TRIPS-LT-RH-001",
+      "coordinate_set_id": "COORD-11-TRIPS-LT-RH-001",
+      "status": "DERIVED_FROM_SOURCE_BY_APPROVED_MIRROR"
+    }
+  ],
+  "supported_variations": []
+}

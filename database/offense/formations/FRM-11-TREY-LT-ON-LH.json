@@ -1,0 +1,98 @@
+{
+  "object_id": "FRM-11-TREY-LT-ON-LH",
+  "object_type": "formation",
+  "canonical_call": "LH (11) TREY LT ON",
+  "family": "TREY",
+  "personnel": "11",
+  "strength": "LT",
+  "field_location": "LH",
+  "modifier": "ON",
+  "status": "COACH_APPROVED",
+  "drawing_id": "DRW-LH-11-TREY-LT-ON-001",
+  "coordinate_set_id": "COORD-11-TREY-LT-ON-LH-001",
+  "renderer_profile_id": "HANDOFF_V1_1700x950",
+  "source": {
+    "handoff_archive": "Marcus_SVG_All_Available_Data_Handoff_v1.zip",
+    "member": "Marcus_SVG_All_Available_Data_Handoff_v1/01_SVG_DRAWINGS/LH_11_TREY_LT_ON.svg",
+    "source_sha256": "67eebf7bb64ce9eaff5fd477fc71e9d53254f9c798cae869c4e79dec3eaa9d16"
+  },
+  "players_extracted": [
+    {
+      "label": "Z",
+      "svg_x": 222.937602,
+      "svg_y": 629.0,
+      "radius": 19
+    },
+    {
+      "label": "H",
+      "svg_x": 338.281458,
+      "svg_y": 629.0,
+      "radius": 19
+    },
+    {
+      "label": "Y",
+      "svg_x": 453.625315,
+      "svg_y": 617.0,
+      "radius": 19
+    },
+    {
+      "label": "LT",
+      "svg_x": 517.250333,
+      "svg_y": 619.0,
+      "radius": 19
+    },
+    {
+      "label": "LG",
+      "svg_x": 584.875352,
+      "svg_y": 619.0,
+      "radius": 19
+    },
+    {
+      "label": "C",
+      "svg_x": 652.50037,
+      "svg_y": 619.0,
+      "radius": 19
+    },
+    {
+      "label": "RG",
+      "svg_x": 720.125389,
+      "svg_y": 619.0,
+      "radius": 19
+    },
+    {
+      "label": "RT",
+      "svg_x": 787.750407,
+      "svg_y": 619.0,
+      "radius": 19
+    },
+    {
+      "label": "X",
+      "svg_x": 1477.062398,
+      "svg_y": 617.0,
+      "radius": 19
+    },
+    {
+      "label": "Q",
+      "svg_x": 652.50037,
+      "svg_y": 703.0,
+      "radius": 19
+    },
+    {
+      "label": "B",
+      "svg_x": 743.569142,
+      "svg_y": 727.0,
+      "radius": 19
+    }
+  ],
+  "validation": {
+    "svg_parsed": true,
+    "player_symbols_extracted": 11,
+    "global_circle_style_applied": true,
+    "field_number_style_applied": true
+  },
+  "coach_approval": {
+    "status": "APPROVED",
+    "approved_date": "2026-08-04",
+    "scope": "FORMATION_GEOMETRY"
+  }
+}

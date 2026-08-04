@@ -1,0 +1,212 @@
+{
+  "schema": "marcus.call_grammar.v1.4",
+  "status": "COACH_APPROVED",
+  "authority": "Chief Engineer",
+  "offensive_call": {
+    "ordered_slots": [
+      {
+        "number": 1,
+        "name": "personnel",
+        "required": true
+      },
+      {
+        "number": 2,
+        "name": "backfield",
+        "required": false
+      },
+      {
+        "number": 3,
+        "name": "formation",
+        "required": true
+      },
+      {
+        "number": 4,
+        "name": "variation",
+        "required": false
+      },
+      {
+        "number": 5,
+        "name": "motion",
+        "required": false
+      },
+      {
+        "number": 6,
+        "name": "shift",
+        "required": false
+      },
+      {
+        "number": 7,
+        "name": "protection",
+        "required": false
+      },
+      {
+        "number": 8,
+        "name": "play",
+        "required": true
+      },
+      {
+        "number": 9,
+        "name": "tag",
+        "required": false
+      }
+    ],
+    "required_slots": [
+      "personnel",
+      "formation",
+      "play"
+    ]
+  },
+  "defensive_call": {
+    "ordered_slots": [
+      {
+        "number": 1,
+        "name": "structure",
+        "required": true
+      },
+      {
+        "number": 2,
+        "name": "front",
+        "required": false
+      },
+      {
+        "number": 3,
+        "name": "game",
+        "required": false
+      },
+      {
+        "number": 4,
+        "name": "pressure",
+        "required": false
+      },
+      {
+        "number": 5,
+        "name": "blitz",
+        "required": false
+      },
+      {
+        "number": 6,
+        "name": "coverage",
+        "required": true
+      }
+    ],
+    "required_slots": [
+      "structure",
+      "coverage"
+    ]
+  },
+  "separator": "VS",
+  "notes": [
+    "Field location is card context and is not one of the numbered offensive-call slots.",
+    "Backfield is an optional offensive slot immediately after personnel and before formation.",
+    "Optional slots may be omitted without invalidating the call.",
+    "No missing football object may be inferred or invented.",
+    "Present slots must appear in the approved numbered order; omitted optional slots do not change the order of remaining slots.",
+    "Formation cards use only personnel, backfield, formation, variation, motion, and shift; personnel and formation are required.",
+    "Scout cards do not require offensive play; play cards do require offensive play.",
+    "When no backfield is called, GUN is the coach-approved default backfield."
+  ],
+  "card_types": {
+    "FORMATION_CARD": {
+      "description": "Formation-only card for correcting approved formation, backfield, variation, motion, and shift geometry.",
+      "offensive_ordered_slots": [
+        "personnel",
+        "backfield",
+        "formation",
+        "variation",
+        "motion",
+        "shift"
+      ],
+      "offensive_required_slots": [
+        "personnel",
+        "formation"
+      ],
+      "defensive_required_slots": []
+    },
+    "SCOUT_CARD": {
+      "description": "Scout card; offensive play is not required.",
+      "offensive_ordered_slots": [
+        "personnel",
+        "backfield",
+        "formation",
+        "variation",
+        "motion",
+        "shift",
+        "protection",
+        "play",
+        "tag"
+      ],
+      "offensive_required_slots": [
+        "personnel",
+        "formation"
+      ],
+      "defensive_required_slots": [
+        "structure",
+        "coverage"
+      ]
+    },
+    "PLAY_CARD": {
+      "description": "Offensive play card; offensive play is required.",
+      "offensive_ordered_slots": [
+        "personnel",
+        "backfield",
+        "formation",
+        "variation",
+        "motion",
+        "shift",
+        "protection",
+        "play",
+        "tag"
+      ],
+      "offensive_required_slots": [
+        "personnel",
+        "formation",
+        "play"
+      ],
+      "defensive_required_slots": [
+        "structure",
+        "coverage"
+      ]
+    }
+  },
+  "formation_call": {
+    "ordered_slots": [
+      {
+        "number": 1,
+        "name": "personnel",
+        "required": true
+      },
+      {
+        "number": 2,
+        "name": "backfield",
+        "required": false
+      },
+      {
+        "number": 3,
+        "name": "formation",
+        "required": true
+      },
+      {
+        "number": 4,
+        "name": "variation",
+        "required": false
+      },
+      {
+        "number": 5,
+        "name": "motion",
+        "required": false
+      },
+      {
+        "number": 6,
+        "name": "shift",
+        "required": false
+      }
+    ],
+    "required_slots": [
+      "personnel",
+      "formation"
+    ]
+  },
+  "defaults": {
+    "backfield": "GUN"
+  }
+}

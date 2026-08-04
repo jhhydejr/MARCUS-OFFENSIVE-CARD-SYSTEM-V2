@@ -1,0 +1,95 @@
+{
+  "object_id": "VARIATION-DON-001",
+  "object_type": "formation_variation",
+  "canonical_name": "DON",
+  "status": "SOURCE_VERIFIED_NEEDS_COACH_APPROVAL",
+  "effect": "Y and H align on the LOS.",
+  "source": {
+    "archive": "Marcus_SVG_All_Available_Data_Handoff_v1.zip",
+    "member": "Marcus_SVG_All_Available_Data_Handoff_v1/04_DATABASES/Marcus_Formation_Database_v1_5.json",
+    "source_field": "modifiers",
+    "canonical_project_term": "variation",
+    "source_description": "(12) and (22) personnel diagrams",
+    "source_database_sha256": "a552ba55d13ffb80aab2f833ee05547da3948d3d5a8cdbbceef590afef9038ae"
+  },
+  "geometry": {
+    "status": "NOT_INVENTED",
+    "rule": "Add exact coordinates only from approved drawings or direct coach approval.",
+    "evidence_status": "REPRESENTATIVE_SOURCE_PAGE_CAPTURED"
+  },
+  "compatibility": {
+    "status": "SOURCE_OBSERVED",
+    "observed_personnel": [
+      "12",
+      "22"
+    ],
+    "observed_formation_families": [],
+    "observed_direction_terms": [
+      "LT",
+      "RT"
+    ],
+    "rule": "Observed in supplied personnel diagrams; absence does not prove incompatibility."
+  },
+  "executable_rule": {
+    "operation": "SET_LOS_STATUS",
+    "affected_players": [
+      "Y",
+      "H"
+    ],
+    "parameters": {
+      "los_status": "ON"
+    },
+    "engine": "src/marcus_cad/variations.py",
+    "status": "EXECUTABLE_RELATIONAL_RULE",
+    "coordinate_policy": "NO_COORDINATES_INVENTED"
+  },
+  "source_occurrences": [
+    {
+      "source_key": "12",
+      "source_document": "(12) PER.pdf",
+      "page": 2,
+      "calls": [
+        "(12) RT (LT) DON"
+      ],
+      "personnel": [
+        "12"
+      ],
+      "formation_terms": [
+        "RT",
+        "LT"
+      ]
+    },
+    {
+      "source_key": "22",
+      "source_document": "(22) PER.pdf",
+      "page": 2,
+      "calls": [
+        "(22) RT (LT) DON SNUG",
+        "(22) RT (LT) DON"
+      ],
+      "personnel": [
+        "22"
+      ],
+      "formation_terms": [
+        "RT",
+        "LT"
+      ]
+    }
+  ],
+  "representative_evidence": {
+    "source_key": "12",
+    "source_document": "(12) PER.pdf",
+    "page": 2,
+    "calls": [
+      "(12) RT (LT) DON"
+    ],
+    "personnel": [
+      "12"
+    ],
+    "formation_terms": [
+      "RT",
+      "LT"
+    ],
+    "evidence_file": "sources/variations/DON_page_2.png"
+  }
+}

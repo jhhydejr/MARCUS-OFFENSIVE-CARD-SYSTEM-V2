@@ -1,0 +1,12 @@
+{
+  "calls": [
+    {
+      "call": "LH (11) RT ON H ORBIT VS 4-2 STUD COV 4 READ",
+      "card_type": "SCOUT_CARD"
+    },
+    {
+      "call": "LH (11) RT ON H ORBIT VS 4-2 STUD COV 4 READ",
+      "card_type": "PLAY_CARD"
+    }
+  ]
+}

@@ -1,0 +1,222 @@
+{
+  "registry_id": "REGISTRY-VARIATION-SOURCE-OCCURRENCES-001",
+  "version": "1.4.0",
+  "status": "ACTIVE",
+  "source_documents": {
+    "11": {
+      "document": "(11) PER.pdf",
+      "source_member": "Marcus_SVG_All_Available_Data_Handoff_v1/06_SOURCE_PDFS/(11) PER.pdf",
+      "source_pdf_sha256": "cb4c6291c1ba4c9077b52064e9fd6b64670c4a7cac9439533b3837713a4494fe"
+    },
+    "12": {
+      "document": "(12) PER.pdf",
+      "source_member": "Marcus_SVG_All_Available_Data_Handoff_v1/06_SOURCE_PDFS/(12) PER.pdf",
+      "source_pdf_sha256": "8102f7f9473e68f97ad365fcfe4c3d8affbf6dd57685acde7bb77ffbdcad26d5"
+    },
+    "20_21": {
+      "document": "(20) (21) PER.pdf",
+      "source_member": "Marcus_SVG_All_Available_Data_Handoff_v1/06_SOURCE_PDFS/(20) (21) PER.pdf",
+      "source_pdf_sha256": "2740258d06e58bae70912c652a1856d9f9b8b6abd31fcc67a1da8df0865dcbb7"
+    },
+    "22": {
+      "document": "(22) PER.pdf",
+      "source_member": "Marcus_SVG_All_Available_Data_Handoff_v1/06_SOURCE_PDFS/(22) PER.pdf",
+      "source_pdf_sha256": "2854f2bb3453fbfe22e69c1075b99d4dc3240fca877c17214608f4bec4b0130d"
+    }
+  },
+  "variations": {
+    "ON": {
+      "occurrence_count": 14,
+      "observed_personnel": [
+        "11",
+        "12",
+        "21",
+        "22"
+      ],
+      "observed_formation_families": [
+        "BUNCH",
+        "CLUSTER",
+        "DBLS",
+        "TREY",
+        "TWINS"
+      ],
+      "representative_evidence": "sources/variations/ON_page_3.png"
+    },
+    "HO": {
+      "occurrence_count": 10,
+      "observed_personnel": [
+        "11",
+        "12",
+        "20"
+      ],
+      "observed_formation_families": [
+        "BUNCH",
+        "CLUSTER",
+        "DBLS",
+        "TREY",
+        "TRIO",
+        "TRIPS",
+        "TWINS"
+      ],
+      "representative_evidence": "sources/variations/HO_page_3.png"
+    },
+    "DON": {
+      "occurrence_count": 2,
+      "observed_personnel": [
+        "12",
+        "22"
+      ],
+      "observed_formation_families": [],
+      "representative_evidence": "sources/variations/DON_page_2.png"
+    },
+    "OPEN": {
+      "occurrence_count": 10,
+      "observed_personnel": [
+        "11",
+        "12",
+        "21",
+        "22"
+      ],
+      "observed_formation_families": [
+        "TREY",
+        "TRIO",
+        "TWINS"
+      ],
+      "representative_evidence": "sources/variations/OPEN_page_7.png"
+    },
+    "WIDE": {
+      "occurrence_count": 7,
+      "observed_personnel": [
+        "12",
+        "21",
+        "22"
+      ],
+      "observed_formation_families": [
+        "BUNCH",
+        "CLUSTER",
+        "TREY",
+        "TRIO",
+        "TWINS"
+      ],
+      "representative_evidence": "sources/variations/WIDE_page_2.png"
+    },
+    "HUG": {
+      "occurrence_count": 7,
+      "observed_personnel": [
+        "11",
+        "20"
+      ],
+      "observed_formation_families": [
+        "DBLS",
+        "TREY",
+        "TRIO",
+        "TRIPS",
+        "TWINS"
+      ],
+      "representative_evidence": "sources/variations/HUG_page_3.png"
+    },
+    "HAY": {
+      "occurrence_count": 1,
+      "observed_personnel": [
+        "11"
+      ],
+      "observed_formation_families": [
+        "TRIPS"
+      ],
+      "representative_evidence": "sources/variations/HAY_page_9.png"
+    },
+    "HAZE": {
+      "occurrence_count": 5,
+      "observed_personnel": [
+        "11",
+        "12"
+      ],
+      "observed_formation_families": [
+        "BUNCH",
+        "CLUSTER",
+        "TREY",
+        "TRIO",
+        "TRIPS"
+      ],
+      "representative_evidence": "sources/variations/HAZE_page_9.png"
+    },
+    "HOAX": {
+      "occurrence_count": 6,
+      "observed_personnel": [
+        "11",
+        "20"
+      ],
+      "observed_formation_families": [
+        "BUNCH",
+        "CLUSTER",
+        "DBLS",
+        "TREY",
+        "TRIO",
+        "TRIPS"
+      ],
+      "representative_evidence": "sources/variations/HOAX_page_3.png"
+    },
+    "SNUG": {
+      "occurrence_count": 11,
+      "observed_personnel": [
+        "11",
+        "20",
+        "21",
+        "22"
+      ],
+      "observed_formation_families": [
+        "DBLS",
+        "TREY",
+        "TRIO",
+        "TRIPS",
+        "TWINS"
+      ],
+      "representative_evidence": "sources/variations/SNUG_page_2.png"
+    },
+    "FLEX": {
+      "occurrence_count": 7,
+      "observed_personnel": [
+        "11",
+        "20",
+        "21"
+      ],
+      "observed_formation_families": [
+        "DBLS",
+        "TREY",
+        "TRIPS",
+        "TWINS"
+      ],
+      "representative_evidence": "sources/variations/FLEX_page_2.png"
+    },
+    "SQUEEZE": {
+      "occurrence_count": 6,
+      "observed_personnel": [
+        "11",
+        "20",
+        "21"
+      ],
+      "observed_formation_families": [
+        "DBLS",
+        "TREY",
+        "TRIPS"
+      ],
+      "representative_evidence": "sources/variations/SQUEEZE_page_2.png"
+    },
+    "HIDE": {
+      "occurrence_count": 7,
+      "observed_personnel": [
+        "11",
+        "20"
+      ],
+      "observed_formation_families": [
+        "DBLS",
+        "TREY",
+        "TRIO",
+        "TRIPS",
+        "TWINS"
+      ],
+      "representative_evidence": "sources/variations/HIDE_page_3.png"
+    }
+  },
+  "rule": "Compatibility is source-observed only. Exact geometry remains unapproved unless separately marked executable."
+}

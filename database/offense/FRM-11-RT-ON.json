@@ -1,0 +1,18 @@
+{
+  "object_id": "FRM-11-RT-ON",
+  "object_type": "formation_modifier_resolution",
+  "canonical_call": "(11) RT ON",
+  "personnel": "11",
+  "formation_id": "FM-RT-001",
+  "modifier_id": "VR-ON-001",
+  "drawing_id": "DRW-11-RT-ON-001",
+  "coordinate_set_id": "SVGSET-11-RT-ON",
+  "renderer_profile_id": "HANDOFF_V1_1700x950",
+  "status": "DERIVED_FROM_APPROVED_MIRROR",
+  "derivation": {
+    "source_call": "(11) LT ON",
+    "source_drawing_id": "DRW-11-LT-ON-001",
+    "rule": "RT and LT are exact horizontal mirrors",
+    "axis_svg_x": 850.0
+  }
+}

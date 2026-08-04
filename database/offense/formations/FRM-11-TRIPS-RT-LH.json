@@ -1,0 +1,98 @@
+{
+  "object_id": "FRM-11-TRIPS-RT-LH",
+  "object_type": "formation",
+  "canonical_call": "LH (11) TRIPS RT",
+  "family": "TRIPS",
+  "personnel": "11",
+  "strength": "RT",
+  "field_location": "LH",
+  "modifier": null,
+  "status": "COACH_APPROVED",
+  "drawing_id": "DRW-11-TRIPS-RT-LH-001",
+  "coordinate_set_id": "COORD-11-TRIPS-RT-LH-001",
+  "renderer_profile_id": "HANDOFF_V1_1700x950",
+  "source": {
+    "handoff_archive": "Marcus_SVG_All_Available_Data_Handoff_v1.zip",
+    "member": "Marcus_SVG_All_Available_Data_Handoff_v1/01_SVG_DRAWINGS/11_TRIPS_RT_LEFT_HASH_v4.svg",
+    "source_sha256": "0b0a556a85e19485191abfb5e5d81c83c3da567463c7995667464055c8f27ea9"
+  },
+  "players_extracted": [
+    {
+      "label": "X",
+      "svg_x": 222.937602,
+      "svg_y": 617.0,
+      "radius": 19
+    },
+    {
+      "label": "LT",
+      "svg_x": 517.250333,
+      "svg_y": 619.0,
+      "radius": 19
+    },
+    {
+      "label": "LG",
+      "svg_x": 584.875352,
+      "svg_y": 619.0,
+      "radius": 19
+    },
+    {
+      "label": "C",
+      "svg_x": 652.50037,
+      "svg_y": 619.0,
+      "radius": 19
+    },
+    {
+      "label": "RG",
+      "svg_x": 720.125389,
+      "svg_y": 619.0,
+      "radius": 19
+    },
+    {
+      "label": "RT",
+      "svg_x": 787.750407,
+      "svg_y": 619.0,
+      "radius": 19
+    },
+    {
+      "label": "Y",
+      "svg_x": 1017.521071,
+      "svg_y": 629.0,
+      "radius": 19
+    },
+    {
+      "label": "H",
+      "svg_x": 1247.291735,
+      "svg_y": 629.0,
+      "radius": 19
+    },
+    {
+      "label": "Z",
+      "svg_x": 1477.062398,
+      "svg_y": 617.0,
+      "radius": 19
+    },
+    {
+      "label": "Q",
+      "svg_x": 652.50037,
+      "svg_y": 703.0,
+      "radius": 19
+    },
+    {
+      "label": "B",
+      "svg_x": 561.431599,
+      "svg_y": 727.0,
+      "radius": 19
+    }
+  ],
+  "validation": {
+    "svg_parsed": true,
+    "player_symbols_extracted": 11,
+    "global_circle_style_applied": true,
+    "field_number_style_applied": true
+  },
+  "coach_approval": {
+    "status": "APPROVED",
+    "approved_date": "2026-08-04",
+    "scope": "FORMATION_GEOMETRY"
+  }
+}

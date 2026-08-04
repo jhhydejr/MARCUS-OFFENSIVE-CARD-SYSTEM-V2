@@ -1,0 +1,10 @@
+{
+  "object_id": "RENDER-RULE-MOTION-ORIGIN-001",
+  "object_type": "renderer_rule",
+  "canonical_name": "Motion Line Origin",
+  "status": "APPROVED",
+  "scope": "GLOBAL",
+  "rule": "Motion paths begin at the edge of the moving player's symbol in the initial direction of travel.",
+  "formula": "start = center + radius * normalize(first_path_vector)",
+  "exceptions": "Only when an object-specific approved override exists."
+}

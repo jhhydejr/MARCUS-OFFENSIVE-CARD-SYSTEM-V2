@@ -1,0 +1,39 @@
+{
+  "object_id": "FMF-TREY-001",
+  "object_type": "formation_family",
+  "canonical_name": "TREY",
+  "status": "ACTIVE",
+  "directional": true,
+  "rules": [
+    "TREY geometry is separate from variation state.",
+    "ON is a variation layer."
+  ],
+  "member_object_ids": [
+    "FRM-11-TREY-LT-ON-LH",
+    "FRM-11-TREY-RT-ON-RH"
+  ],
+  "supported_personnel": [
+    "11"
+  ],
+  "supported_field_locations": [
+    "LH",
+    "RH"
+  ],
+  "source_traceability": [
+    {
+      "member_object_id": "FRM-11-TREY-LT-ON-LH",
+      "drawing_id": "DRW-LH-11-TREY-LT-ON-001",
+      "coordinate_set_id": "COORD-11-TREY-LT-ON-LH-001",
+      "status": "SOURCE_IMPORTED_NEEDS_COACH_APPROVAL"
+    },
+    {
+      "member_object_id": "FRM-11-TREY-RT-ON-RH",
+      "drawing_id": "DRW-RH-11-TREY-RT-ON-001",
+      "coordinate_set_id": "COORD-11-TREY-RT-ON-RH-001",
+      "status": "DERIVED_FROM_SOURCE_BY_APPROVED_MIRROR"
+    }
+  ],
+  "supported_variations": [
+    "ON"
+  ]
+}

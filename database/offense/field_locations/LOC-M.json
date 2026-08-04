@@ -1,0 +1,9 @@
+{
+  "object_id": "LOC-M",
+  "object_type": "field_location",
+  "canonical_name": "M",
+  "status": "ACTIVE",
+  "definition": "Place the offensive center at field center.",
+  "anchor_rule": "FIELD_CENTER",
+  "geometry_source": "FIELD_SVG_LANDMARKS"
+}

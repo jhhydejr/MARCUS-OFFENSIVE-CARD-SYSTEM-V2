@@ -1,0 +1,46 @@
+{
+  "registry_id": "REGISTRY-FORMATION-INHERITANCE-001",
+  "version": "1.1.0",
+  "status": "ACTIVE",
+  "rules": [
+    {
+      "rule_id": "FORM-MIRROR-001",
+      "name": "Directional Horizontal Mirror",
+      "definition": "RT/LT counterparts preserve player identities and Y coordinates while mirroring X across the field center.",
+      "axis_svg_x": 850.0,
+      "canvas_width": 1700.0
+    }
+  ],
+  "relationships": [
+    {
+      "object_id": "FRM-11-TRIPS-LT-RH",
+      "drawing_id": "DRW-11-TRIPS-LT-RH-001",
+      "call": "RH (11) TRIPS LT",
+      "mirror_of": "FRM-11-TRIPS-RT-LH",
+      "player_count": 11,
+      "status": "DERIVED_FROM_APPROVED_MIRROR"
+    },
+    {
+      "object_id": "FRM-21-LT",
+      "drawing_id": "DRW-21-LT-001",
+      "call": "(21) LT",
+      "mirror_of": "FRM-21-RT",
+      "player_count": 11
+    },
+    {
+      "object_id": "FRM-11-TREY-RT-ON-RH",
+      "drawing_id": "DRW-RH-11-TREY-RT-ON-001",
+      "call": "RH (11) TREY RT ON",
+      "mirror_of": "FRM-11-TREY-LT-ON-LH",
+      "player_count": 11,
+      "status": "DERIVED_FROM_APPROVED_MIRROR"
+    },
+    {
+      "object_id": "FRM-12-RT-M",
+      "drawing_id": "DRW-M-12-RT-001",
+      "call": "M (12) RT",
+      "mirror_of": "FRM-12-LT-M",
+      "player_count": 11
+    }
+  ]
+}

@@ -1,0 +1,233 @@
+{
+  "object_id": "VARIATION-SNUG-001",
+  "object_type": "formation_variation",
+  "canonical_name": "SNUG",
+  "status": "SOURCE_PATTERN_NEEDS_EXACT_GEOMETRY",
+  "effect": "Wide receivers reduce their split and align close to the formation/box as shown in the personnel diagrams.",
+  "source": {
+    "archive": "Marcus_SVG_All_Available_Data_Handoff_v1.zip",
+    "member": "Marcus_SVG_All_Available_Data_Handoff_v1/04_DATABASES/Marcus_Formation_Database_v1_5.json",
+    "source_field": "modifiers",
+    "canonical_project_term": "variation",
+    "source_description": "(11), (20), and (22) personnel diagrams",
+    "source_database_sha256": "a552ba55d13ffb80aab2f833ee05547da3948d3d5a8cdbbceef590afef9038ae"
+  },
+  "geometry": {
+    "status": "NOT_INVENTED",
+    "rule": "Add exact coordinates only from approved drawings or direct coach approval.",
+    "evidence_status": "REPRESENTATIVE_SOURCE_PAGE_CAPTURED"
+  },
+  "compatibility": {
+    "status": "SOURCE_OBSERVED",
+    "observed_personnel": [
+      "11",
+      "20",
+      "21",
+      "22"
+    ],
+    "observed_formation_families": [
+      "DBLS",
+      "TREY",
+      "TRIO",
+      "TRIPS",
+      "TWINS"
+    ],
+    "observed_direction_terms": [
+      "LT",
+      "RT"
+    ],
+    "rule": "Observed in supplied personnel diagrams; absence does not prove incompatibility."
+  },
+  "source_occurrences": [
+    {
+      "source_key": "11",
+      "source_document": "(11) PER.pdf",
+      "page": 2,
+      "calls": [
+        "(11) DBLS RT (LT) SNUG"
+      ],
+      "personnel": [
+        "11"
+      ],
+      "formation_terms": [
+        "DBLS",
+        "RT",
+        "LT"
+      ]
+    },
+    {
+      "source_key": "11",
+      "source_document": "(11) PER.pdf",
+      "page": 4,
+      "calls": [
+        "(11) RT (LT) SNUG"
+      ],
+      "personnel": [
+        "11"
+      ],
+      "formation_terms": [
+        "RT",
+        "LT"
+      ]
+    },
+    {
+      "source_key": "11",
+      "source_document": "(11) PER.pdf",
+      "page": 6,
+      "calls": [
+        "(11) TWINS RT (LT) ON SNUG"
+      ],
+      "personnel": [
+        "11"
+      ],
+      "formation_terms": [
+        "TWINS",
+        "RT",
+        "LT"
+      ]
+    },
+    {
+      "source_key": "11",
+      "source_document": "(11) PER.pdf",
+      "page": 8,
+      "calls": [
+        "(11) TRIPS RT (LT) SNUG"
+      ],
+      "personnel": [
+        "11"
+      ],
+      "formation_terms": [
+        "TRIPS",
+        "RT",
+        "LT"
+      ]
+    },
+    {
+      "source_key": "11",
+      "source_document": "(11) PER.pdf",
+      "page": 10,
+      "calls": [
+        "(11) TREY RT (LT) SNUG"
+      ],
+      "personnel": [
+        "11"
+      ],
+      "formation_terms": [
+        "TREY",
+        "RT",
+        "LT"
+      ]
+    },
+    {
+      "source_key": "11",
+      "source_document": "(11) PER.pdf",
+      "page": 13,
+      "calls": [
+        "(11) TRIO LT (RT) SNUG"
+      ],
+      "personnel": [
+        "11"
+      ],
+      "formation_terms": [
+        "TRIO",
+        "RT",
+        "LT"
+      ]
+    },
+    {
+      "source_key": "20_21",
+      "source_document": "(20) (21) PER.pdf",
+      "page": 2,
+      "calls": [
+        "(20) RT (LT) SNUG"
+      ],
+      "personnel": [
+        "20"
+      ],
+      "formation_terms": [
+        "RT",
+        "LT"
+      ]
+    },
+    {
+      "source_key": "20_21",
+      "source_document": "(20) (21) PER.pdf",
+      "page": 4,
+      "calls": [
+        "(21) RT (LT) SNUG"
+      ],
+      "personnel": [
+        "21"
+      ],
+      "formation_terms": [
+        "RT",
+        "LT"
+      ]
+    },
+    {
+      "source_key": "20_21",
+      "source_document": "(20) (21) PER.pdf",
+      "page": 5,
+      "calls": [
+        "(21) TWINS LT (RT) ON SNUG"
+      ],
+      "personnel": [
+        "21"
+      ],
+      "formation_terms": [
+        "TWINS",
+        "RT",
+        "LT"
+      ]
+    },
+    {
+      "source_key": "22",
+      "source_document": "(22) PER.pdf",
+      "page": 2,
+      "calls": [
+        "(22) RT (LT) DON SNUG"
+      ],
+      "personnel": [
+        "22"
+      ],
+      "formation_terms": [
+        "RT",
+        "LT"
+      ]
+    },
+    {
+      "source_key": "22",
+      "source_document": "(22) PER.pdf",
+      "page": 3,
+      "calls": [
+        "(22) TWINS LT (RT) ON SNUG"
+      ],
+      "personnel": [
+        "21",
+        "22"
+      ],
+      "formation_terms": [
+        "TWINS",
+        "RT",
+        "LT"
+      ]
+    }
+  ],
+  "representative_evidence": {
+    "source_key": "11",
+    "source_document": "(11) PER.pdf",
+    "page": 2,
+    "calls": [
+      "(11) DBLS RT (LT) SNUG"
+    ],
+    "personnel": [
+      "11"
+    ],
+    "formation_terms": [
+      "DBLS",
+      "RT",
+      "LT"
+    ],
+    "evidence_file": "sources/variations/SNUG_page_2.png"
+  }
+}

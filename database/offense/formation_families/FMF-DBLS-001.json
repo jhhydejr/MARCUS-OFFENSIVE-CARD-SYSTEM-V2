@@ -1,0 +1,34 @@
+{
+  "object_id": "FMF-DBLS-001",
+  "object_type": "formation_family",
+  "canonical_name": "DBLS",
+  "status": "ACTIVE",
+  "directional": true,
+  "rules": [
+    "Base doubles family.",
+    "RT and LT are horizontal mirrors."
+  ],
+  "member_object_ids": [
+    "FRM-11-DBLS-RT",
+    "FRM-11-DBLS-LT"
+  ],
+  "supported_personnel": [
+    "11"
+  ],
+  "supported_field_locations": [],
+  "source_traceability": [
+    {
+      "member_object_id": "FRM-11-DBLS-RT",
+      "drawing_id": "DRW-11-DBLS-RT-001",
+      "coordinate_set_id": null,
+      "status": "CANONICAL"
+    },
+    {
+      "member_object_id": "FRM-11-DBLS-LT",
+      "drawing_id": "DRW-11-DBLS-LT-001",
+      "coordinate_set_id": null,
+      "status": "CANONICAL"
+    }
+  ],
+  "supported_variations": []
+}

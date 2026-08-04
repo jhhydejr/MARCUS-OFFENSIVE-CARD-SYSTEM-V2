@@ -1,0 +1,72 @@
+{
+  "constraint_set_id": "CONST-11-DBLS-LT-001",
+  "formation_id": "FRM-11-DBLS-LT",
+  "status": "CANONICAL_DERIVED_EXACT_MIRROR",
+  "rules": [
+    {
+      "id": "C-001",
+      "rule": "Center top anchor is global origin (0,0).",
+      "type": "ANCHOR"
+    },
+    {
+      "id": "C-002",
+      "rule": "Default backfield is GUN.",
+      "type": "BACKFIELD"
+    },
+    {
+      "id": "C-003",
+      "rule": "X and Z are wide receivers on the LOS at symmetric number landmarks.",
+      "type": "ALIGNMENT"
+    },
+    {
+      "id": "C-004",
+      "rule": "H is OFF the LOS and horizontally halfway between X and LT.",
+      "type": "RELATIONSHIP"
+    },
+    {
+      "id": "C-005",
+      "rule": "Y is OFF the LOS and horizontally halfway between RT and Z.",
+      "type": "RELATIONSHIP"
+    },
+    {
+      "id": "C-006",
+      "rule": "H and Y top anchors are 0.500 yard behind the LOS.",
+      "type": "VERTICAL"
+    },
+    {
+      "id": "C-007",
+      "rule": "LT/RT and LG/RG are symmetric about C.",
+      "type": "SYMMETRY"
+    },
+    {
+      "id": "C-008",
+      "rule": "QB midpoint is 5.000 yards behind C.",
+      "type": "BACKFIELD"
+    },
+    {
+      "id": "C-009",
+      "rule": "B midpoint is 6.000 yards behind LOS and weak of QB at x=+3.297438.",
+      "type": "BACKFIELD"
+    },
+    {
+      "id": "C-010",
+      "rule": "DBLS RT is the exact horizontal mirror; player identities and Y-values remain unchanged.",
+      "type": "MIRROR"
+    }
+  ],
+  "derived_equations": [
+    {
+      "target": "H.x",
+      "equation": "(X.x + LT.x) / 2"
+    },
+    {
+      "target": "Y.x",
+      "equation": "(RT.x + Z.x) / 2"
+    },
+    {
+      "target": "DBLS_LT.x",
+      "equation": "-DBLS_RT.x for every player"
+    }
+  ],
+  "source_status": "DERIVED_FROM_APPROVED_EXACT_MIRROR_RULE_AND_RT_BASELINE"
+}

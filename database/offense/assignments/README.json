@@ -1,0 +1,6 @@
+{
+  "schema": "Marcus Assignment Object Registry",
+  "version": "1.0",
+  "description": "This directory contains only Chief-Engineer-approved assignment objects. The README record is not an assignment object.",
+  "required_fields": ["object_id", "assignment_type", "canonical_name", "eligible_players", "status"]
+}

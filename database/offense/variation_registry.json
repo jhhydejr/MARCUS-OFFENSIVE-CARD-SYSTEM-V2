@@ -1,0 +1,114 @@
+{
+  "registry_id": "REGISTRY-FORMATION-VARIATIONS-001",
+  "object_type": "formation_variation_registry",
+  "version": "1.4.0",
+  "status": "ACTIVE",
+  "terminology": {
+    "canonical_term": "variation",
+    "prohibited_project_term": "modifier",
+    "rule": "Use the playbook term VARIATION in all project-facing data."
+  },
+  "source": {
+    "archive": "Marcus_SVG_All_Available_Data_Handoff_v1.zip",
+    "member": "Marcus_SVG_All_Available_Data_Handoff_v1/04_DATABASES/Marcus_Formation_Database_v1_5.json",
+    "source_field": "modifiers",
+    "normalization": "Source field normalized to the playbook term variation.",
+    "source_database_sha256": "a552ba55d13ffb80aab2f833ee05547da3948d3d5a8cdbbceef590afef9038ae"
+  },
+  "variation_order": [
+    "ON",
+    "HO",
+    "DON",
+    "OPEN",
+    "WIDE",
+    "HUG",
+    "HAY",
+    "HAZE",
+    "HOAX",
+    "SNUG",
+    "FLEX",
+    "SQUEEZE",
+    "HIDE"
+  ],
+  "variations": {
+    "ON": {
+      "object_id": "VARIATION-ON-001",
+      "file": "database/offense/variations/VARIATION-ON-001.json",
+      "status": "COACH_APPROVED",
+      "source_occurrence_count": 14
+    },
+    "HO": {
+      "object_id": "VARIATION-HO-001",
+      "file": "database/offense/variations/VARIATION-HO-001.json",
+      "status": "COACH_APPROVED",
+      "source_occurrence_count": 10
+    },
+    "DON": {
+      "object_id": "VARIATION-DON-001",
+      "file": "database/offense/variations/VARIATION-DON-001.json",
+      "status": "SOURCE_VERIFIED_NEEDS_COACH_APPROVAL",
+      "source_occurrence_count": 2
+    },
+    "OPEN": {
+      "object_id": "VARIATION-OPEN-001",
+      "file": "database/offense/variations/VARIATION-OPEN-001.json",
+      "status": "SOURCE_VERIFIED_NEEDS_COACH_APPROVAL",
+      "source_occurrence_count": 10
+    },
+    "WIDE": {
+      "object_id": "VARIATION-WIDE-001",
+      "file": "database/offense/variations/VARIATION-WIDE-001.json",
+      "status": "SOURCE_VERIFIED_NEEDS_COACH_APPROVAL",
+      "source_occurrence_count": 7
+    },
+    "HUG": {
+      "object_id": "VARIATION-HUG-001",
+      "file": "database/offense/variations/VARIATION-HUG-001.json",
+      "status": "SOURCE_VERIFIED_NEEDS_COACH_APPROVAL",
+      "source_occurrence_count": 7
+    },
+    "HAY": {
+      "object_id": "VARIATION-HAY-001",
+      "file": "database/offense/variations/VARIATION-HAY-001.json",
+      "status": "SOURCE_VERIFIED_NEEDS_COACH_APPROVAL",
+      "source_occurrence_count": 1
+    },
+    "HAZE": {
+      "object_id": "VARIATION-HAZE-001",
+      "file": "database/offense/variations/VARIATION-HAZE-001.json",
+      "status": "SOURCE_VERIFIED_NEEDS_COACH_APPROVAL",
+      "source_occurrence_count": 5
+    },
+    "HOAX": {
+      "object_id": "VARIATION-HOAX-001",
+      "file": "database/offense/variations/VARIATION-HOAX-001.json",
+      "status": "SOURCE_VERIFIED_NEEDS_COACH_APPROVAL",
+      "source_occurrence_count": 6
+    },
+    "SNUG": {
+      "object_id": "VARIATION-SNUG-001",
+      "file": "database/offense/variations/VARIATION-SNUG-001.json",
+      "status": "SOURCE_PATTERN_NEEDS_EXACT_GEOMETRY",
+      "source_occurrence_count": 11
+    },
+    "FLEX": {
+      "object_id": "VARIATION-FLEX-001",
+      "file": "database/offense/variations/VARIATION-FLEX-001.json",
+      "status": "SOURCE_PATTERN_NEEDS_EXACT_GEOMETRY",
+      "source_occurrence_count": 7
+    },
+    "SQUEEZE": {
+      "object_id": "VARIATION-SQUEEZE-001",
+      "file": "database/offense/variations/VARIATION-SQUEEZE-001.json",
+      "status": "SOURCE_PATTERN_NEEDS_EXACT_GEOMETRY",
+      "source_occurrence_count": 6
+    },
+    "HIDE": {
+      "object_id": "VARIATION-HIDE-001",
+      "file": "database/offense/variations/VARIATION-HIDE-001.json",
+      "status": "SOURCE_PATTERN_NEEDS_EXACT_LANDMARK",
+      "source_occurrence_count": 7
+    }
+  },
+  "source_occurrence_registry_id": "REGISTRY-VARIATION-SOURCE-OCCURRENCES-001"
+}

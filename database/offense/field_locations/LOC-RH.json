@@ -1,0 +1,9 @@
+{
+  "object_id": "LOC-RH",
+  "object_type": "field_location",
+  "canonical_name": "RH",
+  "status": "ACTIVE",
+  "definition": "Place the offensive center on the right hash landmark stored in the field SVG.",
+  "anchor_rule": "RIGHT_HASH",
+  "geometry_source": "FIELD_SVG_LANDMARKS"
+}

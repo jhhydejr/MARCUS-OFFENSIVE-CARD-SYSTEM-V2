@@ -1,0 +1,216 @@
+{
+  "object_id": "VARIATION-OPEN-001",
+  "object_type": "formation_variation",
+  "canonical_name": "OPEN",
+  "status": "SOURCE_VERIFIED_NEEDS_COACH_APPROVAL",
+  "effect": "Y moves to the open wide-receiver position while keeping normal Y on/off rule unless another modifier changes it.",
+  "source": {
+    "archive": "Marcus_SVG_All_Available_Data_Handoff_v1.zip",
+    "member": "Marcus_SVG_All_Available_Data_Handoff_v1/04_DATABASES/Marcus_Formation_Database_v1_5.json",
+    "source_field": "modifiers",
+    "canonical_project_term": "variation",
+    "source_description": "(12) and (22) personnel diagrams",
+    "source_database_sha256": "a552ba55d13ffb80aab2f833ee05547da3948d3d5a8cdbbceef590afef9038ae"
+  },
+  "geometry": {
+    "status": "NOT_INVENTED",
+    "rule": "Add exact coordinates only from approved drawings or direct coach approval.",
+    "evidence_status": "REPRESENTATIVE_SOURCE_PAGE_CAPTURED"
+  },
+  "compatibility": {
+    "status": "SOURCE_OBSERVED",
+    "observed_personnel": [
+      "11",
+      "12",
+      "21",
+      "22"
+    ],
+    "observed_formation_families": [
+      "TREY",
+      "TRIO",
+      "TWINS"
+    ],
+    "observed_direction_terms": [
+      "LT",
+      "RT"
+    ],
+    "rule": "Observed in supplied personnel diagrams; absence does not prove incompatibility."
+  },
+  "source_occurrences": [
+    {
+      "source_key": "11",
+      "source_document": "(11) PER.pdf",
+      "page": 7,
+      "calls": [
+        "(11) TWINS RT (LT) OPEN"
+      ],
+      "personnel": [
+        "11"
+      ],
+      "formation_terms": [
+        "TWINS",
+        "RT",
+        "LT"
+      ]
+    },
+    {
+      "source_key": "11",
+      "source_document": "(11) PER.pdf",
+      "page": 13,
+      "calls": [
+        "(11) TRIO LT (RT) OPEN"
+      ],
+      "personnel": [
+        "11"
+      ],
+      "formation_terms": [
+        "TRIO",
+        "RT",
+        "LT"
+      ]
+    },
+    {
+      "source_key": "12",
+      "source_document": "(12) PER.pdf",
+      "page": 2,
+      "calls": [
+        "(12) RT (LT) OPEN"
+      ],
+      "personnel": [
+        "12"
+      ],
+      "formation_terms": [
+        "RT",
+        "LT"
+      ]
+    },
+    {
+      "source_key": "12",
+      "source_document": "(12) PER.pdf",
+      "page": 3,
+      "calls": [
+        "(12) TWINS RT (LT) OPEN"
+      ],
+      "personnel": [
+        "12"
+      ],
+      "formation_terms": [
+        "TWINS",
+        "RT",
+        "LT"
+      ]
+    },
+    {
+      "source_key": "12",
+      "source_document": "(12) PER.pdf",
+      "page": 4,
+      "calls": [
+        "(12) TREY RT (LT) OPEN"
+      ],
+      "personnel": [
+        "12"
+      ],
+      "formation_terms": [
+        "TREY",
+        "RT",
+        "LT"
+      ]
+    },
+    {
+      "source_key": "12",
+      "source_document": "(12) PER.pdf",
+      "page": 5,
+      "calls": [
+        "(12) TRIO RT (LT) OPEN"
+      ],
+      "personnel": [
+        "12"
+      ],
+      "formation_terms": [
+        "TRIO",
+        "RT",
+        "LT"
+      ]
+    },
+    {
+      "source_key": "20_21",
+      "source_document": "(20) (21) PER.pdf",
+      "page": 4,
+      "calls": [
+        "(21) RT (LT) OPEN"
+      ],
+      "personnel": [
+        "21"
+      ],
+      "formation_terms": [
+        "RT",
+        "LT"
+      ]
+    },
+    {
+      "source_key": "20_21",
+      "source_document": "(20) (21) PER.pdf",
+      "page": 5,
+      "calls": [
+        "(21) TWINS LT (RT) ON OPEN"
+      ],
+      "personnel": [
+        "21"
+      ],
+      "formation_terms": [
+        "TWINS",
+        "RT",
+        "LT"
+      ]
+    },
+    {
+      "source_key": "22",
+      "source_document": "(22) PER.pdf",
+      "page": 2,
+      "calls": [
+        "(22) RT (LT) OPEN"
+      ],
+      "personnel": [
+        "22"
+      ],
+      "formation_terms": [
+        "RT",
+        "LT"
+      ]
+    },
+    {
+      "source_key": "22",
+      "source_document": "(22) PER.pdf",
+      "page": 3,
+      "calls": [
+        "(22) TWINS LT (RT) OPEN"
+      ],
+      "personnel": [
+        "21",
+        "22"
+      ],
+      "formation_terms": [
+        "TWINS",
+        "RT",
+        "LT"
+      ]
+    }
+  ],
+  "representative_evidence": {
+    "source_key": "11",
+    "source_document": "(11) PER.pdf",
+    "page": 7,
+    "calls": [
+      "(11) TWINS RT (LT) OPEN"
+    ],
+    "personnel": [
+      "11"
+    ],
+    "formation_terms": [
+      "TWINS",
+      "RT",
+      "LT"
+    ],
+    "evidence_file": "sources/variations/OPEN_page_7.png"
+  }
+}

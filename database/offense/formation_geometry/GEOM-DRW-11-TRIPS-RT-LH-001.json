@@ -1,0 +1,92 @@
+{
+  "object_id": "GEOM-DRW-11-TRIPS-RT-LH-001",
+  "object_type": "formation_geometry",
+  "drawing_id": "DRW-11-TRIPS-RT-LH-001",
+  "call": "LH (11) TRIPS RT",
+  "status": "COACH_APPROVED",
+  "coordinate_set_id": "COORD-11-TRIPS-RT-LH-001",
+  "renderer_profile_id": "HANDOFF_V1_1700x950",
+  "extraction_source": "STORED_COORDINATE_SET",
+  "source_svg": "artifacts/drawings/DRW-11-TRIPS-RT-LH-001/drawing.svg",
+  "source_svg_sha256": "9127784804d2e8288a2138f9d9aab59beffc3fc8858bb41969eb38715585c8f0",
+  "player_count": 11,
+  "players": [
+    {
+      "label": "X",
+      "svg_x": 222.937602,
+      "svg_y": 617.0,
+      "radius": 19
+    },
+    {
+      "label": "Z",
+      "svg_x": 1477.062398,
+      "svg_y": 617.0,
+      "radius": 19
+    },
+    {
+      "label": "LT",
+      "svg_x": 517.250333,
+      "svg_y": 619.0,
+      "radius": 19
+    },
+    {
+      "label": "LG",
+      "svg_x": 584.875352,
+      "svg_y": 619.0,
+      "radius": 19
+    },
+    {
+      "label": "C",
+      "svg_x": 652.50037,
+      "svg_y": 619.0,
+      "radius": 19
+    },
+    {
+      "label": "RG",
+      "svg_x": 720.125389,
+      "svg_y": 619.0,
+      "radius": 19
+    },
+    {
+      "label": "RT",
+      "svg_x": 787.750407,
+      "svg_y": 619.0,
+      "radius": 19
+    },
+    {
+      "label": "Y",
+      "svg_x": 1017.521071,
+      "svg_y": 629.0,
+      "radius": 19
+    },
+    {
+      "label": "H",
+      "svg_x": 1247.291735,
+      "svg_y": 629.0,
+      "radius": 19
+    },
+    {
+      "label": "Q",
+      "svg_x": 652.50037,
+      "svg_y": 703.0,
+      "radius": 19
+    },
+    {
+      "label": "B",
+      "svg_x": 561.431599,
+      "svg_y": 727.0,
+      "radius": 19
+    }
+  ],
+  "validation": {
+    "svg_exists": true,
+    "player_count_is_11": true,
+    "all_players_have_coordinates": true,
+    "all_offensive_circles_radius_19": true
+  },
+  "coach_approval": {
+    "status": "APPROVED",
+    "approved_date": "2026-08-04",
+    "scope": "FORMATION_GEOMETRY"
+  }
+}

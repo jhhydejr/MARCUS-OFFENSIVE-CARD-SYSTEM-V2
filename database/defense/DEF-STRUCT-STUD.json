@@ -1,0 +1,20 @@
+{
+  "object_id": "DEF-STRUCT-STUD",
+  "object_type": "defensive_stunt",
+  "canonical_name": "STUD",
+  "status": "SOURCE_TRACED",
+  "definition": "SAM outside the TE or strong tackle (offensive EMOL).",
+  "source": {
+    "document": "MARCUS IDENTIFICATION OF DEFENSES.pdf",
+    "pages": [
+      10,
+      43
+    ],
+    "evidence_file": "sources/defense/STUD_page_43.png"
+  },
+  "affected_player": "S",
+  "renderer": {
+    "path": "M 1018 452 L 1085 585",
+    "destination": "outside strong offensive EMOL"
+  }
+}

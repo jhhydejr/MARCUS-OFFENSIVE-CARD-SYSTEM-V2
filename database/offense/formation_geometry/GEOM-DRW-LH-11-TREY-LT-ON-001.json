@@ -1,0 +1,92 @@
+{
+  "object_id": "GEOM-DRW-LH-11-TREY-LT-ON-001",
+  "object_type": "formation_geometry",
+  "drawing_id": "DRW-LH-11-TREY-LT-ON-001",
+  "call": "LH (11) TREY LT ON",
+  "status": "COACH_APPROVED",
+  "coordinate_set_id": "COORD-11-TREY-LT-ON-LH-001",
+  "renderer_profile_id": "HANDOFF_V1_1700x950",
+  "extraction_source": "STORED_COORDINATE_SET",
+  "source_svg": "artifacts/drawings/DRW-LH-11-TREY-LT-ON-001/drawing.svg",
+  "source_svg_sha256": "448567f748fa021a96a320e729c8f77b177dfa9d99d424bf1f60a33c23b1e94d",
+  "player_count": 11,
+  "players": [
+    {
+      "label": "Y",
+      "svg_x": 453.625315,
+      "svg_y": 617.0,
+      "radius": 19
+    },
+    {
+      "label": "X",
+      "svg_x": 1477.062398,
+      "svg_y": 617.0,
+      "radius": 19
+    },
+    {
+      "label": "LT",
+      "svg_x": 517.250333,
+      "svg_y": 619.0,
+      "radius": 19
+    },
+    {
+      "label": "LG",
+      "svg_x": 584.875352,
+      "svg_y": 619.0,
+      "radius": 19
+    },
+    {
+      "label": "C",
+      "svg_x": 652.50037,
+      "svg_y": 619.0,
+      "radius": 19
+    },
+    {
+      "label": "RG",
+      "svg_x": 720.125389,
+      "svg_y": 619.0,
+      "radius": 19
+    },
+    {
+      "label": "RT",
+      "svg_x": 787.750407,
+      "svg_y": 619.0,
+      "radius": 19
+    },
+    {
+      "label": "Z",
+      "svg_x": 222.937602,
+      "svg_y": 629.0,
+      "radius": 19
+    },
+    {
+      "label": "H",
+      "svg_x": 338.281458,
+      "svg_y": 629.0,
+      "radius": 19
+    },
+    {
+      "label": "Q",
+      "svg_x": 652.50037,
+      "svg_y": 703.0,
+      "radius": 19
+    },
+    {
+      "label": "B",
+      "svg_x": 743.569142,
+      "svg_y": 727.0,
+      "radius": 19
+    }
+  ],
+  "validation": {
+    "svg_exists": true,
+    "player_count_is_11": true,
+    "all_players_have_coordinates": true,
+    "all_offensive_circles_radius_19": true
+  },
+  "coach_approval": {
+    "status": "APPROVED",
+    "approved_date": "2026-08-04",
+    "scope": "FORMATION_GEOMETRY"
+  }
+}

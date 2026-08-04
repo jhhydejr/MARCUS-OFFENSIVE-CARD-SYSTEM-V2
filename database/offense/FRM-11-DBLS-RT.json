@@ -1,0 +1,275 @@
+{
+  "schema_version": "1.0",
+  "formation_id": "FRM-11-DBLS-RT",
+  "legacy_formation_record_id": "FM-DBLS-RT-001",
+  "formation_name": "(11) DBLS RT",
+  "aliases": [
+    "11 DBLS RT",
+    "(11) DOUBLES RT"
+  ],
+  "personnel": "11",
+  "family": "DBLS",
+  "direction": "RT",
+  "strength": "RT",
+  "hashmark": "M",
+  "default_backfield_id": "BF-GUN-001",
+  "renderer_profile_id": "MVP_V0_4_1600x920",
+  "drawing_id": "DRW-11-DBLS-RT-001",
+  "coordinate_set_id": "COORD-11-DBLS-RT-001",
+  "constraint_set_id": "CONST-11-DBLS-RT-001",
+  "validation_record_id": "VAL-11-DBLS-RT-001",
+  "validation_status": "CANONICAL",
+  "revision": "1.0",
+  "approval": {
+    "authority": "COACH",
+    "status": "APPROVED",
+    "scope": "canonical identity plus recovered baseline data",
+    "date_utc": "2026-07-22T02:04:18.837470+00:00"
+  },
+  "players": [
+    {
+      "player_id": "PLY-X-001",
+      "label": "X",
+      "role": "WIDE_RECEIVER",
+      "eligible": true,
+      "unit": "SKILL",
+      "los_status": "ON_LOS",
+      "alignment_object_id": "AO-WR",
+      "source_status": "RECOVERED"
+    },
+    {
+      "player_id": "PLY-H-001",
+      "label": "H",
+      "role": "SLOT_RECEIVER",
+      "eligible": true,
+      "unit": "SKILL",
+      "los_status": "OFF_LOS",
+      "alignment_object_id": "AO-SLOT",
+      "source_status": "RECOVERED"
+    },
+    {
+      "player_id": "PLY-LT-001",
+      "label": "LT",
+      "role": "LEFT_TACKLE",
+      "eligible": false,
+      "unit": "OFFENSIVE_LINE",
+      "los_status": "ON_LOS",
+      "alignment_object_id": "AO-OL",
+      "source_status": "RECOVERED"
+    },
+    {
+      "player_id": "PLY-LG-001",
+      "label": "LG",
+      "role": "LEFT_GUARD",
+      "eligible": false,
+      "unit": "OFFENSIVE_LINE",
+      "los_status": "ON_LOS",
+      "alignment_object_id": "AO-OL",
+      "source_status": "RECOVERED"
+    },
+    {
+      "player_id": "PLY-C-001",
+      "label": "C",
+      "role": "CENTER",
+      "eligible": false,
+      "unit": "OFFENSIVE_LINE",
+      "los_status": "ON_LOS",
+      "alignment_object_id": "AO-CENTER",
+      "source_status": "RECOVERED"
+    },
+    {
+      "player_id": "PLY-RG-001",
+      "label": "RG",
+      "role": "RIGHT_GUARD",
+      "eligible": false,
+      "unit": "OFFENSIVE_LINE",
+      "los_status": "ON_LOS",
+      "alignment_object_id": "AO-OL",
+      "source_status": "RECOVERED"
+    },
+    {
+      "player_id": "PLY-RT-001",
+      "label": "RT",
+      "role": "RIGHT_TACKLE",
+      "eligible": false,
+      "unit": "OFFENSIVE_LINE",
+      "los_status": "ON_LOS",
+      "alignment_object_id": "AO-OL",
+      "source_status": "RECOVERED"
+    },
+    {
+      "player_id": "PLY-Y-001",
+      "label": "Y",
+      "role": "RIGHT_SLOT_DETACHED",
+      "eligible": true,
+      "unit": "SKILL",
+      "los_status": "OFF_LOS",
+      "alignment_object_id": "AO-SLOT",
+      "source_status": "RECOVERED"
+    },
+    {
+      "player_id": "PLY-Z-001",
+      "label": "Z",
+      "role": "WIDE_RECEIVER",
+      "eligible": true,
+      "unit": "SKILL",
+      "los_status": "ON_LOS",
+      "alignment_object_id": "AO-WR",
+      "source_status": "RECOVERED"
+    },
+    {
+      "player_id": "PLY-QB-001",
+      "label": "QB",
+      "role": "QUARTERBACK",
+      "eligible": true,
+      "unit": "BACKFIELD",
+      "los_status": "BACKFIELD",
+      "alignment_object_id": "AO-QB-GUN",
+      "source_status": "RECOVERED"
+    },
+    {
+      "player_id": "PLY-B-001",
+      "label": "B",
+      "role": "TAILBACK",
+      "eligible": true,
+      "unit": "BACKFIELD",
+      "los_status": "BACKFIELD",
+      "alignment_object_id": "AO-BACK-GUN-WEAK",
+      "source_status": "RECOVERED"
+    }
+  ],
+  "relationships": [
+    {
+      "id": "REL-001",
+      "target": "H",
+      "relationship": "HORIZONTAL_MIDPOINT",
+      "references": [
+        "X",
+        "LT"
+      ]
+    },
+    {
+      "id": "REL-002",
+      "target": "Y",
+      "relationship": "HORIZONTAL_MIDPOINT",
+      "references": [
+        "RT",
+        "Z"
+      ]
+    },
+    {
+      "id": "REL-003",
+      "target": "QB",
+      "relationship": "CENTERED_BEHIND",
+      "references": [
+        "C"
+      ],
+      "depth_yards": 5.0
+    },
+    {
+      "id": "REL-004",
+      "target": "B",
+      "relationship": "WEAK_GUN_BACK",
+      "references": [
+        "QB",
+        "LG"
+      ],
+      "depth_yards": 6.0
+    },
+    {
+      "id": "REL-005",
+      "target": "FRM-11-DBLS-LT",
+      "relationship": "EXACT_HORIZONTAL_MIRROR",
+      "references": [
+        "FRM-11-DBLS-RT"
+      ]
+    }
+  ],
+  "variation_compatibility": {
+    "STACK": "TRUE",
+    "STACK RT": "TRUE",
+    "STACK LT": "TRUE",
+    "H STACK": "UNRESOLVED",
+    "SNUG": "TRUE",
+    "FLEX": "TRUE",
+    "SQUEEZE": "TRUE",
+    "HIDE": "TRUE",
+    "HUG": "TRUE",
+    "ON": "TRUE",
+    "HO": "TRUE",
+    "HOAX": "UNRESOLVED_NOT_LISTED",
+    "HAY": "UNRESOLVED",
+    "HAZE": "UNRESOLVED"
+  },
+  "motions": {
+    "status": "TOKENS_AVAILABLE_GEOMETRY_NOT_CANONICAL",
+    "allowed_tokens": [
+      "ORBIT",
+      "GHOST",
+      "STAR",
+      "SPIN",
+      "PIVOT",
+      "FLOW",
+      "FRONT",
+      "RETURN",
+      "SWIRL",
+      "REEL",
+      "CHEAT",
+      "CREEP",
+      "CRAWL",
+      "SLUG",
+      "JET",
+      "JAR",
+      "JOG",
+      "JOUST",
+      "JESTER",
+      "BOP",
+      "BOY",
+      "JACK",
+      "JUMP"
+    ]
+  },
+  "shifts": {
+    "status": "TOKENS_AVAILABLE_GEOMETRY_NOT_CANONICAL",
+    "allowed_tokens": [
+      "TOSS",
+      "TWIST",
+      "TUG",
+      "TRADE",
+      "TUMBLE",
+      "TAP"
+    ]
+  },
+  "artifact_links": {
+    "svg": "drawing_artifacts/DRW-11-DBLS-RT-001/drawing.svg",
+    "png": "drawing_artifacts/DRW-11-DBLS-RT-001/preview.png",
+    "drawing_metadata": "drawing_artifacts/DRW-11-DBLS-RT-001/metadata.json",
+    "svg_coordinates": "drawing_artifacts/DRW-11-DBLS-RT-001/coordinates.json"
+  },
+  "source_traceability": [
+    {
+      "source": "Engineering Bible Part 25",
+      "chapters": [
+        "18",
+        "35",
+        "37",
+        "41",
+        "42"
+      ]
+    },
+    {
+      "source": "02_CAD_ENGINE/Marcus_CAD_Engine_MVP_v0_4/examples/output/11_DBLS_RT_MVP_v0_4.svg",
+      "sha256": "522aaf361e689bbbfbca8857872b00c8341cdd475eed08b0edd441670211cd6e"
+    }
+  ],
+  "unresolved_items": [
+    "DBLS compatibility for H STACK, HOAX, HAY, and HAZE is not explicit in the latest approved matrix.",
+    "Motion and shift tokens are known, but their geometry is not canonical for this formation."
+  ],
+  "superseded_errors": [
+    "Y is ON_LOS (incorrect)",
+    "Z is OFF_LOS (incorrect)",
+    "RB label used instead of canonical B (incorrect)",
+    "H described as right slot (incorrect)"
+  ]
+}

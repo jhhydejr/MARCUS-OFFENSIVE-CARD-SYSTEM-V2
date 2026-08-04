@@ -1,0 +1,17 @@
+{
+  "object_id": "STYLE-TITLE-BOX-002",
+  "status": "APPROVED",
+  "geometry": {
+    "x": 250,
+    "y": 14,
+    "width": 1200,
+    "height": 92
+  },
+  "text": {
+    "x": 850,
+    "y": 71,
+    "font_family": "Arial",
+    "font_size": 32,
+    "font_weight": 700
+  }
+}

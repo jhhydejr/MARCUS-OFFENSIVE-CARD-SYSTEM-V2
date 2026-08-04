@@ -1,0 +1,94 @@
+{
+  "object_id": "FRM-21-LT",
+  "object_type": "formation",
+  "canonical_call": "(21) LT",
+  "family": "RT",
+  "personnel": "21",
+  "strength": "LT",
+  "field_location": null,
+  "modifier": null,
+  "status": "DERIVED_FROM_SOURCE_BY_APPROVED_MIRROR",
+  "drawing_id": "DRW-21-LT-001",
+  "coordinate_set_id": "COORD-21-LT-001",
+  "renderer_profile_id": "HANDOFF_V1_1700x950",
+  "inheritance": {
+    "mirror_of_object_id": "FRM-21-RT",
+    "mirror_of_drawing_id": "DRW-21-RT-001",
+    "transform": "HORIZONTAL_MIRROR",
+    "axis_svg_x": 850.0
+  },
+  "players_extracted": [
+    {
+      "label": "X",
+      "svg_x": 1477.062398,
+      "svg_y": 617.0,
+      "radius": 19
+    },
+    {
+      "label": "LT",
+      "svg_x": 985.250037,
+      "svg_y": 619.0,
+      "radius": 19
+    },
+    {
+      "label": "LG",
+      "svg_x": 917.625019,
+      "svg_y": 619.0,
+      "radius": 19
+    },
+    {
+      "label": "C",
+      "svg_x": 850.0,
+      "svg_y": 619.0,
+      "radius": 19
+    },
+    {
+      "label": "RG",
+      "svg_x": 782.374981,
+      "svg_y": 619.0,
+      "radius": 19
+    },
+    {
+      "label": "RT",
+      "svg_x": 714.749963,
+      "svg_y": 619.0,
+      "radius": 19
+    },
+    {
+      "label": "Y",
+      "svg_x": 710.30621,
+      "svg_y": 665.0,
+      "radius": 19
+    },
+    {
+      "label": "Z",
+      "svg_x": 222.937602,
+      "svg_y": 617.0,
+      "radius": 19
+    },
+    {
+      "label": "Q",
+      "svg_x": 850.0,
+      "svg_y": 703.0,
+      "radius": 19
+    },
+    {
+      "label": "B",
+      "svg_x": 941.068771,
+      "svg_y": 727.0,
+      "radius": 19
+    },
+    {
+      "label": "F",
+      "svg_x": 758.931229,
+      "svg_y": 727.0,
+      "radius": 19
+    }
+  ],
+  "validation": {
+    "player_count": 11,
+    "all_y_coordinates_preserved": true,
+    "all_x_coordinates_mirrored": true,
+    "player_identities_preserved": true
+  }
+}

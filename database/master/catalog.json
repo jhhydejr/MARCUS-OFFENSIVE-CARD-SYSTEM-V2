@@ -1,0 +1,519 @@
+{
+  "system_id": "MARCUS-OFFENSIVE-CAD",
+  "version": "2.5.6",
+  "status": "FORMATION_GEOMETRY_LIBRARY_CREATED",
+  "authority": "Coach-approved data only",
+  "objects": {
+    "field_locations": {
+      "LH": {
+        "id": "LOC-LH",
+        "status": "RECOVERED",
+        "meaning": "left hash",
+        "anchor_rule": "LEFT_HASH"
+      },
+      "M": {
+        "id": "LOC-M",
+        "status": "RECOVERED",
+        "meaning": "middle",
+        "anchor_rule": "FIELD_CENTER"
+      },
+      "RH": {
+        "id": "LOC-RH",
+        "status": "RECOVERED",
+        "meaning": "right hash",
+        "anchor_rule": "RIGHT_HASH"
+      },
+      "LM": {
+        "id": "LOC-LM",
+        "status": "COACH_APPROVED",
+        "meaning": "left middle",
+        "anchor_rule": "MIDPOINT_LEFT_HASH_TO_CENTER"
+      },
+      "RM": {
+        "id": "LOC-RM",
+        "status": "COACH_APPROVED",
+        "meaning": "right middle",
+        "anchor_rule": "MIDPOINT_CENTER_TO_RIGHT_HASH"
+      }
+    },
+    "personnel": {
+      "11": {
+        "id": "PER-11",
+        "status": "RECOVERED",
+        "players": [
+          "B",
+          "Y",
+          "X",
+          "H",
+          "Z"
+        ]
+      },
+      "21": {
+        "id": "PER-21",
+        "status": "RECOVERED",
+        "players": [
+          "B",
+          "F",
+          "Y",
+          "X",
+          "Z"
+        ]
+      },
+      "12": {
+        "id": "PER-12",
+        "status": "RECOVERED",
+        "players": [
+          "B",
+          "Y",
+          "H",
+          "X",
+          "Z"
+        ]
+      }
+    },
+    "backfields": {
+      "GUN": {
+        "id": "BF-GUN-001",
+        "status": "RECOVERED",
+        "file": "database/offense/backfields/BF-GUN-001.json",
+        "meaning": "Quarterback in gun with the B aligned weak of the quarterback.",
+        "source": "Recovered from canonical DBLS LT/RT formation objects and constraints.",
+        "eligible_formations": [
+          "FRM-11-DBLS-LT",
+          "FRM-11-DBLS-RT"
+        ]
+      }
+    },
+    "formations": {
+      "DBLS RT": {
+        "id": "FRM-11-DBLS-RT",
+        "status": "CANONICAL",
+        "personnel": [
+          "11"
+        ],
+        "drawing_id": "DRW-11-DBLS-RT-001",
+        "formation_file": "database/offense/FRM-11-DBLS-RT.json"
+      },
+      "DBLS LT": {
+        "id": "FRM-11-DBLS-LT",
+        "status": "CANONICAL",
+        "personnel": [
+          "11"
+        ],
+        "drawing_id": "DRW-11-DBLS-LT-001",
+        "formation_file": "database/offense/FRM-11-DBLS-LT.json"
+      },
+      "RT": {
+        "id": "FM-RT-001",
+        "status": "RECOVERED",
+        "personnel": [
+          "10",
+          "11",
+          "12"
+        ],
+        "resolved_variants": {
+          "11|ON": {
+            "id": "FRM-11-RT-ON",
+            "drawing_id": "DRW-11-RT-ON-001",
+            "status": "DERIVED_FROM_APPROVED_MIRROR"
+          },
+          "11|ON|H ORBIT": {
+            "id": "PLAYOBJ-11-RT-ON-H-ORBIT",
+            "drawing_id": "DRW-11-RT-ON-H-ORBIT-001",
+            "status": "SOURCE_TRACED_MOTION_COMPOSITE"
+          },
+          "21": {
+            "id": "FRM-21-RT",
+            "drawing_id": "DRW-21-RT-001",
+            "status": "SOURCE_IMPORTED_NEEDS_COACH_APPROVAL"
+          },
+          "12|M": {
+            "id": "FRM-12-RT-M",
+            "drawing_id": "DRW-M-12-RT-001",
+            "status": "DERIVED_FROM_SOURCE_BY_APPROVED_MIRROR"
+          }
+        }
+      },
+      "LT": {
+        "id": "FM-LT-001",
+        "status": "RECOVERED",
+        "personnel": [
+          "11",
+          "12",
+          "21"
+        ],
+        "resolved_variants": {
+          "21": {
+            "id": "FRM-21-LT",
+            "drawing_id": "DRW-21-LT-001",
+            "status": "DERIVED_FROM_SOURCE_BY_APPROVED_MIRROR"
+          },
+          "12|M": {
+            "id": "FRM-12-LT-M",
+            "drawing_id": "DRW-M-12-LT-001",
+            "status": "SOURCE_IMPORTED_NEEDS_COACH_APPROVAL"
+          },
+          "11|ON": {
+            "id": "FRM-11-LT-ON",
+            "drawing_id": "DRW-11-LT-ON-001",
+            "status": "COACH_APPROVED"
+          }
+        }
+      },
+      "TRIPS RT": {
+        "id": "FM-TRIPS-RT-001",
+        "status": "COACH_APPROVED",
+        "personnel": [
+          "11"
+        ],
+        "resolved_variants": {
+          "11|LH": {
+            "id": "FRM-11-TRIPS-RT-LH",
+            "drawing_id": "DRW-11-TRIPS-RT-LH-001",
+            "status": "COACH_APPROVED"
+          }
+        }
+      },
+      "TRIPS LT": {
+        "id": "FM-TRIPS-LT-001",
+        "status": "DERIVED_FROM_APPROVED_MIRROR",
+        "personnel": [
+          "11"
+        ],
+        "resolved_variants": {
+          "11|RH": {
+            "id": "FRM-11-TRIPS-LT-RH",
+            "drawing_id": "DRW-11-TRIPS-LT-RH-001",
+            "status": "DERIVED_FROM_APPROVED_MIRROR"
+          }
+        }
+      },
+      "TREY LT": {
+        "id": "FM-TREY-LT-001",
+        "status": "COACH_APPROVED",
+        "personnel": [
+          "11"
+        ],
+        "resolved_variants": {
+          "11|LH|ON": {
+            "id": "FRM-11-TREY-LT-ON-LH",
+            "drawing_id": "DRW-LH-11-TREY-LT-ON-001",
+            "status": "COACH_APPROVED"
+          }
+        }
+      },
+      "TREY RT": {
+        "id": "FM-TREY-RT-001",
+        "status": "DERIVED_FROM_APPROVED_MIRROR",
+        "personnel": [
+          "11"
+        ],
+        "resolved_variants": {
+          "11|RH|ON": {
+            "id": "FRM-11-TREY-RT-ON-RH",
+            "drawing_id": "DRW-RH-11-TREY-RT-ON-001",
+            "status": "DERIVED_FROM_APPROVED_MIRROR"
+          }
+        }
+      }
+    },
+    "motions": {
+      "H ORBIT": {
+        "id": "MOT-H-ORBIT",
+        "status": "RECOVERED",
+        "timing": "Ball snapped in PISTOL",
+        "motion_file": "database/offense/MOT-H-ORBIT.json",
+        "rendering_policy": {
+          "show_origin_player": true,
+          "show_motion_path": true,
+          "show_arrowhead": true,
+          "show_destination_marker": false,
+          "destination_marker_type": null,
+          "rule_scope": "H ORBIT only",
+          "note": "Other motions and shifts may use destination markers according to their own object records."
+        },
+        "origin_rule_id": "RENDER-RULE-MOTION-ORIGIN-001"
+      },
+      "H STAR": {
+        "id": "MOT-H-STAR",
+        "status": "TOKEN_RECOGNIZED_GEOMETRY_NOT_CANONICAL",
+        "meaning": "H STAR motion",
+        "source": "Coach-approved call terminology; exact motion geometry not yet stored",
+        "eligible_formations": [
+          "FRM-11-DBLS-LT",
+          "FRM-11-DBLS-RT"
+        ]
+      }
+    },
+    "defensive_personnel": {
+      "4-2": {
+        "id": "DEF-PER-4-2",
+        "status": "RECOVERED",
+        "file": "database/defense/DEF-PER-4-2.json"
+      },
+      "ODD": {
+        "id": "DEF-STRUCT-ODD",
+        "status": "TOKEN_RECOGNIZED_GEOMETRY_NOT_CANONICAL",
+        "meaning": "ODD defensive structure",
+        "source": "Coach-approved call terminology; exact defensive geometry not yet stored"
+      }
+    },
+    "defensive_structures": {
+      "STUD": {
+        "id": "DEF-STRUCT-STUD",
+        "status": "RECOVERED",
+        "file": "database/defense/DEF-STRUCT-STUD.json"
+      }
+    },
+    "coverages": {
+      "COV 4 READ": {
+        "id": "COV-4-READ",
+        "status": "RECOVERED",
+        "file": "database/defense/COV-4-READ.json"
+      },
+      "COV 4": {
+        "id": "COV-4",
+        "status": "TOKEN_RECOGNIZED_GEOMETRY_NOT_CANONICAL",
+        "meaning": "Cover 4",
+        "source": "Coach-approved call terminology; exact coverage drawing object not yet stored"
+      }
+    },
+    "variations": {
+      "ON": {
+        "id": "VARIATION-ON-001",
+        "status": "RECOVERED",
+        "rule": "Y moves ON the LOS; receiver on Y side moves OFF; horizontal geometry unchanged"
+      },
+      "HO": {
+        "id": "VARIATION-HO-001",
+        "status": "COACH_APPROVED",
+        "file": "database/offense/variations/VARIATION-HO-001.json"
+      },
+      "DON": {
+        "id": "VARIATION-DON-001",
+        "status": "SOURCE_VERIFIED_NEEDS_COACH_APPROVAL",
+        "file": "database/offense/variations/VARIATION-DON-001.json"
+      },
+      "OPEN": {
+        "id": "VARIATION-OPEN-001",
+        "status": "SOURCE_VERIFIED_NEEDS_COACH_APPROVAL",
+        "file": "database/offense/variations/VARIATION-OPEN-001.json"
+      },
+      "WIDE": {
+        "id": "VARIATION-WIDE-001",
+        "status": "SOURCE_VERIFIED_NEEDS_COACH_APPROVAL",
+        "file": "database/offense/variations/VARIATION-WIDE-001.json"
+      },
+      "HUG": {
+        "id": "VARIATION-HUG-001",
+        "status": "SOURCE_VERIFIED_NEEDS_COACH_APPROVAL",
+        "file": "database/offense/variations/VARIATION-HUG-001.json"
+      },
+      "HAY": {
+        "id": "VARIATION-HAY-001",
+        "status": "SOURCE_VERIFIED_NEEDS_COACH_APPROVAL",
+        "file": "database/offense/variations/VARIATION-HAY-001.json"
+      },
+      "HAZE": {
+        "id": "VARIATION-HAZE-001",
+        "status": "SOURCE_VERIFIED_NEEDS_COACH_APPROVAL",
+        "file": "database/offense/variations/VARIATION-HAZE-001.json"
+      },
+      "HOAX": {
+        "id": "VARIATION-HOAX-001",
+        "status": "SOURCE_VERIFIED_NEEDS_COACH_APPROVAL",
+        "file": "database/offense/variations/VARIATION-HOAX-001.json"
+      },
+      "SNUG": {
+        "id": "VARIATION-SNUG-001",
+        "status": "SOURCE_PATTERN_NEEDS_EXACT_GEOMETRY",
+        "file": "database/offense/variations/VARIATION-SNUG-001.json"
+      },
+      "FLEX": {
+        "id": "VARIATION-FLEX-001",
+        "status": "SOURCE_PATTERN_NEEDS_EXACT_GEOMETRY",
+        "file": "database/offense/variations/VARIATION-FLEX-001.json"
+      },
+      "SQUEEZE": {
+        "id": "VARIATION-SQUEEZE-001",
+        "status": "SOURCE_PATTERN_NEEDS_EXACT_GEOMETRY",
+        "file": "database/offense/variations/VARIATION-SQUEEZE-001.json"
+      },
+      "HIDE": {
+        "id": "VARIATION-HIDE-001",
+        "status": "SOURCE_PATTERN_NEEDS_EXACT_LANDMARK",
+        "file": "database/offense/variations/VARIATION-HIDE-001.json"
+      }
+    },
+    "shifts": {},
+    "protections": {},
+    "plays": {},
+    "tags": {},
+    "defensive_games": {},
+    "defensive_pressures": {},
+    "defensive_blitzes": {}
+  },
+  "drawings": {
+    "DRW-11-DBLS-RT-001": {
+      "call": "(11) DBLS RT",
+      "svg": "artifacts/drawings/DRW-11-DBLS-RT-001/drawing.svg",
+      "png": "artifacts/drawings/DRW-11-DBLS-RT-001/preview.png",
+      "status": "CANONICAL"
+    },
+    "DRW-11-DBLS-LT-001": {
+      "call": "(11) DBLS LT",
+      "svg": "artifacts/drawings/DRW-11-DBLS-LT-001/drawing.svg",
+      "png": "artifacts/drawings/DRW-11-DBLS-LT-001/preview.png",
+      "status": "CANONICAL"
+    },
+    "DRW-11-RT-ON-001": {
+      "call": "(11) RT ON",
+      "svg": "artifacts/drawings/DRW-11-RT-ON-001/drawing.svg",
+      "png": "artifacts/drawings/DRW-11-RT-ON-001/preview.png",
+      "status": "DERIVED_FROM_APPROVED_MIRROR"
+    },
+    "DRW-11-RT-ON-H-ORBIT-001": {
+      "call": "(11) RT ON H ORBIT",
+      "svg": "artifacts/drawings/DRW-11-RT-ON-H-ORBIT-001/drawing.svg",
+      "png": "artifacts/drawings/DRW-11-RT-ON-H-ORBIT-001/preview.png",
+      "status": "SOURCE_TRACED_MOTION_COMPOSITE",
+      "revision": "0.5",
+      "correction": "Motion line begins at H-circle edge."
+    },
+    "DRW-LH-11-RT-ON-H-ORBIT-VS-4-2-STUD-COV4READ-001": {
+      "call": "LH (11) RT ON H ORBIT VS 4-2 STUD COV 4 READ",
+      "svg": "artifacts/drawings/DRW-LH-11-RT-ON-H-ORBIT-VS-4-2-STUD-COV4READ-001/drawing.svg",
+      "png": "artifacts/drawings/DRW-LH-11-RT-ON-H-ORBIT-VS-4-2-STUD-COV4READ-001/preview.png",
+      "status": "SOURCE_TRACED_COMPOSITE",
+      "revision": "0.7"
+    },
+    "DRW-11-TRIPS-RT-LH-001": {
+      "call": "LH (11) TRIPS RT",
+      "svg": "artifacts/drawings/DRW-11-TRIPS-RT-LH-001/drawing.svg",
+      "status": "COACH_APPROVED",
+      "formation_object_id": "FRM-11-TRIPS-RT-LH",
+      "png": "artifacts/drawings/DRW-11-TRIPS-RT-LH-001/drawing.png"
+    },
+    "DRW-21-RT-001": {
+      "call": "(21) RT",
+      "svg": "artifacts/drawings/DRW-21-RT-001/drawing.svg",
+      "status": "SOURCE_IMPORTED_NEEDS_COACH_APPROVAL",
+      "formation_object_id": "FRM-21-RT",
+      "png": "artifacts/drawings/DRW-21-RT-001/drawing.png"
+    },
+    "DRW-LH-11-TREY-LT-ON-001": {
+      "call": "LH (11) TREY LT ON",
+      "svg": "artifacts/drawings/DRW-LH-11-TREY-LT-ON-001/drawing.svg",
+      "status": "COACH_APPROVED",
+      "formation_object_id": "FRM-11-TREY-LT-ON-LH",
+      "png": "artifacts/drawings/DRW-LH-11-TREY-LT-ON-001/drawing.png"
+    },
+    "DRW-M-12-LT-001": {
+      "call": "M (12) LT",
+      "svg": "artifacts/drawings/DRW-M-12-LT-001/drawing.svg",
+      "status": "SOURCE_IMPORTED_NEEDS_COACH_APPROVAL",
+      "formation_object_id": "FRM-12-LT-M",
+      "png": "artifacts/drawings/DRW-M-12-LT-001/drawing.png"
+    },
+    "DRW-11-TRIPS-LT-RH-001": {
+      "call": "RH (11) TRIPS LT",
+      "svg": "artifacts/drawings/DRW-11-TRIPS-LT-RH-001/drawing.svg",
+      "status": "DERIVED_FROM_APPROVED_MIRROR",
+      "formation_object_id": "FRM-11-TRIPS-LT-RH",
+      "png": "artifacts/drawings/DRW-11-TRIPS-LT-RH-001/drawing.png"
+    },
+    "DRW-21-LT-001": {
+      "call": "(21) LT",
+      "svg": "artifacts/drawings/DRW-21-LT-001/drawing.svg",
+      "status": "DERIVED_FROM_SOURCE_BY_APPROVED_MIRROR",
+      "formation_object_id": "FRM-21-LT",
+      "png": "artifacts/drawings/DRW-21-LT-001/drawing.png"
+    },
+    "DRW-RH-11-TREY-RT-ON-001": {
+      "call": "RH (11) TREY RT ON",
+      "svg": "artifacts/drawings/DRW-RH-11-TREY-RT-ON-001/drawing.svg",
+      "status": "DERIVED_FROM_APPROVED_MIRROR",
+      "formation_object_id": "FRM-11-TREY-RT-ON-RH",
+      "png": "artifacts/drawings/DRW-RH-11-TREY-RT-ON-001/drawing.png"
+    },
+    "DRW-M-12-RT-001": {
+      "call": "M (12) RT",
+      "svg": "artifacts/drawings/DRW-M-12-RT-001/drawing.svg",
+      "status": "DERIVED_FROM_SOURCE_BY_APPROVED_MIRROR",
+      "formation_object_id": "FRM-12-RT-M",
+      "png": "artifacts/drawings/DRW-M-12-RT-001/drawing.png"
+    },
+    "DRW-11-LT-ON-001": {
+      "call": "(11) LT ON",
+      "svg": "artifacts/drawings/DRW-11-LT-ON-001/drawing.svg",
+      "png": "artifacts/drawings/DRW-11-LT-ON-001/drawing.png",
+      "status": "COACH_APPROVED",
+      "formation_object_id": "FRM-11-LT-ON"
+    }
+  },
+  "compiled_calls": {
+    "LH (11) RT ON H ORBIT VS 4-2 STUD COV 4 READ": {
+      "drawing_id": "DRW-LH-11-RT-ON-H-ORBIT-VS-4-2-STUD-COV4READ-001",
+      "status": "SOURCE_TRACED_COMPOSITE"
+    }
+  },
+  "renderer_styles": {
+    "title_box": {
+      "id": "STYLE-TITLE-BOX-002",
+      "file": "database/renderer/title_box_style.json"
+    },
+    "defense_labels": {
+      "id": "STYLE-DEFENSE-LABEL-002",
+      "file": "database/renderer/defense_label_style.json"
+    },
+    "global_card": {
+      "id": "STYLE-GLOBAL-CARD-003",
+      "file": "database/renderer/global_card_style.json"
+    }
+  },
+  "renderer_policy": {
+    "id": "POLICY-RENDERER-FIRST-001",
+    "file": "policies/renderer_first_policy.json"
+  },
+  "working_project_is_primary": true,
+  "zip_archives_are_release_snapshots": true,
+  "formation_registry": {
+    "id": "REGISTRY-FORMATIONS-001",
+    "file": "database/offense/formation_registry.json"
+  },
+  "formation_inheritance_registry": {
+    "id": "REGISTRY-FORMATION-INHERITANCE-001",
+    "file": "database/offense/formation_inheritance_registry.json"
+  },
+  "formation_layer_registry": {
+    "id": "REGISTRY-FORMATION-LAYERS-001",
+    "file": "database/offense/formation_layer_registry.json"
+  },
+  "formation_families": {
+    "FMF-DBLS-001": "database/offense/formation_families/FMF-DBLS-001.json",
+    "FMF-RT-001": "database/offense/formation_families/FMF-RT-001.json",
+    "FMF-TRIPS-001": "database/offense/formation_families/FMF-TRIPS-001.json",
+    "FMF-TREY-001": "database/offense/formation_families/FMF-TREY-001.json"
+  },
+  "field_locations": {
+    "LOC-LH": "database/offense/field_locations/LOC-LH.json",
+    "LOC-RH": "database/offense/field_locations/LOC-RH.json",
+    "LOC-M": "database/offense/field_locations/LOC-M.json"
+  },
+  "variation_registry": {
+    "id": "REGISTRY-FORMATION-VARIATIONS-001",
+    "file": "database/offense/variation_registry.json"
+  },
+  "canonical_terminology": {
+    "formation_change": "variation",
+    "prohibited_project_term": "modifier"
+  },
+  "variation_source_occurrence_registry": {
+    "id": "REGISTRY-VARIATION-SOURCE-OCCURRENCES-001",
+    "file": "database/offense/variation_source_occurrence_registry.json"
+  },
+  "formation_geometry_registry": {
+    "id": "REGISTRY-FORMATION-GEOMETRY-001",
+    "file": "database/offense/formation_geometry_registry.json"
+  }
+}

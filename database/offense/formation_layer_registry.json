@@ -1,0 +1,46 @@
+{
+  "registry_id": "REGISTRY-FORMATION-LAYERS-001",
+  "version": "1.2.0",
+  "status": "ACTIVE",
+  "resolution_order": [
+    "personnel",
+    "formation_family",
+    "direction",
+    "field_location",
+    "variation",
+    "motion",
+    "defense",
+    "renderer"
+  ],
+  "rules": [
+    "Formation family geometry is stored once.",
+    "Field location does not redefine formation geometry.",
+    "Variations transform a resolved formation.",
+    "Concrete drawings reference reusable objects by ID."
+  ],
+  "formation_families": [
+    "FMF-DBLS-001",
+    "FMF-RT-001",
+    "FMF-TRIPS-001",
+    "FMF-TREY-001"
+  ],
+  "formation_variants": [
+    "VAR-11-DBLS-RT",
+    "VAR-11-DBLS-LT",
+    "VAR-11-RT-ON",
+    "VAR-21-RT",
+    "VAR-21-LT",
+    "VAR-12-LT-M",
+    "VAR-12-RT-M",
+    "VAR-11-TRIPS-RT-LH",
+    "VAR-11-TRIPS-LT-RH",
+    "VAR-11-TREY-LT-ON-LH",
+    "VAR-11-TREY-RT-ON-RH"
+  ],
+  "field_locations": [
+    "LOC-LH",
+    "LOC-RH",
+    "LOC-M"
+  ],
+  "formation_variation_registry_id": "REGISTRY-FORMATION-VARIATIONS-001"
+}

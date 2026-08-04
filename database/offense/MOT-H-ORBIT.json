@@ -1,0 +1,54 @@
+{
+  "object_id": "MOT-H-ORBIT",
+  "object_type": "motion",
+  "canonical_name": "H ORBIT",
+  "player": "H",
+  "status": "SOURCE_TRACED",
+  "global_trigger": "Movement happens after first color number or QB signal",
+  "snap_timing": "Ball snapped in PISTOL",
+  "source": {
+    "document": "MOTIONS AND SHIFTS.pdf",
+    "page": 2,
+    "evidence_file": "sources/motions/MOTIONS_AND_SHIFTS_page_2.png",
+    "diagram_title": "(11) RT H ORBIT"
+  },
+  "renderer_path": {
+    "renderer_profile_id": "HANDOFF_V1_1700x950",
+    "start": [
+      485.843782,
+      629.0
+    ],
+    "svg_path": "M 485.843782 629.000000 L 675 629 C 675 690 720 744 808 753 C 865 760 920 742 958 727",
+    "end": [
+      958.0,
+      727.0
+    ],
+    "end_landmark": "strong-side pistol landmark",
+    "style": {
+      "stroke": "#000000",
+      "width": 3,
+      "dasharray": "10 8",
+      "arrow": true
+    },
+    "player_center": [
+      468.843782,
+      629.0
+    ],
+    "player_radius": 17.0,
+    "first_target": [
+      675.0,
+      629.0
+    ],
+    "origin_rule_id": "RENDER-RULE-MOTION-ORIGIN-001",
+    "origin_reference": "PLAYER_SYMBOL_EDGE"
+  },
+  "rendering_policy": {
+    "show_origin_player": true,
+    "show_motion_path": true,
+    "show_arrowhead": true,
+    "show_destination_marker": false,
+    "destination_marker_type": null,
+    "rule_scope": "H ORBIT only",
+    "note": "Other motions and shifts may use destination markers according to their own object records."
+  }
+}
